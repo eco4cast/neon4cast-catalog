@@ -19,17 +19,7 @@
     {
       "rel": "child",
       "type": "application/json",
-      "href": "30min_Net_ecosystem_exchange/collection.json"
-    },
-    {
-      "rel": "child",
-      "type": "application/json",
       "href": "Daily_latent_heat_flux/collection.json"
-    },
-    {
-      "rel": "child",
-      "type": "application/json",
-      "href": "30min_latent_heat_flux/collection.json"
     },
     {
       "rel": "parent",
@@ -73,8 +63,8 @@
     "temporal": {
       "interval": [
         [
-          "NAT00:00:00Z",
-          "NAT00:00:00Z"
+          "2023-01-01T00:00:00Z",
+          "2026-12-27T00:00:00Z"
         ]
       ]
     }
