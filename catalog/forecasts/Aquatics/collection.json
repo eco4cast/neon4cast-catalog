@@ -15,8 +15,16 @@
       "citation": "Thomas, R.Q., C. Boettiger, C.C. Carey, M.C. Dietze, L.R. Johnson, M.A. Kenney, J.S. Mclachlan, J.A. Peters, E.R. Sokol, J.F. Weltzin, A. Willson, W.M. Woelmer, and Challenge Contributors. 2023. The NEON Ecological Forecasting Challenge. Frontiers in Ecology and Environment 21: 112-113."
     },
     {
-      "doi": "10.1002/ecs2.4686",
-      "citation": "Dietze, M., R.Q. Thomas, J. Peters, C. Boettiger, A. Shiklomanov, and J. Ashander. 2023. A community convention for ecological forecasting: output files and metadata v1.0. Ecosphere 14: e4686 https://doi.org/10.1002/ecs2.4686"
+      "doi": "10.1002/eap.70004",
+      "citation": "Olsson, F., C.C. Carey, C. Boettiger, G. Harrison, R. Ladwig, M.F. Lapeyrolerie, A.S.L. Lewis, M.E. Lofton, F. Motealegre-Mora, J.S. Rebaey, C.J. Robbins. X. Yang, and R.Q. Thomas. 2025. What can we learn from 100,000 freshwater forecasts? A synthesis from the NEON Ecological Forecasting Challenge. Ecological Applications 35:e70004 https://doi.org/10.1002/eap.70004"
+    },
+    {
+      "doi": "10.1002/eap.70004",
+      "citation": "Olsson, F., C.C. Carey, C. Boettiger, G. Harrison, R. Ladwig, M.F. Lapeyrolerie, A.S.L. Lewis, M.E. Lofton, F. Motealegre-Mora, J.S. Rebaey, C.J. Robbins. X. Yang, and R.Q. Thomas. 2025. What can we learn from 100,000 freshwater forecasts? A synthesis from the NEON Ecological Forecasting Challenge. Ecological Applications 35:e70004 https://doi.org/10.1002/eap.70004"
+    },
+    {
+      "doi": "10.1002/eap.70004",
+      "citation": "Olsson, F., C.C. Carey, C. Boettiger, G. Harrison, R. Ladwig, M.F. Lapeyrolerie, A.S.L. Lewis, M.E. Lofton, F. Motealegre-Mora, J.S. Rebaey, C.J. Robbins. X. Yang, and R.Q. Thomas. 2025. What can we learn from 100,000 freshwater forecasts? A synthesis from the NEON Ecological Forecasting Challenge. Ecological Applications 35:e70004 https://doi.org/10.1002/eap.70004"
     }
   ],
   "links": [
@@ -63,7 +71,7 @@
     {
       "rel": "describedby",
       "href": "https://projects.ecoforecast.org/neon4cast-docs/",
-      "title": "NEON Forecast Challenge Dashboard",
+      "title": "NEON Ecological Forecasting Challenge",
       "type": "text/html"
     }
   ],
@@ -78,7 +86,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2025-10-26T00:00:00Z"
+          "2025-10-28T00:00:00Z"
         ]
       ]
     }
@@ -142,13 +150,13 @@
   ],
   "assets": {
     "data": {
-      "href": "s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet?endpoint_override=sdsc.osn.xsede.org",
+      "href": "s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-summaries?endpoint_override=sdsc.osn.xsede.org",
       "type": "application/x-parquet",
       "title": "Database Access",
       "roles": [
         "data"
       ],
-      "description": "Use `arrow` for remote access to the database. This R code will return results for the NEON Ecological Forecasting Aquatics theme.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |>\n dplyr::filter(variable %in% c(\"oxygen\", \"temperature\", \"chla\")) |>\n dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n"
+      "description": "Use `arrow` for remote access to the database. This R code will return results for the NEON Ecological Forecasting Aquatics theme.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-summaries?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |>\n dplyr::filter(variable %in% c(\"oxygen\", \"temperature\", \"chla\")) |>\n dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n"
     },
     "thumbnail": {
       "href": "https://www.neonscience.org/sites/default/files/styles/_edit_list_additional_actions_max_width_300/public/image-content-images/06092015-BarcoBuoy-400.jpg?itok=t1xTVkX3",

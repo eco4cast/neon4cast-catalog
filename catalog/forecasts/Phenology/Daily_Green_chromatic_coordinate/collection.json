@@ -11,17 +11,32 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/PEG.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG.json"
     },
     {
       "rel": "item",
@@ -36,12 +51,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -71,7 +96,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
@@ -81,32 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "parent",
@@ -136,7 +136,7 @@
     {
       "rel": "describedby",
       "href": "https://projects.ecoforecast.org/neon4cast-docs/",
-      "title": "NEON Forecast Challenge Dashboard",
+      "title": "NEON Ecological Forecasting Challenge",
       "type": "text/html"
     }
   ],
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-10-26T00:00:00Z"
+          "2025-10-28T00:00:00Z"
         ]
       ]
     }

@@ -30,8 +30,8 @@
         ]
       },
       {
-        "url": "www.neon4cast.org",
-        "name": "Ecoforecast Challenge",
+        "url": "www.ecoforecast.org",
+        "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
         ]
@@ -168,7 +168,7 @@
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
-      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
+      "href": {},
       "description": "PUUM"
     },
     "4": {

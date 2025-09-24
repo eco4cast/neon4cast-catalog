@@ -5,14 +5,24 @@
   ],
   "type": "Feature",
   "id": "tg_XGBoost_amblyomma_americanum_P1W_forecast",
-  "bbox": ["Inf", "Inf", "-Inf", "-Inf"],
+  "bbox": [-96.5631, 29.6893, -76.56, 39.1008],
   "geometry": {
     "type": "MultiPoint",
-    "coordinates": []
+    "coordinates": [
+      [-88.1612, 31.8539],
+      [-96.5631, 39.1008],
+      [-78.1395, 38.8929],
+      [-78.0418, 39.0337],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901],
+      [-95.1921, 39.0404],
+      [-84.2826, 35.9641],
+      [-81.9934, 29.6893]
+    ]
   },
   "properties": {
     "title": "tg_XGBoost",
-    "description": "All forecasts for the Weekly_Amblyomma_americanum_population variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: .\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_Amblyomma_americanum_population variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: LENO, KONZ, SCBI, BLAN, TALL, SERC, UKFS, ORNL, OSBS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-06",
     "updated": "2025-07-06",
     "start_datetime": "T00:00:00Z",
@@ -28,8 +38,8 @@
         ]
       },
       {
-        "url": "www.neon4cast.org",
-        "name": "Ecoforecast Challenge",
+        "url": "www.ecoforecast.org",
+        "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
         ]
@@ -44,7 +54,16 @@
       "Amblyomma_americanum_population",
       "amblyomma_americanum",
       "Weekly",
-      "P1W"
+      "P1W",
+      "LENO",
+      "KONZ",
+      "SCBI",
+      "BLAN",
+      "TALL",
+      "SERC",
+      "UKFS",
+      "ORNL",
+      "OSBS"
     ],
     "table:columns": [
       {
@@ -165,8 +184,8 @@
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
-      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": ""
+      "href": {},
+      "description": "LENO, KONZ, SCBI, BLAN, TALL, SERC, UKFS, ORNL, OSBS"
     },
     "4": {
       "type": "application/x-parquet",
