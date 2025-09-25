@@ -11,18 +11,18 @@
     "coordinates": [
       [-87.3933, 32.9505],
       [-76.56, 38.8901],
+      [-78.0418, 39.0337],
+      [-78.1395, 38.8929],
       [-81.9934, 29.6893],
       [-95.1921, 39.0404],
       [-84.2826, 35.9641],
-      [-78.0418, 39.0337],
-      [-78.1395, 38.8929],
       [-96.5631, 39.1008],
       [-88.1612, 31.8539]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All summaries for the Weekly_Amblyomma_americanum_population variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: TALL, SERC, OSBS, UKFS, ORNL, BLAN, SCBI, KONZ, LENO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Weekly_Amblyomma_americanum_population variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: TALL, SERC, BLAN, SCBI, OSBS, UKFS, ORNL, KONZ, LENO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-06",
     "updated": "2025-07-06",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -57,11 +57,11 @@
       "P1W",
       "TALL",
       "SERC",
+      "BLAN",
+      "SCBI",
       "OSBS",
       "UKFS",
       "ORNL",
-      "BLAN",
-      "SCBI",
       "KONZ",
       "LENO"
     ],
@@ -210,7 +210,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "TALL, SERC, OSBS, UKFS, ORNL, BLAN, SCBI, KONZ, LENO"
+      "description": "TALL, SERC, BLAN, SCBI, OSBS, UKFS, ORNL, KONZ, LENO"
     },
     "4": {
       "type": "application/x-parquet",
