@@ -12,15 +12,15 @@
       [-82.0177, 29.6878],
       [-82.0084, 29.676],
       [-89.4737, 46.2097],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
       [-99.1139, 47.1591],
-      [-89.7048, 45.9983]
+      [-89.7048, 45.9983],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298]
     ]
   },
   "properties": {
     "title": "acp_fableLM",
-    "description": "All summaries for the Daily_Water_temperature variable for the acp_fableLM model. Information for the model is provided as follows: Time series linear model with FABLE.\n                                    The model predicts this variable at the following sites: SUGG, BARC, CRAM, TOOK, PRPO, PRLA, LIRO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the acp_fableLM model. Information for the model is provided as follows: Time series linear model with FABLE.\n                                    The model predicts this variable at the following sites: SUGG, BARC, CRAM, PRLA, LIRO, TOOK, PRPO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2024-03-11",
     "updated": "2024-03-12",
     "start_datetime": "2024-03-11T00:00:00Z",
@@ -56,10 +56,10 @@
       "SUGG",
       "BARC",
       "CRAM",
-      "TOOK",
-      "PRPO",
       "PRLA",
-      "LIRO"
+      "LIRO",
+      "TOOK",
+      "PRPO"
     ],
     "table:columns": [
       {
@@ -206,7 +206,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "SUGG, BARC, CRAM, TOOK, PRPO, PRLA, LIRO"
+      "description": "SUGG, BARC, CRAM, PRLA, LIRO, TOOK, PRPO"
     },
     "4": {
       "type": "application/x-parquet",
