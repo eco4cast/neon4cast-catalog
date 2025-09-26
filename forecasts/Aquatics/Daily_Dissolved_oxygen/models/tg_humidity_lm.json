@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
       [-84.2793, 35.9574],
       [-102.4471, 39.7582],
       [-83.5038, 35.6904],
@@ -30,6 +26,10 @@
       [-119.0274, 36.9559],
       [-111.5081, 33.751],
       [-99.1139, 47.1591],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
       [-82.0177, 29.6878],
       [-149.143, 68.6698],
       [-96.443, 38.9459],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_humidity_lm",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_humidity_lm model. Information for the model is provided as follows: The tg_humidity_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity.\n                                    The model predicts this variable at the following sites: TOOK, BLUE, LEWI, PRPO, WALK, ARIK, LECO, MAYF, BIGC, FLNT, BLDE, MCRA, TOMB, BLWA, COMO, GUIL, LIRO, CARI, TECR, SYCA, PRLA, SUGG, OKSR, MCDI, CUPE, POSE, KING, BARC, WLOU, REDB, MART, PRIN, CRAM, HOPB.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_humidity_lm model. Information for the model is provided as follows: The tg_humidity_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity.\n                                    The model predicts this variable at the following sites: WALK, ARIK, LECO, MAYF, BIGC, FLNT, BLDE, MCRA, TOMB, BLWA, COMO, GUIL, LIRO, CARI, TECR, SYCA, PRLA, TOOK, BLUE, LEWI, PRPO, SUGG, OKSR, MCDI, CUPE, POSE, KING, BARC, WLOU, REDB, MART, PRIN, CRAM, HOPB.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-03",
     "updated": "2024-07-02",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "TOOK",
-      "BLUE",
-      "LEWI",
-      "PRPO",
       "WALK",
       "ARIK",
       "LECO",
@@ -101,6 +97,10 @@
       "TECR",
       "SYCA",
       "PRLA",
+      "TOOK",
+      "BLUE",
+      "LEWI",
+      "PRPO",
       "SUGG",
       "OKSR",
       "MCDI",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "TOOK, BLUE, LEWI, PRPO, WALK, ARIK, LECO, MAYF, BIGC, FLNT, BLDE, MCRA, TOMB, BLWA, COMO, GUIL, LIRO, CARI, TECR, SYCA, PRLA, SUGG, OKSR, MCDI, CUPE, POSE, KING, BARC, WLOU, REDB, MART, PRIN, CRAM, HOPB"
+      "description": "WALK, ARIK, LECO, MAYF, BIGC, FLNT, BLDE, MCRA, TOMB, BLWA, COMO, GUIL, LIRO, CARI, TECR, SYCA, PRLA, TOOK, BLUE, LEWI, PRPO, SUGG, OKSR, MCDI, CUPE, POSE, KING, BARC, WLOU, REDB, MART, PRIN, CRAM, HOPB"
     },
     "4": {
       "type": "application/x-parquet",
