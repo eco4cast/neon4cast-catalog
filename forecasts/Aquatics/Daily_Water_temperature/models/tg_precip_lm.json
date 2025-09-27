@@ -22,14 +22,6 @@
       [-96.6038, 39.1051],
       [-96.443, 38.9459],
       [-97.7823, 33.3785],
-      [-119.2575, 37.0597],
-      [-122.1655, 44.2596],
-      [-102.4471, 39.7582],
-      [-84.2793, 35.9574],
-      [-83.5038, 35.6904],
-      [-110.5871, 44.9501],
-      [-84.4374, 31.1854],
-      [-87.4077, 32.9604],
       [-149.6106, 68.6307],
       [-99.2531, 47.1298],
       [-96.6242, 34.4442],
@@ -42,12 +34,20 @@
       [-88.1589, 31.8534],
       [-66.7987, 18.1741],
       [-87.7982, 32.5415],
-      [-89.7048, 45.9983]
+      [-89.7048, 45.9983],
+      [-119.2575, 37.0597],
+      [-122.1655, 44.2596],
+      [-102.4471, 39.7582],
+      [-84.2793, 35.9574],
+      [-83.5038, 35.6904],
+      [-110.5871, 44.9501],
+      [-84.4374, 31.1854],
+      [-87.4077, 32.9604]
     ]
   },
   "properties": {
     "title": "tg_precip_lm",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: BARC, CUPE, REDB, WLOU, POSE, CRAM, MART, SUGG, HOPB, OKSR, KING, MCDI, PRIN, BIGC, MCRA, ARIK, WALK, LECO, BLDE, FLNT, MAYF, TOOK, PRPO, BLUE, LEWI, PRLA, SYCA, TECR, CARI, COMO, TOMB, GUIL, BLWA, LIRO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: BARC, CUPE, REDB, WLOU, POSE, CRAM, MART, SUGG, HOPB, OKSR, KING, MCDI, PRIN, TOOK, PRPO, BLUE, LEWI, PRLA, SYCA, TECR, CARI, COMO, TOMB, GUIL, BLWA, LIRO, BIGC, MCRA, ARIK, WALK, LECO, BLDE, FLNT, MAYF.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-03",
     "updated": "2024-07-02",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -93,14 +93,6 @@
       "KING",
       "MCDI",
       "PRIN",
-      "BIGC",
-      "MCRA",
-      "ARIK",
-      "WALK",
-      "LECO",
-      "BLDE",
-      "FLNT",
-      "MAYF",
       "TOOK",
       "PRPO",
       "BLUE",
@@ -113,7 +105,15 @@
       "TOMB",
       "GUIL",
       "BLWA",
-      "LIRO"
+      "LIRO",
+      "BIGC",
+      "MCRA",
+      "ARIK",
+      "WALK",
+      "LECO",
+      "BLDE",
+      "FLNT",
+      "MAYF"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "BARC, CUPE, REDB, WLOU, POSE, CRAM, MART, SUGG, HOPB, OKSR, KING, MCDI, PRIN, BIGC, MCRA, ARIK, WALK, LECO, BLDE, FLNT, MAYF, TOOK, PRPO, BLUE, LEWI, PRLA, SYCA, TECR, CARI, COMO, TOMB, GUIL, BLWA, LIRO"
+      "description": "BARC, CUPE, REDB, WLOU, POSE, CRAM, MART, SUGG, HOPB, OKSR, KING, MCDI, PRIN, TOOK, PRPO, BLUE, LEWI, PRLA, SYCA, TECR, CARI, COMO, TOMB, GUIL, BLWA, LIRO, BIGC, MCRA, ARIK, WALK, LECO, BLDE, FLNT, MAYF"
     },
     "4": {
       "type": "application/x-parquet",

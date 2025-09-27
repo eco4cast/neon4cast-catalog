@@ -91,12 +91,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EFI_U_P.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -111,7 +111,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/EFI_U_P.json"
     },
     {
       "rel": "item",
