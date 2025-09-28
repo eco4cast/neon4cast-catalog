@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-82.0084, 29.676],
       [-89.4737, 46.2097],
       [-66.9868, 18.1135],
@@ -22,10 +26,6 @@
       [-111.7979, 40.7839],
       [-82.0177, 29.6878],
       [-105.9154, 39.8914],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
       [-105.5442, 40.035],
@@ -47,11 +47,11 @@
   },
   "properties": {
     "title": "persistenceRW",
-    "description": "All forecasts for the Daily_Water_temperature variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: BARC, CRAM, CUPE, HOPB, KING, MART, MCDI, OKSR, POSE, PRIN, REDB, SUGG, WLOU, BLUE, LEWI, PRPO, TOOK, BLWA, CARI, COMO, GUIL, LIRO, PRLA, SYCA, TECR, TOMB, ARIK, BIGC, BLDE, FLNT, LECO, MAYF, MCRA, WALK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2025-09-26",
-    "updated": "2025-09-26",
+    "description": "All forecasts for the Daily_Water_temperature variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: BLUE, LEWI, PRPO, TOOK, BARC, CRAM, CUPE, HOPB, KING, MART, MCDI, OKSR, POSE, PRIN, REDB, SUGG, WLOU, BLWA, CARI, COMO, GUIL, LIRO, PRLA, SYCA, TECR, TOMB, ARIK, BIGC, BLDE, FLNT, LECO, MAYF, MCRA, WALK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "datetime": "2025-09-27",
+    "updated": "2025-09-27",
     "start_datetime": "2022-08-25T00:00:00Z",
-    "end_datetime": "2025-10-30T00:00:00Z",
+    "end_datetime": "2025-10-31T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "BLUE",
+      "LEWI",
+      "PRPO",
+      "TOOK",
       "BARC",
       "CRAM",
       "CUPE",
@@ -93,10 +97,6 @@
       "REDB",
       "SUGG",
       "WLOU",
-      "BLUE",
-      "LEWI",
-      "PRPO",
-      "TOOK",
       "BLWA",
       "CARI",
       "COMO",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "BARC, CRAM, CUPE, HOPB, KING, MART, MCDI, OKSR, POSE, PRIN, REDB, SUGG, WLOU, BLUE, LEWI, PRPO, TOOK, BLWA, CARI, COMO, GUIL, LIRO, PRLA, SYCA, TECR, TOMB, ARIK, BIGC, BLDE, FLNT, LECO, MAYF, MCRA, WALK"
+      "description": "BLUE, LEWI, PRPO, TOOK, BARC, CRAM, CUPE, HOPB, KING, MART, MCDI, OKSR, POSE, PRIN, REDB, SUGG, WLOU, BLWA, CARI, COMO, GUIL, LIRO, PRLA, SYCA, TECR, TOMB, ARIK, BIGC, BLDE, FLNT, LECO, MAYF, MCRA, WALK"
     },
     "4": {
       "type": "application/x-parquet",

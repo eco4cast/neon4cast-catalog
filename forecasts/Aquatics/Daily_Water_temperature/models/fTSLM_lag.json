@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
       [-96.6038, 39.1051],
       [-97.7823, 33.3785],
       [-121.9338, 45.7908],
@@ -26,6 +22,10 @@
       [-82.0177, 29.6878],
       [-78.1473, 38.8943],
       [-66.9868, 18.1135],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
       [-83.5038, 35.6904],
       [-110.5871, 44.9501],
       [-119.2575, 37.0597],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "fTSLM_lag",
-    "description": "All forecasts for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: LEWI, TOOK, PRPO, BLUE, KING, PRIN, MART, MCDI, HOPB, REDB, OKSR, BARC, CRAM, WLOU, SUGG, POSE, CUPE, LECO, BLDE, BIGC, FLNT, MAYF, WALK, MCRA, ARIK, SYCA, TOMB, CARI, PRLA, COMO, TECR, LIRO, BLWA, GUIL.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: KING, PRIN, MART, MCDI, HOPB, REDB, OKSR, BARC, CRAM, WLOU, SUGG, POSE, CUPE, LEWI, TOOK, PRPO, BLUE, LECO, BLDE, BIGC, FLNT, MAYF, WALK, MCRA, ARIK, SYCA, TOMB, CARI, PRLA, COMO, TECR, LIRO, BLWA, GUIL.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-08-11",
     "updated": "2024-08-23",
     "start_datetime": "2022-10-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "LEWI",
-      "TOOK",
-      "PRPO",
-      "BLUE",
       "KING",
       "PRIN",
       "MART",
@@ -97,6 +93,10 @@
       "SUGG",
       "POSE",
       "CUPE",
+      "LEWI",
+      "TOOK",
+      "PRPO",
+      "BLUE",
       "LECO",
       "BLDE",
       "BIGC",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "LEWI, TOOK, PRPO, BLUE, KING, PRIN, MART, MCDI, HOPB, REDB, OKSR, BARC, CRAM, WLOU, SUGG, POSE, CUPE, LECO, BLDE, BIGC, FLNT, MAYF, WALK, MCRA, ARIK, SYCA, TOMB, CARI, PRLA, COMO, TECR, LIRO, BLWA, GUIL"
+      "description": "KING, PRIN, MART, MCDI, HOPB, REDB, OKSR, BARC, CRAM, WLOU, SUGG, POSE, CUPE, LEWI, TOOK, PRPO, BLUE, LECO, BLDE, BIGC, FLNT, MAYF, WALK, MCRA, ARIK, SYCA, TOMB, CARI, PRLA, COMO, TECR, LIRO, BLWA, GUIL"
     },
     "4": {
       "type": "application/x-parquet",

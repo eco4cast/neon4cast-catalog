@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
       [-72.3295, 42.4719],
       [-111.7979, 40.7839],
       [-78.1473, 38.8943],
@@ -26,6 +22,10 @@
       [-82.0084, 29.676],
       [-89.4737, 46.2097],
       [-149.143, 68.6698],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
       [-102.4471, 39.7582],
       [-122.1655, 44.2596],
       [-87.4077, 32.9604],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "fARIMA_clim_ensemble",
-    "description": "All forecasts for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: BLUE, PRPO, LEWI, TOOK, HOPB, REDB, POSE, MART, SUGG, MCDI, KING, CUPE, WLOU, PRIN, BARC, CRAM, OKSR, ARIK, MCRA, MAYF, LECO, WALK, BLDE, BIGC, FLNT, COMO, GUIL, BLWA, TECR, PRLA, TOMB, SYCA, LIRO, CARI.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: HOPB, REDB, POSE, MART, SUGG, MCDI, KING, CUPE, WLOU, PRIN, BARC, CRAM, OKSR, BLUE, PRPO, LEWI, TOOK, ARIK, MCRA, MAYF, LECO, WALK, BLDE, BIGC, FLNT, COMO, GUIL, BLWA, TECR, PRLA, TOMB, SYCA, LIRO, CARI.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-03",
     "updated": "2024-08-22",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -80,10 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "BLUE",
-      "PRPO",
-      "LEWI",
-      "TOOK",
       "HOPB",
       "REDB",
       "POSE",
@@ -97,6 +93,10 @@
       "BARC",
       "CRAM",
       "OKSR",
+      "BLUE",
+      "PRPO",
+      "LEWI",
+      "TOOK",
       "ARIK",
       "MCRA",
       "MAYF",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "BLUE, PRPO, LEWI, TOOK, HOPB, REDB, POSE, MART, SUGG, MCDI, KING, CUPE, WLOU, PRIN, BARC, CRAM, OKSR, ARIK, MCRA, MAYF, LECO, WALK, BLDE, BIGC, FLNT, COMO, GUIL, BLWA, TECR, PRLA, TOMB, SYCA, LIRO, CARI"
+      "description": "HOPB, REDB, POSE, MART, SUGG, MCDI, KING, CUPE, WLOU, PRIN, BARC, CRAM, OKSR, BLUE, PRPO, LEWI, TOOK, ARIK, MCRA, MAYF, LECO, WALK, BLDE, BIGC, FLNT, COMO, GUIL, BLWA, TECR, PRLA, TOMB, SYCA, LIRO, CARI"
     },
     "4": {
       "type": "application/x-parquet",

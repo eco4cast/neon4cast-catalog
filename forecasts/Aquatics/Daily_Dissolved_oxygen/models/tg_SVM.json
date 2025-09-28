@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
       [-96.443, 38.9459],
       [-78.1473, 38.8943],
       [-89.4737, 46.2097],
@@ -26,6 +22,10 @@
       [-121.9338, 45.7908],
       [-66.9868, 18.1135],
       [-82.0177, 29.6878],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
       [-122.1655, 44.2596],
       [-87.4077, 32.9604],
       [-84.4374, 31.1854],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_SVM",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: TOOK, BLUE, PRPO, LEWI, MCDI, POSE, CRAM, OKSR, BARC, HOPB, PRIN, WLOU, KING, REDB, MART, CUPE, SUGG, MCRA, MAYF, FLNT, BLDE, BIGC, WALK, ARIK, LECO, CARI, PRLA, TOMB, COMO, TECR, GUIL, LIRO, BLWA, SYCA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: MCDI, POSE, CRAM, OKSR, BARC, HOPB, PRIN, WLOU, KING, REDB, MART, CUPE, SUGG, TOOK, BLUE, PRPO, LEWI, MCRA, MAYF, FLNT, BLDE, BIGC, WALK, ARIK, LECO, CARI, PRLA, TOMB, COMO, TECR, GUIL, LIRO, BLWA, SYCA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11",
     "updated": "2025-07-11",
     "start_datetime": "2025-05-05T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "TOOK",
-      "BLUE",
-      "PRPO",
-      "LEWI",
       "MCDI",
       "POSE",
       "CRAM",
@@ -97,6 +93,10 @@
       "MART",
       "CUPE",
       "SUGG",
+      "TOOK",
+      "BLUE",
+      "PRPO",
+      "LEWI",
       "MCRA",
       "MAYF",
       "FLNT",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "TOOK, BLUE, PRPO, LEWI, MCDI, POSE, CRAM, OKSR, BARC, HOPB, PRIN, WLOU, KING, REDB, MART, CUPE, SUGG, MCRA, MAYF, FLNT, BLDE, BIGC, WALK, ARIK, LECO, CARI, PRLA, TOMB, COMO, TECR, GUIL, LIRO, BLWA, SYCA"
+      "description": "MCDI, POSE, CRAM, OKSR, BARC, HOPB, PRIN, WLOU, KING, REDB, MART, CUPE, SUGG, TOOK, BLUE, PRPO, LEWI, MCRA, MAYF, FLNT, BLDE, BIGC, WALK, ARIK, LECO, CARI, PRLA, TOMB, COMO, TECR, GUIL, LIRO, BLWA, SYCA"
     },
     "4": {
       "type": "application/x-parquet",
