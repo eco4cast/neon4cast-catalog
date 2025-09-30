@@ -9,15 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-66.7987, 18.1741],
-      [-147.504, 65.1532],
-      [-87.7982, 32.5415],
-      [-105.5442, 40.035],
-      [-88.1589, 31.8534],
-      [-119.0274, 36.9559],
-      [-111.5081, 33.751],
-      [-89.7048, 45.9983],
-      [-99.1139, 47.1591],
       [-87.4077, 32.9604],
       [-84.2793, 35.9574],
       [-84.4374, 31.1854],
@@ -42,12 +33,21 @@
       [-105.9154, 39.8914],
       [-78.1473, 38.8943],
       [-111.7979, 40.7839],
-      [-149.143, 68.6698]
+      [-149.143, 68.6698],
+      [-66.7987, 18.1741],
+      [-147.504, 65.1532],
+      [-87.7982, 32.5415],
+      [-105.5442, 40.035],
+      [-88.1589, 31.8534],
+      [-119.0274, 36.9559],
+      [-111.5081, 33.751],
+      [-89.7048, 45.9983],
+      [-99.1139, 47.1591]
     ]
   },
   "properties": {
     "title": "tg_precip_lm_all_sites",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: GUIL, CARI, BLWA, COMO, TOMB, TECR, SYCA, LIRO, PRLA, MAYF, WALK, FLNT, BIGC, ARIK, LECO, BLDE, MCRA, PRPO, LEWI, TOOK, BLUE, HOPB, SUGG, CUPE, MART, MCDI, KING, BARC, PRIN, CRAM, WLOU, POSE, REDB, OKSR.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: MAYF, WALK, FLNT, BIGC, ARIK, LECO, BLDE, MCRA, PRPO, LEWI, TOOK, BLUE, HOPB, SUGG, CUPE, MART, MCDI, KING, BARC, PRIN, CRAM, WLOU, POSE, REDB, OKSR, GUIL, CARI, BLWA, COMO, TOMB, TECR, SYCA, LIRO, PRLA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-08-16",
     "updated": "2024-08-23",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -80,15 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "GUIL",
-      "CARI",
-      "BLWA",
-      "COMO",
-      "TOMB",
-      "TECR",
-      "SYCA",
-      "LIRO",
-      "PRLA",
       "MAYF",
       "WALK",
       "FLNT",
@@ -113,7 +104,16 @@
       "WLOU",
       "POSE",
       "REDB",
-      "OKSR"
+      "OKSR",
+      "GUIL",
+      "CARI",
+      "BLWA",
+      "COMO",
+      "TOMB",
+      "TECR",
+      "SYCA",
+      "LIRO",
+      "PRLA"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "GUIL, CARI, BLWA, COMO, TOMB, TECR, SYCA, LIRO, PRLA, MAYF, WALK, FLNT, BIGC, ARIK, LECO, BLDE, MCRA, PRPO, LEWI, TOOK, BLUE, HOPB, SUGG, CUPE, MART, MCDI, KING, BARC, PRIN, CRAM, WLOU, POSE, REDB, OKSR"
+      "description": "MAYF, WALK, FLNT, BIGC, ARIK, LECO, BLDE, MCRA, PRPO, LEWI, TOOK, BLUE, HOPB, SUGG, CUPE, MART, MCDI, KING, BARC, PRIN, CRAM, WLOU, POSE, REDB, OKSR, GUIL, CARI, BLWA, COMO, TOMB, TECR, SYCA, LIRO, PRLA"
     },
     "4": {
       "type": "application/x-parquet",

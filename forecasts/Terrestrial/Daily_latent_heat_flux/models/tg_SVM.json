@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-122.3303, 45.7624],
-      [-109.3883, 38.2483],
-      [-67.0769, 18.0213],
-      [-83.5019, 35.689],
-      [-96.5631, 39.1008],
-      [-155.3173, 19.5531],
-      [-105.5824, 40.0543],
-      [-87.8039, 32.5417],
-      [-88.1612, 31.8539],
-      [-80.5248, 37.3783],
       [-110.8355, 31.9107],
       [-119.2622, 37.0334],
       [-78.0418, 39.0337],
@@ -55,12 +45,22 @@
       [-119.7323, 37.1088],
       [-76.56, 38.8901],
       [-89.5864, 45.5089],
-      [-105.546, 40.2759]
+      [-105.546, 40.2759],
+      [-122.3303, 45.7624],
+      [-109.3883, 38.2483],
+      [-67.0769, 18.0213],
+      [-83.5019, 35.689],
+      [-96.5631, 39.1008],
+      [-155.3173, 19.5531],
+      [-105.5824, 40.0543],
+      [-87.8039, 32.5417],
+      [-88.1612, 31.8539],
+      [-80.5248, 37.3783]
     ]
   },
   "properties": {
     "title": "tg_SVM",
-    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: ABBY, MOAB, LAJA, GRSM, KONZ, PUUM, NIWO, DELA, LENO, MLBS, SRER, SOAP, BLAN, JERC, SCBI, OAES, CPER, STER, ONAQ, TEAK, WREF, BARR, DEJU, BONA, HEAL, DSNY, UKFS, UNDE, YELL, HARV, ORNL, NOGP, OSBS, TOOL, KONA, WOOD, GUAN, CLBJ, DCFS, BART, TREE, TALL, JORN, SJER, SERC, STEI, RMNP.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: SRER, SOAP, BLAN, JERC, SCBI, OAES, CPER, STER, ONAQ, TEAK, WREF, BARR, DEJU, BONA, HEAL, DSNY, UKFS, UNDE, YELL, HARV, ORNL, NOGP, OSBS, TOOL, KONA, WOOD, GUAN, CLBJ, DCFS, BART, TREE, TALL, JORN, SJER, SERC, STEI, RMNP, ABBY, MOAB, LAJA, GRSM, KONZ, PUUM, NIWO, DELA, LENO, MLBS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11",
     "updated": "2025-07-11",
     "start_datetime": "2025-08-13T00:00:00Z",
@@ -93,16 +93,6 @@
       "le",
       "Daily",
       "P1D",
-      "ABBY",
-      "MOAB",
-      "LAJA",
-      "GRSM",
-      "KONZ",
-      "PUUM",
-      "NIWO",
-      "DELA",
-      "LENO",
-      "MLBS",
       "SRER",
       "SOAP",
       "BLAN",
@@ -139,7 +129,17 @@
       "SJER",
       "SERC",
       "STEI",
-      "RMNP"
+      "RMNP",
+      "ABBY",
+      "MOAB",
+      "LAJA",
+      "GRSM",
+      "KONZ",
+      "PUUM",
+      "NIWO",
+      "DELA",
+      "LENO",
+      "MLBS"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "ABBY, MOAB, LAJA, GRSM, KONZ, PUUM, NIWO, DELA, LENO, MLBS, SRER, SOAP, BLAN, JERC, SCBI, OAES, CPER, STER, ONAQ, TEAK, WREF, BARR, DEJU, BONA, HEAL, DSNY, UKFS, UNDE, YELL, HARV, ORNL, NOGP, OSBS, TOOL, KONA, WOOD, GUAN, CLBJ, DCFS, BART, TREE, TALL, JORN, SJER, SERC, STEI, RMNP"
+      "description": "SRER, SOAP, BLAN, JERC, SCBI, OAES, CPER, STER, ONAQ, TEAK, WREF, BARR, DEJU, BONA, HEAL, DSNY, UKFS, UNDE, YELL, HARV, ORNL, NOGP, OSBS, TOOL, KONA, WOOD, GUAN, CLBJ, DCFS, BART, TREE, TALL, JORN, SJER, SERC, STEI, RMNP, ABBY, MOAB, LAJA, GRSM, KONZ, PUUM, NIWO, DELA, LENO, MLBS"
     },
     "4": {
       "type": "application/x-parquet",
