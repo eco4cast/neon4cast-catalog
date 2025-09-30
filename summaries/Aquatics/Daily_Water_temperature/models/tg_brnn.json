@@ -18,10 +18,6 @@
       [-87.7982, 32.5415],
       [-88.1589, 31.8534],
       [-147.504, 65.1532],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
       [-111.7979, 40.7839],
       [-78.1473, 38.8943],
       [-149.143, 68.6698],
@@ -42,12 +38,16 @@
       [-84.4374, 31.1854],
       [-122.1655, 44.2596],
       [-87.4077, 32.9604],
-      [-102.4471, 39.7582]
+      [-102.4471, 39.7582],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298]
     ]
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All summaries for the Daily_Water_temperature variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: PRLA, LIRO, GUIL, TECR, COMO, SYCA, BLWA, TOMB, CARI, BLUE, TOOK, LEWI, PRPO, REDB, POSE, OKSR, CRAM, BARC, MART, CUPE, PRIN, WLOU, KING, HOPB, MCDI, SUGG, WALK, BIGC, LECO, BLDE, FLNT, MCRA, MAYF, ARIK.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: PRLA, LIRO, GUIL, TECR, COMO, SYCA, BLWA, TOMB, CARI, REDB, POSE, OKSR, CRAM, BARC, MART, CUPE, PRIN, WLOU, KING, HOPB, MCDI, SUGG, WALK, BIGC, LECO, BLDE, FLNT, MCRA, MAYF, ARIK, BLUE, TOOK, LEWI, PRPO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11",
     "updated": "2025-07-11",
     "start_datetime": "2025-08-13T00:00:00Z",
@@ -89,10 +89,6 @@
       "BLWA",
       "TOMB",
       "CARI",
-      "BLUE",
-      "TOOK",
-      "LEWI",
-      "PRPO",
       "REDB",
       "POSE",
       "OKSR",
@@ -113,7 +109,11 @@
       "FLNT",
       "MCRA",
       "MAYF",
-      "ARIK"
+      "ARIK",
+      "BLUE",
+      "TOOK",
+      "LEWI",
+      "PRPO"
     ],
     "table:columns": [
       {
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "PRLA, LIRO, GUIL, TECR, COMO, SYCA, BLWA, TOMB, CARI, BLUE, TOOK, LEWI, PRPO, REDB, POSE, OKSR, CRAM, BARC, MART, CUPE, PRIN, WLOU, KING, HOPB, MCDI, SUGG, WALK, BIGC, LECO, BLDE, FLNT, MCRA, MAYF, ARIK"
+      "description": "PRLA, LIRO, GUIL, TECR, COMO, SYCA, BLWA, TOMB, CARI, REDB, POSE, OKSR, CRAM, BARC, MART, CUPE, PRIN, WLOU, KING, HOPB, MCDI, SUGG, WALK, BIGC, LECO, BLDE, FLNT, MCRA, MAYF, ARIK, BLUE, TOOK, LEWI, PRPO"
     },
     "4": {
       "type": "application/x-parquet",

@@ -18,14 +18,6 @@
       [-112.4524, 40.1776],
       [-78.1395, 38.8929],
       [-78.0418, 39.0337],
-      [-71.2874, 44.0639],
-      [-89.5857, 45.4937],
-      [-89.5864, 45.5089],
-      [-76.56, 38.8901],
-      [-106.8425, 32.5907],
-      [-119.7323, 37.1088],
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
       [-81.4362, 28.1251],
       [-89.5373, 46.2339],
       [-72.1727, 42.5369],
@@ -55,12 +47,20 @@
       [-87.8039, 32.5417],
       [-83.5019, 35.689],
       [-122.3303, 45.7624],
-      [-88.1612, 31.8539]
+      [-88.1612, 31.8539],
+      [-71.2874, 44.0639],
+      [-89.5857, 45.4937],
+      [-89.5864, 45.5089],
+      [-76.56, 38.8901],
+      [-106.8425, 32.5907],
+      [-119.7323, 37.1088],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505]
     ]
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All summaries for the Weekly_beetle_community_richness variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: SOAP, CPER, STER, SRER, OAES, JERC, ONAQ, SCBI, BLAN, BART, TREE, STEI, SERC, JORN, SJER, RMNP, TALL, DSNY, UNDE, HARV, DEJU, YELL, CLBJ, GUAN, HEAL, BONA, UKFS, KONA, ORNL, DCFS, WREF, WOOD, TEAK, BARR, TOOL, NOGP, OSBS, NIWO, MLBS, LAJA, MOAB, PUUM, KONZ, DELA, GRSM, ABBY, LENO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Weekly_beetle_community_richness variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: SOAP, CPER, STER, SRER, OAES, JERC, ONAQ, SCBI, BLAN, DSNY, UNDE, HARV, DEJU, YELL, CLBJ, GUAN, HEAL, BONA, UKFS, KONA, ORNL, DCFS, WREF, WOOD, TEAK, BARR, TOOL, NOGP, OSBS, NIWO, MLBS, LAJA, MOAB, PUUM, KONZ, DELA, GRSM, ABBY, LENO, BART, TREE, STEI, SERC, JORN, SJER, RMNP, TALL.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-06",
     "updated": "2025-07-06",
     "start_datetime": "2025-08-04T00:00:00Z",
@@ -102,14 +102,6 @@
       "ONAQ",
       "SCBI",
       "BLAN",
-      "BART",
-      "TREE",
-      "STEI",
-      "SERC",
-      "JORN",
-      "SJER",
-      "RMNP",
-      "TALL",
       "DSNY",
       "UNDE",
       "HARV",
@@ -139,7 +131,15 @@
       "DELA",
       "GRSM",
       "ABBY",
-      "LENO"
+      "LENO",
+      "BART",
+      "TREE",
+      "STEI",
+      "SERC",
+      "JORN",
+      "SJER",
+      "RMNP",
+      "TALL"
     ],
     "table:columns": [
       {
@@ -286,7 +286,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": {},
-      "description": "SOAP, CPER, STER, SRER, OAES, JERC, ONAQ, SCBI, BLAN, BART, TREE, STEI, SERC, JORN, SJER, RMNP, TALL, DSNY, UNDE, HARV, DEJU, YELL, CLBJ, GUAN, HEAL, BONA, UKFS, KONA, ORNL, DCFS, WREF, WOOD, TEAK, BARR, TOOL, NOGP, OSBS, NIWO, MLBS, LAJA, MOAB, PUUM, KONZ, DELA, GRSM, ABBY, LENO"
+      "description": "SOAP, CPER, STER, SRER, OAES, JERC, ONAQ, SCBI, BLAN, DSNY, UNDE, HARV, DEJU, YELL, CLBJ, GUAN, HEAL, BONA, UKFS, KONA, ORNL, DCFS, WREF, WOOD, TEAK, BARR, TOOL, NOGP, OSBS, NIWO, MLBS, LAJA, MOAB, PUUM, KONZ, DELA, GRSM, ABBY, LENO, BART, TREE, STEI, SERC, JORN, SJER, RMNP, TALL"
     },
     "4": {
       "type": "application/x-parquet",
