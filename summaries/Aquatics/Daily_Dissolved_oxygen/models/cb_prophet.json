@@ -255,7 +255,7 @@
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
-      "href": {},
+      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
       "description": "MCRA, MAYF, FLNT, BLDE, LECO, WALK, BIGC, ARIK, LEWI, BLUE, PRPO, SYCA, COMO, BLWA, CARI, TECR, LIRO, GUIL, TOMB, PRLA, KING, SUGG, BARC, MCDI, MART, WLOU, CUPE, PRIN, REDB, HOPB, POSE, CRAM"
     },
     "4": {

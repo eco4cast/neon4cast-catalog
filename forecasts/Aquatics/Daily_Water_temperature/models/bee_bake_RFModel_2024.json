@@ -21,10 +21,10 @@
   "properties": {
     "title": "bee_bake_RFModel_2024",
     "description": "All forecasts for the Daily_Water_temperature variable for the bee_bake_RFModel_2024 model. Information for the model is provided as follows: Random Forest.\n                                    The model predicts this variable at the following sites: BARC, CRAM, SUGG, LIRO, PRLA, PRPO, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2025-09-30",
-    "updated": "2025-09-30",
+    "datetime": "2025-10-01",
+    "updated": "2025-10-01",
     "start_datetime": "2024-02-29T00:00:00Z",
-    "end_datetime": "2025-11-02T00:00:00Z",
+    "end_datetime": "2025-11-03T00:00:00Z",
     "providers": [
       {
         "url": null,
@@ -180,7 +180,7 @@
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
-      "href": {},
+      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
       "description": "BARC, CRAM, SUGG, LIRO, PRLA, PRPO, TOOK"
     },
     "4": {

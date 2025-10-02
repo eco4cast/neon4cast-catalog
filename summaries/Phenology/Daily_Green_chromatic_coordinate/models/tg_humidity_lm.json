@@ -285,7 +285,7 @@
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
-      "href": {},
+      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
       "description": "JORN, SERC, TALL, BART, RMNP, STEI, SJER, TREE, ABBY, MOAB, NIWO, DELA, LAJA, GRSM, LENO, PUUM, MLBS, KONZ, OSBS, ORNL, TOOL, DSNY, UKFS, YELL, BARR, CLBJ, BONA, TEAK, WOOD, WREF, DCFS, HARV, KONA, NOGP, GUAN, UNDE, DEJU, HEAL, SOAP, CPER, SCBI, ONAQ, JERC, BLAN, SRER, STER, OAES"
     },
     "4": {
