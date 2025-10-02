@@ -22,8 +22,8 @@
   "properties": {
     "title": "tg_XGBoost",
     "description": "All scores for the Daily_Chlorophyll_a variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: PRPO, FLNT, BLWA, TOMB, PRLA, BARC, SUGG, CRAM.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2025-06-14",
-    "updated": "2025-06-14",
+    "datetime": "2025-06-14T00:00:00Z",
+    "updated": "2025-06-14T00:00:00Z",
     "start_datetime": "2024-12-16T00:00:00Z",
     "end_datetime": "2025-06-14T00:00:00Z",
     "providers": [

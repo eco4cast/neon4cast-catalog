@@ -23,8 +23,8 @@
   "properties": {
     "title": "UCLA_2022",
     "description": "All scores for the Weekly_Amblyomma_americanum_population variable for the UCLA_2022 model. Information for the model is provided as follows: NA.\n                                    The model predicts this variable at the following sites: SERC, TALL, KONZ, LENO, BLAN, SCBI, ORNL, OSBS, UKFS.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2021-05-02",
-    "updated": "2021-05-02",
+    "datetime": "2021-05-02T00:00:00Z",
+    "updated": "2021-05-02T00:00:00Z",
     "start_datetime": "2021-03-01T00:00:00Z",
     "end_datetime": "2021-05-24T00:00:00Z",
     "providers": [

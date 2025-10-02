@@ -65,8 +65,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://projects.ecoforecast.org/neon4cast-docs/",
+      "title": "NEON Ecological Forecasting Challenge",
       "type": "text/html"
     }
   ],

@@ -20,8 +20,8 @@
   "properties": {
     "title": "VTicks",
     "description": "All scores for the Weekly_Amblyomma_americanum_population variable for the VTicks model. Information for the model is provided as follows: NA.\n                                    The model predicts this variable at the following sites: SERC, TALL, KONZ, SCBI, ORNL, UKFS.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2019-04-01",
-    "updated": "2019-04-01",
+    "datetime": "2019-04-01T00:00:00Z",
+    "updated": "2019-04-01T00:00:00Z",
     "start_datetime": "2019-03-04T00:00:00Z",
     "end_datetime": "2019-10-28T00:00:00Z",
     "providers": [

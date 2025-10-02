@@ -61,8 +61,8 @@
   "properties": {
     "title": "cb_prophet",
     "description": "All scores for the Daily_Green_chromatic_coordinate variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: LAJA, DELA, NIWO, MOAB, PUUM, ABBY, KONZ, MLBS, LENO, GRSM, SERC, JORN, BART, RMNP, SJER, TALL, TREE, STEI, HEAL, WREF, YELL, UKFS, HARV, DSNY, GUAN, NOGP, WOOD, DEJU, DCFS, KONA, BONA, CLBJ, BARR, ORNL, OSBS, UNDE, TEAK, TOOL, SRER, CPER, SCBI, BLAN, STER, ONAQ, OAES, SOAP, JERC.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2024-02-06",
-    "updated": "2024-02-07",
+    "datetime": "2024-02-06T00:00:00Z",
+    "updated": "2024-02-07T00:00:00Z",
     "start_datetime": "2022-05-29T00:00:00Z",
     "end_datetime": "2024-03-09T00:00:00Z",
     "providers": [

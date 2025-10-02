@@ -61,8 +61,8 @@
   "properties": {
     "title": "climatology",
     "description": "All scores for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: KONA, CLBJ, DSNY, UNDE, HEAL, TOOL, BARR, BONA, NOGP, ORNL, WREF, GUAN, OSBS, UKFS, YELL, TEAK, WOOD, DCFS, HARV, DEJU, SCBI, STER, SOAP, JERC, OAES, SRER, BLAN, ONAQ, CPER, DELA, KONZ, LENO, GRSM, LAJA, MLBS, ABBY, PUUM, MOAB, NIWO, STEI, RMNP, SJER, BART, TALL, JORN, SERC, TREE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2025-04-14",
-    "updated": "2025-04-14",
+    "datetime": "2025-04-14T00:00:00Z",
+    "updated": "2025-04-14T00:00:00Z",
     "start_datetime": "2023-11-15T00:00:00Z",
     "end_datetime": "2025-04-15T00:00:00Z",
     "providers": [

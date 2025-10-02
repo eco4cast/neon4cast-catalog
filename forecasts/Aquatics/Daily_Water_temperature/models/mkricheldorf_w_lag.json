@@ -21,8 +21,8 @@
   "properties": {
     "title": "mkricheldorf_w_lag",
     "description": "All forecasts for the Daily_Water_temperature variable for the mkricheldorf_w_lag model. Information for the model is provided as follows: I used an autoregressive linear model using the lm() function.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, PRLA, LIRO, CRAM, SUGG, BARC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2024-08-25",
-    "updated": "2024-08-29",
+    "datetime": "2024-08-25T00:00:00Z",
+    "updated": "2024-08-29T00:00:00Z",
     "start_datetime": "2024-03-06T00:00:00Z",
     "end_datetime": "2024-09-28T00:00:00Z",
     "providers": [

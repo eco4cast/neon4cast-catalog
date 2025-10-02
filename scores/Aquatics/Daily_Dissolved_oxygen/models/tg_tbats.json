@@ -48,8 +48,8 @@
   "properties": {
     "title": "tg_tbats",
     "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: BLUE, TOOK, PRPO, LEWI, ARIK, LECO, FLNT, BIGC, MCRA, BLDE, MAYF, WALK, TECR, GUIL, CARI, LIRO, PRLA, TOMB, BLWA, SYCA, COMO, CUPE, HOPB, POSE, PRIN, SUGG, CRAM, MART, OKSR, WLOU, REDB, KING, MCDI, BARC.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2024-07-19",
-    "updated": "2024-08-23",
+    "datetime": "2024-07-19T00:00:00Z",
+    "updated": "2024-08-23T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
     "end_datetime": "2024-08-18T00:00:00Z",
     "providers": [
