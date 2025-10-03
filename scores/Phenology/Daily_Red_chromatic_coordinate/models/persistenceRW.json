@@ -27,6 +27,15 @@
       [-87.8039, 32.5417],
       [-155.3173, 19.5531],
       [-83.5019, 35.689],
+      [-99.0588, 35.4106],
+      [-110.8355, 31.9107],
+      [-78.0418, 39.0337],
+      [-84.4686, 31.1948],
+      [-103.0293, 40.4619],
+      [-112.4524, 40.1776],
+      [-119.2622, 37.0334],
+      [-104.7456, 40.8155],
+      [-78.1395, 38.8929],
       [-95.1921, 39.0404],
       [-100.9154, 46.7697],
       [-119.006, 37.0058],
@@ -46,21 +55,12 @@
       [-121.9519, 45.8205],
       [-147.5026, 65.154],
       [-66.8687, 17.9696],
-      [-149.2133, 63.8758],
-      [-99.0588, 35.4106],
-      [-110.8355, 31.9107],
-      [-78.0418, 39.0337],
-      [-84.4686, 31.1948],
-      [-103.0293, 40.4619],
-      [-112.4524, 40.1776],
-      [-119.2622, 37.0334],
-      [-104.7456, 40.8155],
-      [-78.1395, 38.8929]
+      [-149.2133, 63.8758]
     ]
   },
   "properties": {
     "title": "persistenceRW",
-    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: SERC, SJER, TREE, RMNP, JORN, BART, STEI, TALL, LENO, LAJA, ABBY, MOAB, KONZ, NIWO, MLBS, DELA, PUUM, GRSM, UKFS, NOGP, TEAK, TOOL, HARV, UNDE, YELL, CLBJ, KONA, DCFS, DEJU, WOOD, BARR, OSBS, DSNY, ORNL, WREF, BONA, GUAN, HEAL, OAES, SRER, BLAN, JERC, STER, ONAQ, SOAP, CPER, SCBI.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: SERC, SJER, TREE, RMNP, JORN, BART, STEI, TALL, LENO, LAJA, ABBY, MOAB, KONZ, NIWO, MLBS, DELA, PUUM, GRSM, OAES, SRER, BLAN, JERC, STER, ONAQ, SOAP, CPER, SCBI, UKFS, NOGP, TEAK, TOOL, HARV, UNDE, YELL, CLBJ, KONA, DCFS, DEJU, WOOD, BARR, OSBS, DSNY, ORNL, WREF, BONA, GUAN, HEAL.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-09-30T00:00:00Z",
     "updated": "2025-09-30T00:00:00Z",
     "start_datetime": "2022-08-24T00:00:00Z",
@@ -111,6 +111,15 @@
       "DELA",
       "PUUM",
       "GRSM",
+      "OAES",
+      "SRER",
+      "BLAN",
+      "JERC",
+      "STER",
+      "ONAQ",
+      "SOAP",
+      "CPER",
+      "SCBI",
       "UKFS",
       "NOGP",
       "TEAK",
@@ -130,16 +139,7 @@
       "WREF",
       "BONA",
       "GUAN",
-      "HEAL",
-      "OAES",
-      "SRER",
-      "BLAN",
-      "JERC",
-      "STER",
-      "ONAQ",
-      "SOAP",
-      "CPER",
-      "SCBI"
+      "HEAL"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SERC, SJER, TREE, RMNP, JORN, BART, STEI, TALL, LENO, LAJA, ABBY, MOAB, KONZ, NIWO, MLBS, DELA, PUUM, GRSM, UKFS, NOGP, TEAK, TOOL, HARV, UNDE, YELL, CLBJ, KONA, DCFS, DEJU, WOOD, BARR, OSBS, DSNY, ORNL, WREF, BONA, GUAN, HEAL, OAES, SRER, BLAN, JERC, STER, ONAQ, SOAP, CPER, SCBI"
+      "description": "SERC, SJER, TREE, RMNP, JORN, BART, STEI, TALL, LENO, LAJA, ABBY, MOAB, KONZ, NIWO, MLBS, DELA, PUUM, GRSM, OAES, SRER, BLAN, JERC, STER, ONAQ, SOAP, CPER, SCBI, UKFS, NOGP, TEAK, TOOL, HARV, UNDE, YELL, CLBJ, KONA, DCFS, DEJU, WOOD, BARR, OSBS, DSNY, ORNL, WREF, BONA, GUAN, HEAL"
     },
     "4": {
       "type": "application/x-parquet",

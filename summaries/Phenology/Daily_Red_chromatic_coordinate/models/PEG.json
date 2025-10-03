@@ -29,6 +29,15 @@
       [-81.9934, 29.6893],
       [-145.7514, 63.8811],
       [-110.5391, 44.9535],
+      [-110.8355, 31.9107],
+      [-119.2622, 37.0334],
+      [-84.4686, 31.1948],
+      [-78.1395, 38.8929],
+      [-104.7456, 40.8155],
+      [-112.4524, 40.1776],
+      [-103.0293, 40.4619],
+      [-78.0418, 39.0337],
+      [-99.0588, 35.4106],
       [-119.7323, 37.1088],
       [-76.56, 38.8901],
       [-71.2874, 44.0639],
@@ -46,21 +55,12 @@
       [-105.5824, 40.0543],
       [-80.5248, 37.3783],
       [-109.3883, 38.2483],
-      [-83.5019, 35.689],
-      [-110.8355, 31.9107],
-      [-119.2622, 37.0334],
-      [-84.4686, 31.1948],
-      [-78.1395, 38.8929],
-      [-104.7456, 40.8155],
-      [-112.4524, 40.1776],
-      [-103.0293, 40.4619],
-      [-78.0418, 39.0337],
-      [-99.0588, 35.4106]
+      [-83.5019, 35.689]
     ]
   },
   "properties": {
     "title": "PEG",
-    "description": "All summaries for the Daily_Red_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: DCFS, ORNL, CLBJ, WREF, GUAN, HEAL, KONA, BARR, UKFS, UNDE, BONA, HARV, TOOL, TEAK, WOOD, NOGP, DSNY, OSBS, DEJU, YELL, SJER, SERC, BART, JORN, RMNP, TALL, TREE, STEI, LENO, PUUM, KONZ, DELA, LAJA, ABBY, NIWO, MLBS, MOAB, GRSM, SRER, SOAP, JERC, SCBI, CPER, ONAQ, STER, BLAN, OAES.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Red_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: DCFS, ORNL, CLBJ, WREF, GUAN, HEAL, KONA, BARR, UKFS, UNDE, BONA, HARV, TOOL, TEAK, WOOD, NOGP, DSNY, OSBS, DEJU, YELL, SRER, SOAP, JERC, SCBI, CPER, ONAQ, STER, BLAN, OAES, SJER, SERC, BART, JORN, RMNP, TALL, TREE, STEI, LENO, PUUM, KONZ, DELA, LAJA, ABBY, NIWO, MLBS, MOAB, GRSM.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2023-12-21T00:00:00Z",
     "updated": "2023-12-22T00:00:00Z",
     "start_datetime": "2021-09-12T00:00:00Z",
@@ -113,6 +113,15 @@
       "OSBS",
       "DEJU",
       "YELL",
+      "SRER",
+      "SOAP",
+      "JERC",
+      "SCBI",
+      "CPER",
+      "ONAQ",
+      "STER",
+      "BLAN",
+      "OAES",
       "SJER",
       "SERC",
       "BART",
@@ -130,16 +139,7 @@
       "NIWO",
       "MLBS",
       "MOAB",
-      "GRSM",
-      "SRER",
-      "SOAP",
-      "JERC",
-      "SCBI",
-      "CPER",
-      "ONAQ",
-      "STER",
-      "BLAN",
-      "OAES"
+      "GRSM"
     ],
     "table:columns": [
       {
@@ -286,7 +286,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "DCFS, ORNL, CLBJ, WREF, GUAN, HEAL, KONA, BARR, UKFS, UNDE, BONA, HARV, TOOL, TEAK, WOOD, NOGP, DSNY, OSBS, DEJU, YELL, SJER, SERC, BART, JORN, RMNP, TALL, TREE, STEI, LENO, PUUM, KONZ, DELA, LAJA, ABBY, NIWO, MLBS, MOAB, GRSM, SRER, SOAP, JERC, SCBI, CPER, ONAQ, STER, BLAN, OAES"
+      "description": "DCFS, ORNL, CLBJ, WREF, GUAN, HEAL, KONA, BARR, UKFS, UNDE, BONA, HARV, TOOL, TEAK, WOOD, NOGP, DSNY, OSBS, DEJU, YELL, SRER, SOAP, JERC, SCBI, CPER, ONAQ, STER, BLAN, OAES, SJER, SERC, BART, JORN, RMNP, TALL, TREE, STEI, LENO, PUUM, KONZ, DELA, LAJA, ABBY, NIWO, MLBS, MOAB, GRSM"
     },
     "4": {
       "type": "application/x-parquet",

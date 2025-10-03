@@ -17,6 +17,10 @@
       [-84.4374, 31.1854],
       [-102.4471, 39.7582],
       [-87.4077, 32.9604],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
       [-88.1589, 31.8534],
       [-147.504, 65.1532],
       [-89.7048, 45.9983],
@@ -38,16 +42,12 @@
       [-96.6038, 39.1051],
       [-105.9154, 39.8914],
       [-89.4737, 46.2097],
-      [-149.143, 68.6698],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307]
+      [-149.143, 68.6698]
     ]
   },
   "properties": {
     "title": "fARIMA_clim_ensemble",
-    "description": "All summaries for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, PRPO, LEWI, BLUE, TOOK.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, PRPO, LEWI, BLUE, TOOK, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2024-07-03T00:00:00Z",
     "updated": "2024-08-22T00:00:00Z",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -88,6 +88,10 @@
       "FLNT",
       "ARIK",
       "MAYF",
+      "PRPO",
+      "LEWI",
+      "BLUE",
+      "TOOK",
       "TOMB",
       "CARI",
       "LIRO",
@@ -109,11 +113,7 @@
       "KING",
       "WLOU",
       "CRAM",
-      "OKSR",
-      "PRPO",
-      "LEWI",
-      "BLUE",
-      "TOOK"
+      "OKSR"
     ],
     "table:columns": [
       {
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, PRPO, LEWI, BLUE, TOOK"
+      "description": "BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, PRPO, LEWI, BLUE, TOOK, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR"
     },
     "4": {
       "type": "application/x-parquet",
