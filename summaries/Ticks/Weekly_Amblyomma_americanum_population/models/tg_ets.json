@@ -9,20 +9,20 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-96.5631, 39.1008],
-      [-88.1612, 31.8539],
-      [-78.0418, 39.0337],
-      [-78.1395, 38.8929],
+      [-76.56, 38.8901],
+      [-87.3933, 32.9505],
       [-84.2826, 35.9641],
       [-95.1921, 39.0404],
       [-81.9934, 29.6893],
-      [-76.56, 38.8901],
-      [-87.3933, 32.9505]
+      [-78.0418, 39.0337],
+      [-78.1395, 38.8929],
+      [-96.5631, 39.1008],
+      [-88.1612, 31.8539]
     ]
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All summaries for the Weekly_Amblyomma_americanum_population variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: KONZ, LENO, BLAN, SCBI, ORNL, UKFS, OSBS, SERC, TALL.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Weekly_Amblyomma_americanum_population variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: SERC, TALL, ORNL, UKFS, OSBS, BLAN, SCBI, KONZ, LENO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2021-06-07T00:00:00Z",
@@ -38,7 +38,7 @@
         ]
       },
       {
-        "url": "www.ecoforecast.org",
+        "url": "https://ecoforecast.org/",
         "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
@@ -55,15 +55,15 @@
       "amblyomma_americanum",
       "Weekly",
       "P1W",
-      "KONZ",
-      "LENO",
-      "BLAN",
-      "SCBI",
+      "SERC",
+      "TALL",
       "ORNL",
       "UKFS",
       "OSBS",
-      "SERC",
-      "TALL"
+      "BLAN",
+      "SCBI",
+      "KONZ",
+      "LENO"
     ],
     "table:columns": [
       {
@@ -210,7 +210,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "KONZ, LENO, BLAN, SCBI, ORNL, UKFS, OSBS, SERC, TALL"
+      "description": "SERC, TALL, ORNL, UKFS, OSBS, BLAN, SCBI, KONZ, LENO"
     },
     "4": {
       "type": "application/x-parquet",

@@ -9,18 +9,18 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
+      [-89.7048, 45.9983],
+      [-99.1139, 47.1591],
       [-82.0084, 29.676],
       [-89.4737, 46.2097],
       [-82.0177, 29.6878],
-      [-89.7048, 45.9983],
-      [-99.1139, 47.1591]
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298]
     ]
   },
   "properties": {
     "title": "zimmerman_proj1",
-    "description": "All summaries for the Daily_Water_temperature variable for the zimmerman_proj1 model. Information for the model is provided as follows: I used an ARIMA model with one autoregressive term. I also included air pressure and air temperature.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, BARC, CRAM, SUGG, LIRO, PRLA.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the zimmerman_proj1 model. Information for the model is provided as follows: I used an ARIMA model with one autoregressive term. I also included air pressure and air temperature.\n                                    The model predicts this variable at the following sites: LIRO, PRLA, BARC, CRAM, SUGG, TOOK, PRPO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-06-14T00:00:00Z",
     "updated": "2025-06-14T00:00:00Z",
     "start_datetime": "2024-02-28T00:00:00Z",
@@ -36,7 +36,7 @@
         ]
       },
       {
-        "url": "www.ecoforecast.org",
+        "url": "https://ecoforecast.org/",
         "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
@@ -53,13 +53,13 @@
       "temperature",
       "Daily",
       "P1D",
-      "TOOK",
-      "PRPO",
+      "LIRO",
+      "PRLA",
       "BARC",
       "CRAM",
       "SUGG",
-      "LIRO",
-      "PRLA"
+      "TOOK",
+      "PRPO"
     ],
     "table:columns": [
       {
@@ -206,7 +206,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TOOK, PRPO, BARC, CRAM, SUGG, LIRO, PRLA"
+      "description": "LIRO, PRLA, BARC, CRAM, SUGG, TOOK, PRPO"
     },
     "4": {
       "type": "application/x-parquet",

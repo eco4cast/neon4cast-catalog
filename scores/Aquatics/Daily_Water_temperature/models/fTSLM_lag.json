@@ -21,15 +21,6 @@
       [-84.4374, 31.1854],
       [-122.1655, 44.2596],
       [-102.4471, 39.7582],
-      [-105.5442, 40.035],
-      [-89.7048, 45.9983],
-      [-99.1139, 47.1591],
-      [-119.0274, 36.9559],
-      [-87.7982, 32.5415],
-      [-66.7987, 18.1741],
-      [-147.504, 65.1532],
-      [-88.1589, 31.8534],
-      [-111.5081, 33.751],
       [-82.0177, 29.6878],
       [-72.3295, 42.4719],
       [-96.443, 38.9459],
@@ -42,12 +33,21 @@
       [-97.7823, 33.3785],
       [-121.9338, 45.7908],
       [-111.7979, 40.7839],
-      [-149.143, 68.6698]
+      [-149.143, 68.6698],
+      [-105.5442, 40.035],
+      [-89.7048, 45.9983],
+      [-99.1139, 47.1591],
+      [-119.0274, 36.9559],
+      [-87.7982, 32.5415],
+      [-66.7987, 18.1741],
+      [-147.504, 65.1532],
+      [-88.1589, 31.8534],
+      [-111.5081, 33.751]
     ]
   },
   "properties": {
     "title": "fTSLM_lag",
-    "description": "All scores for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, LEWI, BLUE, BLDE, BIGC, MAYF, WALK, LECO, FLNT, MCRA, ARIK, COMO, LIRO, PRLA, TECR, BLWA, GUIL, CARI, TOMB, SYCA, SUGG, HOPB, MCDI, BARC, KING, WLOU, CRAM, POSE, CUPE, PRIN, MART, REDB, OKSR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, LEWI, BLUE, BLDE, BIGC, MAYF, WALK, LECO, FLNT, MCRA, ARIK, SUGG, HOPB, MCDI, BARC, KING, WLOU, CRAM, POSE, CUPE, PRIN, MART, REDB, OKSR, COMO, LIRO, PRLA, TECR, BLWA, GUIL, CARI, TOMB, SYCA.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-08-11T00:00:00Z",
     "updated": "2024-08-23T00:00:00Z",
     "start_datetime": "2022-10-21T00:00:00Z",
@@ -63,7 +63,7 @@
         ]
       },
       {
-        "url": "www.ecoforecast.org",
+        "url": "https://ecoforecast.org/",
         "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
@@ -92,15 +92,6 @@
       "FLNT",
       "MCRA",
       "ARIK",
-      "COMO",
-      "LIRO",
-      "PRLA",
-      "TECR",
-      "BLWA",
-      "GUIL",
-      "CARI",
-      "TOMB",
-      "SYCA",
       "SUGG",
       "HOPB",
       "MCDI",
@@ -113,7 +104,16 @@
       "PRIN",
       "MART",
       "REDB",
-      "OKSR"
+      "OKSR",
+      "COMO",
+      "LIRO",
+      "PRLA",
+      "TECR",
+      "BLWA",
+      "GUIL",
+      "CARI",
+      "TOMB",
+      "SYCA"
     ],
     "table:columns": [
       {
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TOOK, PRPO, LEWI, BLUE, BLDE, BIGC, MAYF, WALK, LECO, FLNT, MCRA, ARIK, COMO, LIRO, PRLA, TECR, BLWA, GUIL, CARI, TOMB, SYCA, SUGG, HOPB, MCDI, BARC, KING, WLOU, CRAM, POSE, CUPE, PRIN, MART, REDB, OKSR"
+      "description": "TOOK, PRPO, LEWI, BLUE, BLDE, BIGC, MAYF, WALK, LECO, FLNT, MCRA, ARIK, SUGG, HOPB, MCDI, BARC, KING, WLOU, CRAM, POSE, CUPE, PRIN, MART, REDB, OKSR, COMO, LIRO, PRLA, TECR, BLWA, GUIL, CARI, TOMB, SYCA"
     },
     "4": {
       "type": "application/x-parquet",

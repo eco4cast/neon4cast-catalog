@@ -27,15 +27,6 @@
       [-87.8039, 32.5417],
       [-109.3883, 38.2483],
       [-155.3173, 19.5531],
-      [-112.4524, 40.1776],
-      [-103.0293, 40.4619],
-      [-99.0588, 35.4106],
-      [-110.8355, 31.9107],
-      [-78.1395, 38.8929],
-      [-78.0418, 39.0337],
-      [-84.4686, 31.1948],
-      [-104.7456, 40.8155],
-      [-119.2622, 37.0334],
       [-121.9519, 45.8205],
       [-89.5373, 46.2339],
       [-81.4362, 28.1251],
@@ -55,12 +46,21 @@
       [-156.6194, 71.2824],
       [-97.57, 33.4012],
       [-72.1727, 42.5369],
-      [-145.7514, 63.8811]
+      [-145.7514, 63.8811],
+      [-112.4524, 40.1776],
+      [-103.0293, 40.4619],
+      [-99.0588, 35.4106],
+      [-110.8355, 31.9107],
+      [-78.1395, 38.8929],
+      [-78.0418, 39.0337],
+      [-84.4686, 31.1948],
+      [-104.7456, 40.8155],
+      [-119.2622, 37.0334]
     ]
   },
   "properties": {
     "title": "tg_precip_lm_all_sites",
-    "description": "All scores for the Daily_latent_heat_flux variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: TREE, RMNP, SJER, BART, STEI, JORN, SERC, TALL, GRSM, ABBY, NIWO, KONZ, LAJA, LENO, MLBS, DELA, MOAB, PUUM, ONAQ, STER, OAES, SRER, SCBI, BLAN, JERC, CPER, SOAP, WREF, UNDE, DSNY, WOOD, TEAK, KONA, UKFS, DCFS, OSBS, ORNL, BONA, TOOL, GUAN, NOGP, YELL, HEAL, BARR, CLBJ, HARV, DEJU.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_latent_heat_flux variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: TREE, RMNP, SJER, BART, STEI, JORN, SERC, TALL, GRSM, ABBY, NIWO, KONZ, LAJA, LENO, MLBS, DELA, MOAB, PUUM, WREF, UNDE, DSNY, WOOD, TEAK, KONA, UKFS, DCFS, OSBS, ORNL, BONA, TOOL, GUAN, NOGP, YELL, HEAL, BARR, CLBJ, HARV, DEJU, ONAQ, STER, OAES, SRER, SCBI, BLAN, JERC, CPER, SOAP.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-08-16T00:00:00Z",
     "updated": "2024-08-29T00:00:00Z",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -76,7 +76,7 @@
         ]
       },
       {
-        "url": "www.ecoforecast.org",
+        "url": "https://ecoforecast.org/",
         "name": "Ecological Forecasting Initiative",
         "roles": [
           "host"
@@ -111,15 +111,6 @@
       "DELA",
       "MOAB",
       "PUUM",
-      "ONAQ",
-      "STER",
-      "OAES",
-      "SRER",
-      "SCBI",
-      "BLAN",
-      "JERC",
-      "CPER",
-      "SOAP",
       "WREF",
       "UNDE",
       "DSNY",
@@ -139,7 +130,16 @@
       "BARR",
       "CLBJ",
       "HARV",
-      "DEJU"
+      "DEJU",
+      "ONAQ",
+      "STER",
+      "OAES",
+      "SRER",
+      "SCBI",
+      "BLAN",
+      "JERC",
+      "CPER",
+      "SOAP"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TREE, RMNP, SJER, BART, STEI, JORN, SERC, TALL, GRSM, ABBY, NIWO, KONZ, LAJA, LENO, MLBS, DELA, MOAB, PUUM, ONAQ, STER, OAES, SRER, SCBI, BLAN, JERC, CPER, SOAP, WREF, UNDE, DSNY, WOOD, TEAK, KONA, UKFS, DCFS, OSBS, ORNL, BONA, TOOL, GUAN, NOGP, YELL, HEAL, BARR, CLBJ, HARV, DEJU"
+      "description": "TREE, RMNP, SJER, BART, STEI, JORN, SERC, TALL, GRSM, ABBY, NIWO, KONZ, LAJA, LENO, MLBS, DELA, MOAB, PUUM, WREF, UNDE, DSNY, WOOD, TEAK, KONA, UKFS, DCFS, OSBS, ORNL, BONA, TOOL, GUAN, NOGP, YELL, HEAL, BARR, CLBJ, HARV, DEJU, ONAQ, STER, OAES, SRER, SCBI, BLAN, JERC, CPER, SOAP"
     },
     "4": {
       "type": "application/x-parquet",
