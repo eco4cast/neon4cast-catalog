@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
       [-122.1655, 44.2596],
       [-102.4471, 39.7582],
       [-87.4077, 32.9604],
@@ -17,10 +21,6 @@
       [-84.4374, 31.1854],
       [-119.2575, 37.0597],
       [-83.5038, 35.6904],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
       [-147.504, 65.1532],
       [-111.5081, 33.751],
       [-66.7987, 18.1741],
@@ -47,11 +47,11 @@
   },
   "properties": {
     "title": "climatology",
-    "description": "All summaries for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: MCRA, ARIK, MAYF, WALK, BLDE, FLNT, BIGC, LECO, TOOK, BLUE, LEWI, PRPO, CARI, SYCA, GUIL, BLWA, PRLA, TOMB, LIRO, TECR, COMO, REDB, MCDI, PRIN, WLOU, HOPB, BARC, SUGG, CUPE, CRAM, KING, POSE, MART, OKSR.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2025-10-02T00:00:00Z",
-    "updated": "2025-10-02T00:00:00Z",
+    "description": "All summaries for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: TOOK, BLUE, LEWI, PRPO, MCRA, ARIK, MAYF, WALK, BLDE, FLNT, BIGC, LECO, CARI, SYCA, GUIL, BLWA, PRLA, TOMB, LIRO, TECR, COMO, REDB, MCDI, PRIN, WLOU, HOPB, BARC, SUGG, CUPE, CRAM, KING, POSE, MART, OKSR.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "datetime": "2025-10-03T00:00:00Z",
+    "updated": "2025-10-03T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
-    "end_datetime": "2025-11-06T00:00:00Z",
+    "end_datetime": "2025-11-07T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "TOOK",
+      "BLUE",
+      "LEWI",
+      "PRPO",
       "MCRA",
       "ARIK",
       "MAYF",
@@ -88,10 +92,6 @@
       "FLNT",
       "BIGC",
       "LECO",
-      "TOOK",
-      "BLUE",
-      "LEWI",
-      "PRPO",
       "CARI",
       "SYCA",
       "GUIL",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "MCRA, ARIK, MAYF, WALK, BLDE, FLNT, BIGC, LECO, TOOK, BLUE, LEWI, PRPO, CARI, SYCA, GUIL, BLWA, PRLA, TOMB, LIRO, TECR, COMO, REDB, MCDI, PRIN, WLOU, HOPB, BARC, SUGG, CUPE, CRAM, KING, POSE, MART, OKSR"
+      "description": "TOOK, BLUE, LEWI, PRPO, MCRA, ARIK, MAYF, WALK, BLDE, FLNT, BIGC, LECO, CARI, SYCA, GUIL, BLWA, PRLA, TOMB, LIRO, TECR, COMO, REDB, MCDI, PRIN, WLOU, HOPB, BARC, SUGG, CUPE, CRAM, KING, POSE, MART, OKSR"
     },
     "4": {
       "type": "application/x-parquet",

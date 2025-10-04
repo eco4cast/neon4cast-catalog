@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fARIMA_clim_ensemble.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flareGLM_noDA.json"
     },
     {
@@ -32,6 +27,21 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fARIMA_clim_ensemble.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/hotdeck.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GLEON_physics.json"
     },
     {
       "rel": "item",
@@ -51,17 +61,52 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/hotdeck.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_physics.json"
+      "href": "./models/flare_ler.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/precip_mod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/mkricheldorf_w_lag.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/GLEON_JRabaey_temp_physics.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -76,7 +121,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/mlp1_wtempforecast_LF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -91,16 +141,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mlp1_wtempforecast_LF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm.json"
     },
     {
@@ -111,52 +151,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mkricheldorf_w_lag.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flare_ler.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/precip_mod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareGLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
+      "href": "./models/fTSLM_lag.json"
     },
     {
       "rel": "item",
@@ -186,11 +181,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
@@ -201,17 +191,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/flareGLM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/flare_ler_baselines.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "parent",
@@ -256,7 +256,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2025-11-06T00:00:00Z"
+          "2025-11-07T00:00:00Z"
         ]
       ]
     }
