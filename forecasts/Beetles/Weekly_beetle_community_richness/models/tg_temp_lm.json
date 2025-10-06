@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-89.5857, 45.4937],
-      [-71.2874, 44.0639],
-      [-106.8425, 32.5907],
-      [-87.3933, 32.9505],
-      [-89.5864, 45.5089],
-      [-105.546, 40.2759],
-      [-76.56, 38.8901],
-      [-119.7323, 37.1088],
       [-81.9934, 29.6893],
       [-95.1921, 39.0404],
       [-66.8687, 17.9696],
@@ -55,12 +47,20 @@
       [-78.1395, 38.8929],
       [-99.0588, 35.4106],
       [-119.2622, 37.0334],
-      [-84.4686, 31.1948]
+      [-84.4686, 31.1948],
+      [-89.5857, 45.4937],
+      [-71.2874, 44.0639],
+      [-106.8425, 32.5907],
+      [-87.3933, 32.9505],
+      [-89.5864, 45.5089],
+      [-105.546, 40.2759],
+      [-76.56, 38.8901],
+      [-119.7323, 37.1088]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All forecasts for the Weekly_beetle_community_richness variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: TREE, BART, JORN, TALL, STEI, RMNP, SERC, SJER, OSBS, UKFS, GUAN, HARV, WREF, UNDE, DCFS, NOGP, DEJU, DSNY, TEAK, WOOD, KONA, TOOL, BONA, HEAL, ORNL, CLBJ, BARR, YELL, DELA, KONZ, PUUM, MLBS, LAJA, ABBY, GRSM, LENO, NIWO, MOAB, BLAN, CPER, SRER, STER, ONAQ, SCBI, OAES, SOAP, JERC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_richness variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: OSBS, UKFS, GUAN, HARV, WREF, UNDE, DCFS, NOGP, DEJU, DSNY, TEAK, WOOD, KONA, TOOL, BONA, HEAL, ORNL, CLBJ, BARR, YELL, DELA, KONZ, PUUM, MLBS, LAJA, ABBY, GRSM, LENO, NIWO, MOAB, BLAN, CPER, SRER, STER, ONAQ, SCBI, OAES, SOAP, JERC, TREE, BART, JORN, TALL, STEI, RMNP, SERC, SJER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -93,14 +93,6 @@
       "richness",
       "Weekly",
       "P1W",
-      "TREE",
-      "BART",
-      "JORN",
-      "TALL",
-      "STEI",
-      "RMNP",
-      "SERC",
-      "SJER",
       "OSBS",
       "UKFS",
       "GUAN",
@@ -139,7 +131,15 @@
       "SCBI",
       "OAES",
       "SOAP",
-      "JERC"
+      "JERC",
+      "TREE",
+      "BART",
+      "JORN",
+      "TALL",
+      "STEI",
+      "RMNP",
+      "SERC",
+      "SJER"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TREE, BART, JORN, TALL, STEI, RMNP, SERC, SJER, OSBS, UKFS, GUAN, HARV, WREF, UNDE, DCFS, NOGP, DEJU, DSNY, TEAK, WOOD, KONA, TOOL, BONA, HEAL, ORNL, CLBJ, BARR, YELL, DELA, KONZ, PUUM, MLBS, LAJA, ABBY, GRSM, LENO, NIWO, MOAB, BLAN, CPER, SRER, STER, ONAQ, SCBI, OAES, SOAP, JERC"
+      "description": "OSBS, UKFS, GUAN, HARV, WREF, UNDE, DCFS, NOGP, DEJU, DSNY, TEAK, WOOD, KONA, TOOL, BONA, HEAL, ORNL, CLBJ, BARR, YELL, DELA, KONZ, PUUM, MLBS, LAJA, ABBY, GRSM, LENO, NIWO, MOAB, BLAN, CPER, SRER, STER, ONAQ, SCBI, OAES, SOAP, JERC, TREE, BART, JORN, TALL, STEI, RMNP, SERC, SJER"
     },
     "4": {
       "type": "application/x-parquet",

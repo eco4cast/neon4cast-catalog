@@ -11,12 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -26,7 +21,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_humidity_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
@@ -41,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
