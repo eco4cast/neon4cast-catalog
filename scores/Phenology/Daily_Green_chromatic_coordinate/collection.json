@@ -26,7 +26,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -61,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -136,11 +136,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/NEFIpheno.json"
     },
     {
@@ -167,6 +162,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
     },
     {
       "rel": "parent",
@@ -211,7 +211,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2025-10-04T00:00:00Z"
+          "2025-10-05T00:00:00Z"
         ]
       ]
     }

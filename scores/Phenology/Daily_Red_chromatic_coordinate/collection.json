@@ -86,12 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-10-04T00:00:00Z"
+          "2025-10-05T00:00:00Z"
         ]
       ]
     }
