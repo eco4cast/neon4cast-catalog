@@ -21,6 +21,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/NJC_Ticks.json"
     },
     {
@@ -32,16 +42,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/VTicks.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
