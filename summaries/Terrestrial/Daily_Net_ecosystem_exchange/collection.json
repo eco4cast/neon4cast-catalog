@@ -11,17 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -36,7 +26,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -61,7 +51,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/bookcast_forest.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2025-11-12T00:00:00Z"
+          "2025-11-13T00:00:00Z"
         ]
       ]
     }

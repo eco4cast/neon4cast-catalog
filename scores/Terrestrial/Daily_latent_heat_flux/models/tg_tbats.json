@@ -19,6 +19,14 @@
       [-80.5248, 37.3783],
       [-105.5824, 40.0543],
       [-155.3173, 19.5531],
+      [-105.546, 40.2759],
+      [-89.5857, 45.4937],
+      [-106.8425, 32.5907],
+      [-87.3933, 32.9505],
+      [-89.5864, 45.5089],
+      [-76.56, 38.8901],
+      [-119.7323, 37.1088],
+      [-71.2874, 44.0639],
       [-119.006, 37.0058],
       [-100.9154, 46.7697],
       [-89.5373, 46.2339],
@@ -47,20 +55,12 @@
       [-78.0418, 39.0337],
       [-112.4524, 40.1776],
       [-103.0293, 40.4619],
-      [-110.8355, 31.9107],
-      [-105.546, 40.2759],
-      [-89.5857, 45.4937],
-      [-106.8425, 32.5907],
-      [-87.3933, 32.9505],
-      [-89.5864, 45.5089],
-      [-76.56, 38.8901],
-      [-119.7323, 37.1088],
-      [-71.2874, 44.0639]
+      [-110.8355, 31.9107]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All scores for the Daily_latent_heat_flux variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: MOAB, KONZ, ABBY, DELA, LAJA, LENO, GRSM, MLBS, NIWO, PUUM, TEAK, NOGP, UNDE, CLBJ, GUAN, TOOL, DCFS, BARR, WOOD, HARV, UKFS, ORNL, OSBS, BONA, WREF, DSNY, YELL, KONA, DEJU, HEAL, CPER, OAES, JERC, SCBI, SOAP, BLAN, ONAQ, STER, SRER, RMNP, TREE, JORN, TALL, STEI, SERC, SJER, BART.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_latent_heat_flux variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: MOAB, KONZ, ABBY, DELA, LAJA, LENO, GRSM, MLBS, NIWO, PUUM, RMNP, TREE, JORN, TALL, STEI, SERC, SJER, BART, TEAK, NOGP, UNDE, CLBJ, GUAN, TOOL, DCFS, BARR, WOOD, HARV, UKFS, ORNL, OSBS, BONA, WREF, DSNY, YELL, KONA, DEJU, HEAL, CPER, OAES, JERC, SCBI, SOAP, BLAN, ONAQ, STER, SRER.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -103,6 +103,14 @@
       "MLBS",
       "NIWO",
       "PUUM",
+      "RMNP",
+      "TREE",
+      "JORN",
+      "TALL",
+      "STEI",
+      "SERC",
+      "SJER",
+      "BART",
       "TEAK",
       "NOGP",
       "UNDE",
@@ -131,15 +139,7 @@
       "BLAN",
       "ONAQ",
       "STER",
-      "SRER",
-      "RMNP",
-      "TREE",
-      "JORN",
-      "TALL",
-      "STEI",
-      "SERC",
-      "SJER",
-      "BART"
+      "SRER"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "MOAB, KONZ, ABBY, DELA, LAJA, LENO, GRSM, MLBS, NIWO, PUUM, TEAK, NOGP, UNDE, CLBJ, GUAN, TOOL, DCFS, BARR, WOOD, HARV, UKFS, ORNL, OSBS, BONA, WREF, DSNY, YELL, KONA, DEJU, HEAL, CPER, OAES, JERC, SCBI, SOAP, BLAN, ONAQ, STER, SRER, RMNP, TREE, JORN, TALL, STEI, SERC, SJER, BART"
+      "description": "MOAB, KONZ, ABBY, DELA, LAJA, LENO, GRSM, MLBS, NIWO, PUUM, RMNP, TREE, JORN, TALL, STEI, SERC, SJER, BART, TEAK, NOGP, UNDE, CLBJ, GUAN, TOOL, DCFS, BARR, WOOD, HARV, UKFS, ORNL, OSBS, BONA, WREF, DSNY, YELL, KONA, DEJU, HEAL, CPER, OAES, JERC, SCBI, SOAP, BLAN, ONAQ, STER, SRER"
     },
     "4": {
       "type": "application/x-parquet",
