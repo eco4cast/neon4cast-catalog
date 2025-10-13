@@ -61,10 +61,10 @@
   "properties": {
     "title": "climatology",
     "description": "All summaries for the Daily_Red_chromatic_coordinate variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: ORNL, CLBJ, HARV, DCFS, HEAL, GUAN, WREF, OSBS, DSNY, TEAK, YELL, UKFS, UNDE, KONA, BONA, NOGP, WOOD, BARR, TOOL, DEJU, JORN, TALL, TREE, SERC, SJER, BART, RMNP, STEI, OAES, SOAP, CPER, ONAQ, BLAN, JERC, STER, SCBI, SRER, KONZ, ABBY, DELA, MOAB, PUUM, NIWO, LENO, MLBS, LAJA, GRSM.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2025-10-11T00:00:00Z",
-    "updated": "2025-10-11T00:00:00Z",
+    "datetime": "2025-10-12T00:00:00Z",
+    "updated": "2025-10-12T00:00:00Z",
     "start_datetime": "2021-01-01T00:00:00Z",
-    "end_datetime": "2025-11-15T00:00:00Z",
+    "end_datetime": "2025-11-16T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
