@@ -101,6 +101,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -132,11 +137,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_elasticNet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-08-31T00:00:00Z"
+          "2025-09-30T00:00:00Z"
         ]
       ]
     }

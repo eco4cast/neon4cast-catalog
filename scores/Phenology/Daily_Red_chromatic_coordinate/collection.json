@@ -26,11 +26,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
     },
     {
@@ -52,6 +47,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-10-14T00:00:00Z"
+          "2025-10-15T00:00:00Z"
         ]
       ]
     }
