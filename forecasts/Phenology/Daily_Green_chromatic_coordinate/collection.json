@@ -11,11 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -96,6 +91,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
@@ -106,7 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "parent",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-11-23T00:00:00Z"
+          "2025-11-24T00:00:00Z"
         ]
       ]
     }
