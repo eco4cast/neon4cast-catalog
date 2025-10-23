@@ -66,11 +66,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -107,6 +102,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "parent",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2025-10-12T00:00:00Z"
+          "2025-10-13T00:00:00Z"
         ]
       ]
     }

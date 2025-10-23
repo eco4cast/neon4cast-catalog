@@ -136,6 +136,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/Fourier.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/NEFIpheno.json"
     },
     {
@@ -162,11 +167,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Fourier.json"
     },
     {
       "rel": "parent",
@@ -211,7 +211,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2025-10-20T00:00:00Z"
+          "2025-10-21T00:00:00Z"
         ]
       ]
     }
