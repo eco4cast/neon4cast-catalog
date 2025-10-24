@@ -29,14 +29,6 @@
       [-145.7514, 63.8811],
       [-121.9519, 45.8205],
       [-156.6194, 71.2824],
-      [-106.8425, 32.5907],
-      [-119.7323, 37.1088],
-      [-76.56, 38.8901],
-      [-89.5864, 45.5089],
-      [-87.3933, 32.9505],
-      [-71.2874, 44.0639],
-      [-105.546, 40.2759],
-      [-89.5857, 45.4937],
       [-112.4524, 40.1776],
       [-104.7456, 40.8155],
       [-103.0293, 40.4619],
@@ -55,12 +47,20 @@
       [-83.5019, 35.689],
       [-105.5824, 40.0543],
       [-80.5248, 37.3783],
-      [-67.0769, 18.0213]
+      [-67.0769, 18.0213],
+      [-106.8425, 32.5907],
+      [-119.7323, 37.1088],
+      [-76.56, 38.8901],
+      [-89.5864, 45.5089],
+      [-87.3933, 32.9505],
+      [-71.2874, 44.0639],
+      [-105.546, 40.2759],
+      [-89.5857, 45.4937]
     ]
   },
   "properties": {
     "title": "tg_precip_lm",
-    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: OSBS, TOOL, CLBJ, UKFS, HARV, HEAL, BONA, GUAN, NOGP, UNDE, TEAK, KONA, DSNY, YELL, WOOD, ORNL, DCFS, DEJU, WREF, BARR, JORN, SJER, SERC, STEI, TALL, BART, RMNP, TREE, ONAQ, CPER, STER, SRER, SCBI, OAES, SOAP, BLAN, JERC, ABBY, LENO, PUUM, DELA, KONZ, MOAB, GRSM, NIWO, MLBS, LAJA.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: OSBS, TOOL, CLBJ, UKFS, HARV, HEAL, BONA, GUAN, NOGP, UNDE, TEAK, KONA, DSNY, YELL, WOOD, ORNL, DCFS, DEJU, WREF, BARR, ONAQ, CPER, STER, SRER, SCBI, OAES, SOAP, BLAN, JERC, ABBY, LENO, PUUM, DELA, KONZ, MOAB, GRSM, NIWO, MLBS, LAJA, JORN, SJER, SERC, STEI, TALL, BART, RMNP, TREE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-02-03T00:00:00Z",
     "updated": "2024-07-04T00:00:00Z",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -113,14 +113,6 @@
       "DEJU",
       "WREF",
       "BARR",
-      "JORN",
-      "SJER",
-      "SERC",
-      "STEI",
-      "TALL",
-      "BART",
-      "RMNP",
-      "TREE",
       "ONAQ",
       "CPER",
       "STER",
@@ -139,7 +131,15 @@
       "GRSM",
       "NIWO",
       "MLBS",
-      "LAJA"
+      "LAJA",
+      "JORN",
+      "SJER",
+      "SERC",
+      "STEI",
+      "TALL",
+      "BART",
+      "RMNP",
+      "TREE"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "OSBS, TOOL, CLBJ, UKFS, HARV, HEAL, BONA, GUAN, NOGP, UNDE, TEAK, KONA, DSNY, YELL, WOOD, ORNL, DCFS, DEJU, WREF, BARR, JORN, SJER, SERC, STEI, TALL, BART, RMNP, TREE, ONAQ, CPER, STER, SRER, SCBI, OAES, SOAP, BLAN, JERC, ABBY, LENO, PUUM, DELA, KONZ, MOAB, GRSM, NIWO, MLBS, LAJA"
+      "description": "OSBS, TOOL, CLBJ, UKFS, HARV, HEAL, BONA, GUAN, NOGP, UNDE, TEAK, KONA, DSNY, YELL, WOOD, ORNL, DCFS, DEJU, WREF, BARR, ONAQ, CPER, STER, SRER, SCBI, OAES, SOAP, BLAN, JERC, ABBY, LENO, PUUM, DELA, KONZ, MOAB, GRSM, NIWO, MLBS, LAJA, JORN, SJER, SERC, STEI, TALL, BART, RMNP, TREE"
     },
     "4": {
       "type": "application/x-parquet",

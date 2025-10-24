@@ -19,15 +19,6 @@
       [-67.0769, 18.0213],
       [-83.5019, 35.689],
       [-88.1612, 31.8539],
-      [-110.8355, 31.9107],
-      [-78.1395, 38.8929],
-      [-103.0293, 40.4619],
-      [-104.7456, 40.8155],
-      [-119.2622, 37.0334],
-      [-112.4524, 40.1776],
-      [-84.4686, 31.1948],
-      [-78.0418, 39.0337],
-      [-99.0588, 35.4106],
       [-105.546, 40.2759],
       [-106.8425, 32.5907],
       [-89.5864, 45.5089],
@@ -55,12 +46,21 @@
       [-121.9519, 45.8205],
       [-96.6129, 39.1104],
       [-84.2826, 35.9641],
-      [-99.1066, 47.1617]
+      [-99.1066, 47.1617],
+      [-110.8355, 31.9107],
+      [-78.1395, 38.8929],
+      [-103.0293, 40.4619],
+      [-104.7456, 40.8155],
+      [-119.2622, 37.0334],
+      [-112.4524, 40.1776],
+      [-84.4686, 31.1948],
+      [-78.0418, 39.0337],
+      [-99.0588, 35.4106]
     ]
   },
   "properties": {
     "title": "tg_randfor",
-    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: DELA, PUUM, ABBY, KONZ, NIWO, MLBS, MOAB, LAJA, GRSM, LENO, SRER, SCBI, STER, CPER, SOAP, ONAQ, JERC, BLAN, OAES, RMNP, JORN, STEI, TALL, SJER, BART, TREE, SERC, TEAK, HEAL, DEJU, CLBJ, BARR, OSBS, WOOD, DSNY, HARV, UKFS, GUAN, NOGP, TOOL, UNDE, BONA, YELL, WREF, KONA, ORNL, DCFS.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: DELA, PUUM, ABBY, KONZ, NIWO, MLBS, MOAB, LAJA, GRSM, LENO, RMNP, JORN, STEI, TALL, SJER, BART, TREE, SERC, TEAK, HEAL, DEJU, CLBJ, BARR, OSBS, WOOD, DSNY, HARV, UKFS, GUAN, NOGP, TOOL, UNDE, BONA, YELL, WREF, KONA, ORNL, DCFS, SRER, SCBI, STER, CPER, SOAP, ONAQ, JERC, BLAN, OAES.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -103,15 +103,6 @@
       "LAJA",
       "GRSM",
       "LENO",
-      "SRER",
-      "SCBI",
-      "STER",
-      "CPER",
-      "SOAP",
-      "ONAQ",
-      "JERC",
-      "BLAN",
-      "OAES",
       "RMNP",
       "JORN",
       "STEI",
@@ -139,7 +130,16 @@
       "WREF",
       "KONA",
       "ORNL",
-      "DCFS"
+      "DCFS",
+      "SRER",
+      "SCBI",
+      "STER",
+      "CPER",
+      "SOAP",
+      "ONAQ",
+      "JERC",
+      "BLAN",
+      "OAES"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "DELA, PUUM, ABBY, KONZ, NIWO, MLBS, MOAB, LAJA, GRSM, LENO, SRER, SCBI, STER, CPER, SOAP, ONAQ, JERC, BLAN, OAES, RMNP, JORN, STEI, TALL, SJER, BART, TREE, SERC, TEAK, HEAL, DEJU, CLBJ, BARR, OSBS, WOOD, DSNY, HARV, UKFS, GUAN, NOGP, TOOL, UNDE, BONA, YELL, WREF, KONA, ORNL, DCFS"
+      "description": "DELA, PUUM, ABBY, KONZ, NIWO, MLBS, MOAB, LAJA, GRSM, LENO, RMNP, JORN, STEI, TALL, SJER, BART, TREE, SERC, TEAK, HEAL, DEJU, CLBJ, BARR, OSBS, WOOD, DSNY, HARV, UKFS, GUAN, NOGP, TOOL, UNDE, BONA, YELL, WREF, KONA, ORNL, DCFS, SRER, SCBI, STER, CPER, SOAP, ONAQ, JERC, BLAN, OAES"
     },
     "4": {
       "type": "application/x-parquet",
