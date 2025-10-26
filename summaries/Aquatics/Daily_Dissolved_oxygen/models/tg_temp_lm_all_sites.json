@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
       [-147.504, 65.1532],
       [-111.5081, 33.751],
       [-89.7048, 45.9983],
@@ -22,6 +18,10 @@
       [-87.7982, 32.5415],
       [-99.1139, 47.1591],
       [-105.5442, 40.035],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
       [-87.4077, 32.9604],
       [-110.5871, 44.9501],
       [-83.5038, 35.6904],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_temp_lm_all_sites",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, LEWI, BLUE, CARI, SYCA, LIRO, TOMB, GUIL, TECR, BLWA, PRLA, COMO, MAYF, BLDE, LECO, ARIK, WALK, FLNT, MCRA, BIGC, KING, PRIN, MCDI, REDB, CUPE, CRAM, POSE, BARC, MART, SUGG, HOPB, OKSR, WLOU.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: CARI, SYCA, LIRO, TOMB, GUIL, TECR, BLWA, PRLA, COMO, TOOK, PRPO, LEWI, BLUE, MAYF, BLDE, LECO, ARIK, WALK, FLNT, MCRA, BIGC, KING, PRIN, MCDI, REDB, CUPE, CRAM, POSE, BARC, MART, SUGG, HOPB, OKSR, WLOU.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "TOOK",
-      "PRPO",
-      "LEWI",
-      "BLUE",
       "CARI",
       "SYCA",
       "LIRO",
@@ -93,6 +89,10 @@
       "BLWA",
       "PRLA",
       "COMO",
+      "TOOK",
+      "PRPO",
+      "LEWI",
+      "BLUE",
       "MAYF",
       "BLDE",
       "LECO",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TOOK, PRPO, LEWI, BLUE, CARI, SYCA, LIRO, TOMB, GUIL, TECR, BLWA, PRLA, COMO, MAYF, BLDE, LECO, ARIK, WALK, FLNT, MCRA, BIGC, KING, PRIN, MCDI, REDB, CUPE, CRAM, POSE, BARC, MART, SUGG, HOPB, OKSR, WLOU"
+      "description": "CARI, SYCA, LIRO, TOMB, GUIL, TECR, BLWA, PRLA, COMO, TOOK, PRPO, LEWI, BLUE, MAYF, BLDE, LECO, ARIK, WALK, FLNT, MCRA, BIGC, KING, PRIN, MCDI, REDB, CUPE, CRAM, POSE, BARC, MART, SUGG, HOPB, OKSR, WLOU"
     },
     "4": {
       "type": "application/x-parquet",
