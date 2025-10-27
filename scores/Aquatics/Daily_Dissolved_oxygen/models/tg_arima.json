@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
       [-84.4374, 31.1854],
       [-84.2793, 35.9574],
       [-119.2575, 37.0597],
@@ -42,12 +38,16 @@
       [-147.504, 65.1532],
       [-66.7987, 18.1741],
       [-87.7982, 32.5415],
-      [-119.0274, 36.9559]
+      [-119.0274, 36.9559],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442]
     ]
   },
   "properties": {
     "title": "tg_arima",
-    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: PRPO, TOOK, LEWI, BLUE, FLNT, WALK, BIGC, MAYF, BLDE, LECO, ARIK, MCRA, MART, OKSR, CUPE, CRAM, BARC, POSE, REDB, WLOU, HOPB, KING, PRIN, SUGG, MCDI, SYCA, LIRO, PRLA, COMO, TOMB, CARI, GUIL, BLWA, TECR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: FLNT, WALK, BIGC, MAYF, BLDE, LECO, ARIK, MCRA, MART, OKSR, CUPE, CRAM, BARC, POSE, REDB, WLOU, HOPB, KING, PRIN, SUGG, MCDI, SYCA, LIRO, PRLA, COMO, TOMB, CARI, GUIL, BLWA, TECR, PRPO, TOOK, LEWI, BLUE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "PRPO",
-      "TOOK",
-      "LEWI",
-      "BLUE",
       "FLNT",
       "WALK",
       "BIGC",
@@ -113,7 +109,11 @@
       "CARI",
       "GUIL",
       "BLWA",
-      "TECR"
+      "TECR",
+      "PRPO",
+      "TOOK",
+      "LEWI",
+      "BLUE"
     ],
     "table:columns": [
       {
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "PRPO, TOOK, LEWI, BLUE, FLNT, WALK, BIGC, MAYF, BLDE, LECO, ARIK, MCRA, MART, OKSR, CUPE, CRAM, BARC, POSE, REDB, WLOU, HOPB, KING, PRIN, SUGG, MCDI, SYCA, LIRO, PRLA, COMO, TOMB, CARI, GUIL, BLWA, TECR"
+      "description": "FLNT, WALK, BIGC, MAYF, BLDE, LECO, ARIK, MCRA, MART, OKSR, CUPE, CRAM, BARC, POSE, REDB, WLOU, HOPB, KING, PRIN, SUGG, MCDI, SYCA, LIRO, PRLA, COMO, TOMB, CARI, GUIL, BLWA, TECR, PRPO, TOOK, LEWI, BLUE"
     },
     "4": {
       "type": "application/x-parquet",
