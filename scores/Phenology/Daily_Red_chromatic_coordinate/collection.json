@@ -41,12 +41,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
@@ -81,7 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2025-10-26T00:00:00Z"
+          "2025-10-27T00:00:00Z"
         ]
       ]
     }
