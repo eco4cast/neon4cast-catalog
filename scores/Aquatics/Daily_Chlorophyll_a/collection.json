@@ -11,6 +11,26 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/USGSHABs1.json"
     },
     {
@@ -27,26 +47,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -86,6 +86,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/fTSLM_lag.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -102,11 +107,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -136,12 +136,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "parent",
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-10-30T00:00:00Z"
+          "2025-10-31T00:00:00Z"
         ]
       ]
     }
