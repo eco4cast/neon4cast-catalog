@@ -16,17 +16,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/EFI_U_P.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -41,57 +31,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/CSP_Gwave.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/greenbears.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/xgboost_parallel.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/EFI_U_P.json"
     },
     {
       "rel": "item",
@@ -127,6 +72,61 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/CSP_Gwave.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/greenbears.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -211,7 +211,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2025-11-03T00:00:00Z"
+          "2025-11-04T00:00:00Z"
         ]
       ]
     }
