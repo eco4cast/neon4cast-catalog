@@ -9,6 +9,14 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-71.2874, 44.0639],
+      [-119.7323, 37.1088],
+      [-105.546, 40.2759],
+      [-106.8425, 32.5907],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901],
+      [-89.5857, 45.4937],
+      [-89.5864, 45.5089],
       [-78.0418, 39.0337],
       [-103.0293, 40.4619],
       [-104.7456, 40.8155],
@@ -47,20 +55,12 @@
       [-109.3883, 38.2483],
       [-96.5631, 39.1008],
       [-67.0769, 18.0213],
-      [-88.1612, 31.8539],
-      [-71.2874, 44.0639],
-      [-119.7323, 37.1088],
-      [-105.546, 40.2759],
-      [-106.8425, 32.5907],
-      [-87.3933, 32.9505],
-      [-76.56, 38.8901],
-      [-89.5857, 45.4937],
-      [-89.5864, 45.5089]
+      [-88.1612, 31.8539]
     ]
   },
   "properties": {
     "title": "tg_arima",
-    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: BLAN, STER, CPER, JERC, SRER, SCBI, OAES, ONAQ, SOAP, TEAK, HARV, YELL, KONA, CLBJ, OSBS, BARR, WOOD, UNDE, TOOL, ORNL, UKFS, HEAL, DEJU, WREF, NOGP, GUAN, DCFS, DSNY, BONA, NIWO, DELA, MLBS, PUUM, GRSM, ABBY, MOAB, KONZ, LAJA, LENO, BART, SJER, RMNP, JORN, TALL, SERC, TREE, STEI.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: BART, SJER, RMNP, JORN, TALL, SERC, TREE, STEI, BLAN, STER, CPER, JERC, SRER, SCBI, OAES, ONAQ, SOAP, TEAK, HARV, YELL, KONA, CLBJ, OSBS, BARR, WOOD, UNDE, TOOL, ORNL, UKFS, HEAL, DEJU, WREF, NOGP, GUAN, DCFS, DSNY, BONA, NIWO, DELA, MLBS, PUUM, GRSM, ABBY, MOAB, KONZ, LAJA, LENO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-07T00:00:00Z",
@@ -93,6 +93,14 @@
       "nee",
       "Daily",
       "P1D",
+      "BART",
+      "SJER",
+      "RMNP",
+      "JORN",
+      "TALL",
+      "SERC",
+      "TREE",
+      "STEI",
       "BLAN",
       "STER",
       "CPER",
@@ -131,15 +139,7 @@
       "MOAB",
       "KONZ",
       "LAJA",
-      "LENO",
-      "BART",
-      "SJER",
-      "RMNP",
-      "JORN",
-      "TALL",
-      "SERC",
-      "TREE",
-      "STEI"
+      "LENO"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BLAN, STER, CPER, JERC, SRER, SCBI, OAES, ONAQ, SOAP, TEAK, HARV, YELL, KONA, CLBJ, OSBS, BARR, WOOD, UNDE, TOOL, ORNL, UKFS, HEAL, DEJU, WREF, NOGP, GUAN, DCFS, DSNY, BONA, NIWO, DELA, MLBS, PUUM, GRSM, ABBY, MOAB, KONZ, LAJA, LENO, BART, SJER, RMNP, JORN, TALL, SERC, TREE, STEI"
+      "description": "BART, SJER, RMNP, JORN, TALL, SERC, TREE, STEI, BLAN, STER, CPER, JERC, SRER, SCBI, OAES, ONAQ, SOAP, TEAK, HARV, YELL, KONA, CLBJ, OSBS, BARR, WOOD, UNDE, TOOL, ORNL, UKFS, HEAL, DEJU, WREF, NOGP, GUAN, DCFS, DSNY, BONA, NIWO, DELA, MLBS, PUUM, GRSM, ABBY, MOAB, KONZ, LAJA, LENO"
     },
     "4": {
       "type": "application/x-parquet",
