@@ -31,6 +31,26 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/USGSHABs1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procCTMIMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
@@ -66,26 +86,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USGSHABs1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procCTMIMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procHinshelwoodMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -97,11 +97,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -132,6 +127,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
