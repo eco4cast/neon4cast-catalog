@@ -41,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
@@ -51,7 +51,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
@@ -86,12 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "parent",
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2025-12-16T00:00:00Z"
+          "2025-12-17T00:00:00Z"
         ]
       ]
     }

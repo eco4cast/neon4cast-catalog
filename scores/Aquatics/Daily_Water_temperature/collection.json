@@ -21,11 +21,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -52,6 +47,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
@@ -111,12 +111,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
+      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/acp_fableLM.json"
+      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -196,11 +196,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flare_ler_baselines.json"
     },
     {
@@ -247,6 +242,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
     },
     {
       "rel": "item",
