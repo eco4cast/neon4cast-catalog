@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-122.3303, 45.7624],
-      [-87.8039, 32.5417],
-      [-83.5019, 35.689],
-      [-96.5631, 39.1008],
-      [-67.0769, 18.0213],
-      [-88.1612, 31.8539],
-      [-80.5248, 37.3783],
-      [-109.3883, 38.2483],
-      [-105.5824, 40.0543],
-      [-155.3173, 19.5531],
       [-156.6194, 71.2824],
       [-147.5026, 65.154],
       [-97.57, 33.4012],
@@ -55,16 +45,26 @@
       [-119.7323, 37.1088],
       [-89.5864, 45.5089],
       [-87.3933, 32.9505],
-      [-89.5857, 45.4937]
+      [-89.5857, 45.4937],
+      [-122.3303, 45.7624],
+      [-87.8039, 32.5417],
+      [-83.5019, 35.689],
+      [-96.5631, 39.1008],
+      [-67.0769, 18.0213],
+      [-88.1612, 31.8539],
+      [-80.5248, 37.3783],
+      [-109.3883, 38.2483],
+      [-105.5824, 40.0543],
+      [-155.3173, 19.5531]
     ]
   },
   "properties": {
     "title": "climatology",
-    "description": "All forecasts for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2025-11-12T00:00:00Z",
-    "updated": "2025-11-12T00:00:00Z",
+    "description": "All forecasts for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "datetime": "2025-11-13T00:00:00Z",
+    "updated": "2025-11-13T00:00:00Z",
     "start_datetime": "2023-11-15T00:00:00Z",
-    "end_datetime": "2025-12-18T00:00:00Z",
+    "end_datetime": "2025-12-19T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
@@ -93,16 +93,6 @@
       "le",
       "Daily",
       "P1D",
-      "ABBY",
-      "DELA",
-      "GRSM",
-      "KONZ",
-      "LAJA",
-      "LENO",
-      "MLBS",
-      "MOAB",
-      "NIWO",
-      "PUUM",
       "BARR",
       "BONA",
       "CLBJ",
@@ -139,7 +129,17 @@
       "SJER",
       "STEI",
       "TALL",
-      "TREE"
+      "TREE",
+      "ABBY",
+      "DELA",
+      "GRSM",
+      "KONZ",
+      "LAJA",
+      "LENO",
+      "MLBS",
+      "MOAB",
+      "NIWO",
+      "PUUM"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE"
+      "description": "BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM"
     },
     "4": {
       "type": "application/x-parquet",
