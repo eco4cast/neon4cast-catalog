@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
       [-105.5442, 40.035],
       [-111.5081, 33.751],
       [-66.7987, 18.1741],
@@ -26,10 +30,6 @@
       [-102.4471, 39.7582],
       [-84.4374, 31.1854],
       [-119.2575, 37.0597],
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
       [-72.3295, 42.4719],
       [-96.443, 38.9459],
       [-66.9868, 18.1135],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "climatology",
-    "description": "All scores for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: COMO, SYCA, GUIL, CARI, LIRO, TOMB, BLWA, TECR, PRLA, MAYF, WALK, MCRA, LECO, BLDE, ARIK, FLNT, BIGC, LEWI, TOOK, BLUE, PRPO, HOPB, MCDI, CUPE, POSE, WLOU, PRIN, CRAM, BARC, REDB, OKSR, MART, SUGG, KING.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: LEWI, TOOK, BLUE, PRPO, COMO, SYCA, GUIL, CARI, LIRO, TOMB, BLWA, TECR, PRLA, MAYF, WALK, MCRA, LECO, BLDE, ARIK, FLNT, BIGC, HOPB, MCDI, CUPE, POSE, WLOU, PRIN, CRAM, BARC, REDB, OKSR, MART, SUGG, KING.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-10-30T00:00:00Z",
     "updated": "2025-10-30T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "LEWI",
+      "TOOK",
+      "BLUE",
+      "PRPO",
       "COMO",
       "SYCA",
       "GUIL",
@@ -97,10 +101,6 @@
       "ARIK",
       "FLNT",
       "BIGC",
-      "LEWI",
-      "TOOK",
-      "BLUE",
-      "PRPO",
       "HOPB",
       "MCDI",
       "CUPE",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "COMO, SYCA, GUIL, CARI, LIRO, TOMB, BLWA, TECR, PRLA, MAYF, WALK, MCRA, LECO, BLDE, ARIK, FLNT, BIGC, LEWI, TOOK, BLUE, PRPO, HOPB, MCDI, CUPE, POSE, WLOU, PRIN, CRAM, BARC, REDB, OKSR, MART, SUGG, KING"
+      "description": "LEWI, TOOK, BLUE, PRPO, COMO, SYCA, GUIL, CARI, LIRO, TOMB, BLWA, TECR, PRLA, MAYF, WALK, MCRA, LECO, BLDE, ARIK, FLNT, BIGC, HOPB, MCDI, CUPE, POSE, WLOU, PRIN, CRAM, BARC, REDB, OKSR, MART, SUGG, KING"
     },
     "4": {
       "type": "application/x-parquet",

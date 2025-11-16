@@ -11,22 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -61,7 +46,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "item",
@@ -102,11 +107,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "parent",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2025-11-05T00:00:00Z"
+          "2025-11-06T00:00:00Z"
         ]
       ]
     }
