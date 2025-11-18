@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
       [-149.143, 68.6698],
       [-97.7823, 33.3785],
       [-89.4737, 46.2097],
@@ -35,6 +31,10 @@
       [-105.5442, 40.035],
       [-147.504, 65.1532],
       [-99.1139, 47.1591],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-119.2575, 37.0597],
       [-122.1655, 44.2596],
       [-84.4374, 31.1854],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All summaries for the Daily_Water_temperature variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, TOOK, OKSR, PRIN, CRAM, MART, WLOU, MCDI, POSE, SUGG, KING, REDB, CUPE, HOPB, BARC, GUIL, BLWA, SYCA, LIRO, TECR, TOMB, COMO, CARI, PRLA, BIGC, MCRA, FLNT, LECO, WALK, ARIK, MAYF, BLDE.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: OKSR, PRIN, CRAM, MART, WLOU, MCDI, POSE, SUGG, KING, REDB, CUPE, HOPB, BARC, GUIL, BLWA, SYCA, LIRO, TECR, TOMB, COMO, CARI, PRLA, LEWI, BLUE, PRPO, TOOK, BIGC, MCRA, FLNT, LECO, WALK, ARIK, MAYF, BLDE.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-08-06T00:00:00Z",
@@ -80,10 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "LEWI",
-      "BLUE",
-      "PRPO",
-      "TOOK",
       "OKSR",
       "PRIN",
       "CRAM",
@@ -106,6 +102,10 @@
       "COMO",
       "CARI",
       "PRLA",
+      "LEWI",
+      "BLUE",
+      "PRPO",
+      "TOOK",
       "BIGC",
       "MCRA",
       "FLNT",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LEWI, BLUE, PRPO, TOOK, OKSR, PRIN, CRAM, MART, WLOU, MCDI, POSE, SUGG, KING, REDB, CUPE, HOPB, BARC, GUIL, BLWA, SYCA, LIRO, TECR, TOMB, COMO, CARI, PRLA, BIGC, MCRA, FLNT, LECO, WALK, ARIK, MAYF, BLDE"
+      "description": "OKSR, PRIN, CRAM, MART, WLOU, MCDI, POSE, SUGG, KING, REDB, CUPE, HOPB, BARC, GUIL, BLWA, SYCA, LIRO, TECR, TOMB, COMO, CARI, PRLA, LEWI, BLUE, PRPO, TOOK, BIGC, MCRA, FLNT, LECO, WALK, ARIK, MAYF, BLDE"
     },
     "4": {
       "type": "application/x-parquet",

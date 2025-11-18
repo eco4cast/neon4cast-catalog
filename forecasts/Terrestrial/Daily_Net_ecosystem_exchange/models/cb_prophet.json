@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-87.8039, 32.5417],
-      [-109.3883, 38.2483],
-      [-155.3173, 19.5531],
-      [-122.3303, 45.7624],
-      [-80.5248, 37.3783],
-      [-88.1612, 31.8539],
-      [-67.0769, 18.0213],
-      [-96.5631, 39.1008],
-      [-83.5019, 35.689],
-      [-105.5824, 40.0543],
       [-105.546, 40.2759],
       [-119.7323, 37.1088],
       [-71.2874, 44.0639],
@@ -54,12 +44,22 @@
       [-100.9154, 46.7697],
       [-72.1727, 42.5369],
       [-84.2826, 35.9641],
-      [-121.9519, 45.8205]
+      [-121.9519, 45.8205],
+      [-87.8039, 32.5417],
+      [-109.3883, 38.2483],
+      [-155.3173, 19.5531],
+      [-122.3303, 45.7624],
+      [-80.5248, 37.3783],
+      [-88.1612, 31.8539],
+      [-67.0769, 18.0213],
+      [-96.5631, 39.1008],
+      [-83.5019, 35.689],
+      [-105.5824, 40.0543]
     ]
   },
   "properties": {
     "title": "cb_prophet",
-    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: DELA, MOAB, PUUM, ABBY, MLBS, LENO, LAJA, KONZ, GRSM, NIWO, RMNP, SJER, BART, JORN, STEI, SERC, TREE, TALL, BLAN, SOAP, STER, ONAQ, SRER, CPER, JERC, OAES, SCBI, BARR, KONA, UKFS, UNDE, HEAL, DSNY, DEJU, TOOL, DCFS, GUAN, CLBJ, WOOD, OSBS, TEAK, BONA, NOGP, HARV, ORNL, WREF.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: RMNP, SJER, BART, JORN, STEI, SERC, TREE, TALL, BLAN, SOAP, STER, ONAQ, SRER, CPER, JERC, OAES, SCBI, BARR, KONA, UKFS, UNDE, HEAL, DSNY, DEJU, TOOL, DCFS, GUAN, CLBJ, WOOD, OSBS, TEAK, BONA, NOGP, HARV, ORNL, WREF, DELA, MOAB, PUUM, ABBY, MLBS, LENO, LAJA, KONZ, GRSM, NIWO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-06T00:00:00Z",
     "updated": "2024-02-07T00:00:00Z",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -92,16 +92,6 @@
       "nee",
       "Daily",
       "P1D",
-      "DELA",
-      "MOAB",
-      "PUUM",
-      "ABBY",
-      "MLBS",
-      "LENO",
-      "LAJA",
-      "KONZ",
-      "GRSM",
-      "NIWO",
       "RMNP",
       "SJER",
       "BART",
@@ -137,7 +127,17 @@
       "NOGP",
       "HARV",
       "ORNL",
-      "WREF"
+      "WREF",
+      "DELA",
+      "MOAB",
+      "PUUM",
+      "ABBY",
+      "MLBS",
+      "LENO",
+      "LAJA",
+      "KONZ",
+      "GRSM",
+      "NIWO"
     ],
     "table:columns": [
       {
@@ -259,7 +259,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "DELA, MOAB, PUUM, ABBY, MLBS, LENO, LAJA, KONZ, GRSM, NIWO, RMNP, SJER, BART, JORN, STEI, SERC, TREE, TALL, BLAN, SOAP, STER, ONAQ, SRER, CPER, JERC, OAES, SCBI, BARR, KONA, UKFS, UNDE, HEAL, DSNY, DEJU, TOOL, DCFS, GUAN, CLBJ, WOOD, OSBS, TEAK, BONA, NOGP, HARV, ORNL, WREF"
+      "description": "RMNP, SJER, BART, JORN, STEI, SERC, TREE, TALL, BLAN, SOAP, STER, ONAQ, SRER, CPER, JERC, OAES, SCBI, BARR, KONA, UKFS, UNDE, HEAL, DSNY, DEJU, TOOL, DCFS, GUAN, CLBJ, WOOD, OSBS, TEAK, BONA, NOGP, HARV, ORNL, WREF, DELA, MOAB, PUUM, ABBY, MLBS, LENO, LAJA, KONZ, GRSM, NIWO"
     },
     "4": {
       "type": "application/x-parquet",

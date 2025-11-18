@@ -11,12 +11,42 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/BU_Dem.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCLA_2022.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/NJC_Ticks.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -31,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_ets.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -51,42 +81,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_Dem.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCLA_2022.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/TickBench.json"
     },
     {
       "rel": "item",
@@ -107,11 +112,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/NJC_ETS_PF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/TickBench.json"
     },
     {
       "rel": "parent",

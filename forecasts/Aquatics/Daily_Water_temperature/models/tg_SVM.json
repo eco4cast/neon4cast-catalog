@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-84.2793, 35.9574],
-      [-110.5871, 44.9501],
-      [-83.5038, 35.6904],
-      [-84.4374, 31.1854],
-      [-102.4471, 39.7582],
-      [-122.1655, 44.2596],
-      [-87.4077, 32.9604],
-      [-119.2575, 37.0597],
       [-96.6242, 34.4442],
       [-77.9832, 39.0956],
       [-149.6106, 68.6307],
@@ -42,12 +34,20 @@
       [-78.1473, 38.8943],
       [-97.7823, 33.3785],
       [-89.4737, 46.2097],
-      [-96.6038, 39.1051]
+      [-96.6038, 39.1051],
+      [-84.2793, 35.9574],
+      [-110.5871, 44.9501],
+      [-83.5038, 35.6904],
+      [-84.4374, 31.1854],
+      [-102.4471, 39.7582],
+      [-122.1655, 44.2596],
+      [-87.4077, 32.9604],
+      [-119.2575, 37.0597]
     ]
   },
   "properties": {
     "title": "tg_SVM",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: WALK, BLDE, LECO, FLNT, ARIK, MCRA, MAYF, BIGC, BLUE, LEWI, TOOK, PRPO, TECR, LIRO, SYCA, GUIL, CARI, PRLA, BLWA, TOMB, COMO, BARC, MART, REDB, HOPB, CUPE, MCDI, WLOU, OKSR, SUGG, POSE, PRIN, CRAM, KING.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: BLUE, LEWI, TOOK, PRPO, TECR, LIRO, SYCA, GUIL, CARI, PRLA, BLWA, TOMB, COMO, BARC, MART, REDB, HOPB, CUPE, MCDI, WLOU, OKSR, SUGG, POSE, PRIN, CRAM, KING, WALK, BLDE, LECO, FLNT, ARIK, MCRA, MAYF, BIGC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -80,14 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "WALK",
-      "BLDE",
-      "LECO",
-      "FLNT",
-      "ARIK",
-      "MCRA",
-      "MAYF",
-      "BIGC",
       "BLUE",
       "LEWI",
       "TOOK",
@@ -113,7 +105,15 @@
       "POSE",
       "PRIN",
       "CRAM",
-      "KING"
+      "KING",
+      "WALK",
+      "BLDE",
+      "LECO",
+      "FLNT",
+      "ARIK",
+      "MCRA",
+      "MAYF",
+      "BIGC"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "WALK, BLDE, LECO, FLNT, ARIK, MCRA, MAYF, BIGC, BLUE, LEWI, TOOK, PRPO, TECR, LIRO, SYCA, GUIL, CARI, PRLA, BLWA, TOMB, COMO, BARC, MART, REDB, HOPB, CUPE, MCDI, WLOU, OKSR, SUGG, POSE, PRIN, CRAM, KING"
+      "description": "BLUE, LEWI, TOOK, PRPO, TECR, LIRO, SYCA, GUIL, CARI, PRLA, BLWA, TOMB, COMO, BARC, MART, REDB, HOPB, CUPE, MCDI, WLOU, OKSR, SUGG, POSE, PRIN, CRAM, KING, WALK, BLDE, LECO, FLNT, ARIK, MCRA, MAYF, BIGC"
     },
     "4": {
       "type": "application/x-parquet",
