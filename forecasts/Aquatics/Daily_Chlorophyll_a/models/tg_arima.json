@@ -9,21 +9,21 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-84.4374, 31.1854],
-      [-99.1139, 47.1591],
-      [-87.7982, 32.5415],
-      [-89.7048, 45.9983],
-      [-88.1589, 31.8534],
-      [-82.0084, 29.676],
-      [-89.4737, 46.2097],
       [-82.0177, 29.6878],
+      [-89.4737, 46.2097],
+      [-82.0084, 29.676],
       [-99.2531, 47.1298],
-      [-149.6106, 68.6307]
+      [-149.6106, 68.6307],
+      [-87.7982, 32.5415],
+      [-88.1589, 31.8534],
+      [-89.7048, 45.9983],
+      [-99.1139, 47.1591],
+      [-84.4374, 31.1854]
     ]
   },
   "properties": {
     "title": "tg_arima",
-    "description": "All forecasts for the Daily_Chlorophyll_a variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: FLNT, PRLA, BLWA, LIRO, TOMB, BARC, CRAM, SUGG, PRPO, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Chlorophyll_a variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: SUGG, CRAM, BARC, PRPO, TOOK, BLWA, TOMB, LIRO, PRLA, FLNT.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -56,16 +56,16 @@
       "chla",
       "Daily",
       "P1D",
-      "FLNT",
-      "PRLA",
-      "BLWA",
-      "LIRO",
-      "TOMB",
-      "BARC",
-      "CRAM",
       "SUGG",
+      "CRAM",
+      "BARC",
       "PRPO",
-      "TOOK"
+      "TOOK",
+      "BLWA",
+      "TOMB",
+      "LIRO",
+      "PRLA",
+      "FLNT"
     ],
     "table:columns": [
       {
@@ -187,7 +187,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "FLNT, PRLA, BLWA, LIRO, TOMB, BARC, CRAM, SUGG, PRPO, TOOK"
+      "description": "SUGG, CRAM, BARC, PRPO, TOOK, BLWA, TOMB, LIRO, PRLA, FLNT"
     },
     "4": {
       "type": "application/x-parquet",
