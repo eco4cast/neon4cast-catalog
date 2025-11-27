@@ -61,10 +61,10 @@
   "properties": {
     "title": "persistenceRW",
     "description": "All forecasts for the Daily_Red_chromatic_coordinate variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: JORN, TREE, SERC, SJER, STEI, BART, TALL, RMNP, ABBY, LENO, KONZ, PUUM, DELA, LAJA, GRSM, NIWO, MOAB, MLBS, DEJU, CLBJ, ORNL, UNDE, NOGP, YELL, TEAK, OSBS, DCFS, UKFS, HARV, BARR, DSNY, KONA, GUAN, WREF, HEAL, BONA, WOOD, TOOL, STER, SRER, JERC, SOAP, ONAQ, SCBI, BLAN, OAES, CPER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2025-11-25T00:00:00Z",
-    "updated": "2025-11-25T00:00:00Z",
+    "datetime": "2025-11-26T00:00:00Z",
+    "updated": "2025-11-26T00:00:00Z",
     "start_datetime": "2022-08-24T00:00:00Z",
-    "end_datetime": "2025-12-29T00:00:00Z",
+    "end_datetime": "2025-12-30T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",

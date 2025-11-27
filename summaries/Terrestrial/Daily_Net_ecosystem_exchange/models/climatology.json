@@ -61,10 +61,10 @@
   "properties": {
     "title": "climatology",
     "description": "All summaries for the Daily_Net_ecosystem_exchange variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: RMNP, SERC, SJER, STEI, TALL, TREE, BART, JORN, PUUM, MOAB, DELA, MLBS, GRSM, LENO, ABBY, LAJA, NIWO, KONZ, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, CLBJ, KONA, GUAN, BARR, DSNY, DEJU, BONA, HEAL, DCFS, HARV, OAES, ONAQ, SCBI, SOAP, SRER, STER, JERC, BLAN, CPER.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2025-11-25T00:00:00Z",
-    "updated": "2025-11-25T00:00:00Z",
+    "datetime": "2025-11-26T00:00:00Z",
+    "updated": "2025-11-26T00:00:00Z",
     "start_datetime": "2023-11-15T00:00:00Z",
-    "end_datetime": "2025-12-31T00:00:00Z",
+    "end_datetime": "2026-01-01T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
