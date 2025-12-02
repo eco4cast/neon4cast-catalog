@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
       [-105.5442, 40.035],
@@ -18,10 +22,6 @@
       [-119.0274, 36.9559],
       [-88.1589, 31.8534],
       [-111.5081, 33.751],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
       [-119.2575, 37.0597],
       [-122.1655, 44.2596],
       [-87.4077, 32.9604],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "fTSLM_lag",
-    "description": "All scores for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: BLWA, CARI, COMO, LIRO, PRLA, GUIL, TECR, TOMB, SYCA, TOOK, PRPO, LEWI, BLUE, BIGC, MCRA, MAYF, LECO, WALK, BLDE, FLNT, ARIK, WLOU, KING, CRAM, HOPB, POSE, MART, BARC, SUGG, PRIN, CUPE, MCDI, OKSR, REDB.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the fTSLM_lag model. Information for the model is provided as follows: This is a simple time series linear model in which water temperature is a function of air\ntemperature of that day and the previous day’s air temperature.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, LEWI, BLUE, BLWA, CARI, COMO, LIRO, PRLA, GUIL, TECR, TOMB, SYCA, BIGC, MCRA, MAYF, LECO, WALK, BLDE, FLNT, ARIK, WLOU, KING, CRAM, HOPB, POSE, MART, BARC, SUGG, PRIN, CUPE, MCDI, OKSR, REDB.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-08-11T00:00:00Z",
     "updated": "2024-08-23T00:00:00Z",
     "start_datetime": "2022-10-21T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "TOOK",
+      "PRPO",
+      "LEWI",
+      "BLUE",
       "BLWA",
       "CARI",
       "COMO",
@@ -89,10 +93,6 @@
       "TECR",
       "TOMB",
       "SYCA",
-      "TOOK",
-      "PRPO",
-      "LEWI",
-      "BLUE",
       "BIGC",
       "MCRA",
       "MAYF",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BLWA, CARI, COMO, LIRO, PRLA, GUIL, TECR, TOMB, SYCA, TOOK, PRPO, LEWI, BLUE, BIGC, MCRA, MAYF, LECO, WALK, BLDE, FLNT, ARIK, WLOU, KING, CRAM, HOPB, POSE, MART, BARC, SUGG, PRIN, CUPE, MCDI, OKSR, REDB"
+      "description": "TOOK, PRPO, LEWI, BLUE, BLWA, CARI, COMO, LIRO, PRLA, GUIL, TECR, TOMB, SYCA, BIGC, MCRA, MAYF, LECO, WALK, BLDE, FLNT, ARIK, WLOU, KING, CRAM, HOPB, POSE, MART, BARC, SUGG, PRIN, CUPE, MCDI, OKSR, REDB"
     },
     "4": {
       "type": "application/x-parquet",
