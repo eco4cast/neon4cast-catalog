@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
       [-66.7987, 18.1741],
       [-99.1139, 47.1591],
       [-105.5442, 40.035],
@@ -22,6 +18,10 @@
       [-147.504, 65.1532],
       [-111.5081, 33.751],
       [-87.7982, 32.5415],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
       [-96.443, 38.9459],
       [-89.4737, 46.2097],
       [-97.7823, 33.3785],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "air2waterSat_2",
-    "description": "All scores for the Daily_Water_temperature variable for the air2waterSat_2 model. Information for the model is provided as follows: The air2water model is a linear model fit using the function lm() in R and uses air temperature as\na covariate.\n                                    The model predicts this variable at the following sites: LEWI, PRPO, TOOK, BLUE, GUIL, PRLA, COMO, TOMB, LIRO, TECR, CARI, SYCA, BLWA, MCDI, CRAM, PRIN, CUPE, WLOU, KING, SUGG, HOPB, OKSR, BARC, MART, REDB, POSE, LECO, MCRA, ARIK, BIGC, FLNT, BLDE, MAYF, WALK.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the air2waterSat_2 model. Information for the model is provided as follows: The air2water model is a linear model fit using the function lm() in R and uses air temperature as\na covariate.\n                                    The model predicts this variable at the following sites: GUIL, PRLA, COMO, TOMB, LIRO, TECR, CARI, SYCA, BLWA, LEWI, PRPO, TOOK, BLUE, MCDI, CRAM, PRIN, CUPE, WLOU, KING, SUGG, HOPB, OKSR, BARC, MART, REDB, POSE, LECO, MCRA, ARIK, BIGC, FLNT, BLDE, MAYF, WALK.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2024-02-01T00:00:00Z",
     "updated": "2024-02-02T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "LEWI",
-      "PRPO",
-      "TOOK",
-      "BLUE",
       "GUIL",
       "PRLA",
       "COMO",
@@ -93,6 +89,10 @@
       "CARI",
       "SYCA",
       "BLWA",
+      "LEWI",
+      "PRPO",
+      "TOOK",
+      "BLUE",
       "MCDI",
       "CRAM",
       "PRIN",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LEWI, PRPO, TOOK, BLUE, GUIL, PRLA, COMO, TOMB, LIRO, TECR, CARI, SYCA, BLWA, MCDI, CRAM, PRIN, CUPE, WLOU, KING, SUGG, HOPB, OKSR, BARC, MART, REDB, POSE, LECO, MCRA, ARIK, BIGC, FLNT, BLDE, MAYF, WALK"
+      "description": "GUIL, PRLA, COMO, TOMB, LIRO, TECR, CARI, SYCA, BLWA, LEWI, PRPO, TOOK, BLUE, MCDI, CRAM, PRIN, CUPE, WLOU, KING, SUGG, HOPB, OKSR, BARC, MART, REDB, POSE, LECO, MCRA, ARIK, BIGC, FLNT, BLDE, MAYF, WALK"
     },
     "4": {
       "type": "application/x-parquet",
