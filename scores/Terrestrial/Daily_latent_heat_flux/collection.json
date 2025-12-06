@@ -11,11 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
     },
     {
@@ -52,6 +47,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2025-11-25T00:00:00Z"
+          "2025-11-26T00:00:00Z"
         ]
       ]
     }

@@ -11,31 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/hotdeck.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/BBTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/air2waterSat_2.json"
     },
     {
@@ -91,7 +66,37 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/hotdeck.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BBTW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/AquaticEcosystemsOxygen.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -112,11 +117,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -201,7 +201,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2025-12-02T00:00:00Z"
+          "2025-12-03T00:00:00Z"
         ]
       ]
     }
