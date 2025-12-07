@@ -10,18 +10,18 @@
     "type": "MultiPoint",
     "coordinates": [
       [-96.5631, 39.1008],
-      [-84.2826, 35.9641],
-      [-95.1921, 39.0404],
-      [-81.9934, 29.6893],
       [-78.1395, 38.8929],
       [-78.0418, 39.0337],
       [-76.56, 38.8901],
-      [-87.3933, 32.9505]
+      [-87.3933, 32.9505],
+      [-84.2826, 35.9641],
+      [-95.1921, 39.0404],
+      [-81.9934, 29.6893]
     ]
   },
   "properties": {
     "title": "tg_randfor",
-    "description": "All forecasts for the Weekly_Amblyomma_americanum_population variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: KONZ, ORNL, UKFS, OSBS, SCBI, BLAN, SERC, TALL.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_Amblyomma_americanum_population variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: KONZ, SCBI, BLAN, SERC, TALL, ORNL, UKFS, OSBS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2022-12-26T00:00:00Z",
@@ -55,13 +55,13 @@
       "Weekly",
       "P1W",
       "KONZ",
-      "ORNL",
-      "UKFS",
-      "OSBS",
       "SCBI",
       "BLAN",
       "SERC",
-      "TALL"
+      "TALL",
+      "ORNL",
+      "UKFS",
+      "OSBS"
     ],
     "table:columns": [
       {
@@ -183,7 +183,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "KONZ, ORNL, UKFS, OSBS, SCBI, BLAN, SERC, TALL"
+      "description": "KONZ, SCBI, BLAN, SERC, TALL, ORNL, UKFS, OSBS"
     },
     "4": {
       "type": "application/x-parquet",
