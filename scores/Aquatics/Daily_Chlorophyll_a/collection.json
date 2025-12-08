@@ -11,46 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USGSHABs1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procCTMIMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procHinshelwoodMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
@@ -86,7 +46,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -116,6 +91,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_ets.json"
     },
     {
@@ -141,7 +121,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/fTSLM_lag.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/USGSHABs1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procCTMIMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "parent",
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2025-12-04T00:00:00Z"
+          "2025-12-05T00:00:00Z"
         ]
       ]
     }
