@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
       [-66.9868, 18.1135],
       [-89.4737, 46.2097],
       [-72.3295, 42.4719],
@@ -42,12 +38,16 @@
       [-89.7048, 45.9983],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
-      [-88.1589, 31.8534]
+      [-88.1589, 31.8534],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: PRPO, LEWI, BLUE, TOOK, CUPE, CRAM, HOPB, POSE, WLOU, BARC, KING, REDB, PRIN, SUGG, MART, MCDI, OKSR, BLDE, WALK, ARIK, BIGC, MCRA, LECO, MAYF, FLNT, GUIL, PRLA, COMO, TECR, SYCA, LIRO, BLWA, CARI, TOMB.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: CUPE, CRAM, HOPB, POSE, WLOU, BARC, KING, REDB, PRIN, SUGG, MART, MCDI, OKSR, BLDE, WALK, ARIK, BIGC, MCRA, LECO, MAYF, FLNT, GUIL, PRLA, COMO, TECR, SYCA, LIRO, BLWA, CARI, TOMB, PRPO, LEWI, BLUE, TOOK.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "PRPO",
-      "LEWI",
-      "BLUE",
-      "TOOK",
       "CUPE",
       "CRAM",
       "HOPB",
@@ -113,7 +109,11 @@
       "LIRO",
       "BLWA",
       "CARI",
-      "TOMB"
+      "TOMB",
+      "PRPO",
+      "LEWI",
+      "BLUE",
+      "TOOK"
     ],
     "table:columns": [
       {
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "PRPO, LEWI, BLUE, TOOK, CUPE, CRAM, HOPB, POSE, WLOU, BARC, KING, REDB, PRIN, SUGG, MART, MCDI, OKSR, BLDE, WALK, ARIK, BIGC, MCRA, LECO, MAYF, FLNT, GUIL, PRLA, COMO, TECR, SYCA, LIRO, BLWA, CARI, TOMB"
+      "description": "CUPE, CRAM, HOPB, POSE, WLOU, BARC, KING, REDB, PRIN, SUGG, MART, MCDI, OKSR, BLDE, WALK, ARIK, BIGC, MCRA, LECO, MAYF, FLNT, GUIL, PRLA, COMO, TECR, SYCA, LIRO, BLWA, CARI, TOMB, PRPO, LEWI, BLUE, TOOK"
     },
     "4": {
       "type": "application/x-parquet",
