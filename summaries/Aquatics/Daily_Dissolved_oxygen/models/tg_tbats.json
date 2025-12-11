@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
       [-87.4077, 32.9604],
       [-84.4374, 31.1854],
       [-83.5038, 35.6904],
@@ -30,6 +26,10 @@
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
       [-89.7048, 45.9983],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
       [-121.9338, 45.7908],
       [-82.0177, 29.6878],
       [-72.3295, 42.4719],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: LEWI, BLUE, TOOK, PRPO, MAYF, FLNT, LECO, MCRA, BLDE, ARIK, WALK, BIGC, GUIL, TOMB, SYCA, COMO, TECR, PRLA, BLWA, CARI, LIRO, MART, SUGG, HOPB, REDB, CUPE, PRIN, KING, BARC, CRAM, WLOU, POSE, OKSR, MCDI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: MAYF, FLNT, LECO, MCRA, BLDE, ARIK, WALK, BIGC, GUIL, TOMB, SYCA, COMO, TECR, PRLA, BLWA, CARI, LIRO, LEWI, BLUE, TOOK, PRPO, MART, SUGG, HOPB, REDB, CUPE, PRIN, KING, BARC, CRAM, WLOU, POSE, OKSR, MCDI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-12T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "LEWI",
-      "BLUE",
-      "TOOK",
-      "PRPO",
       "MAYF",
       "FLNT",
       "LECO",
@@ -101,6 +97,10 @@
       "BLWA",
       "CARI",
       "LIRO",
+      "LEWI",
+      "BLUE",
+      "TOOK",
+      "PRPO",
       "MART",
       "SUGG",
       "HOPB",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LEWI, BLUE, TOOK, PRPO, MAYF, FLNT, LECO, MCRA, BLDE, ARIK, WALK, BIGC, GUIL, TOMB, SYCA, COMO, TECR, PRLA, BLWA, CARI, LIRO, MART, SUGG, HOPB, REDB, CUPE, PRIN, KING, BARC, CRAM, WLOU, POSE, OKSR, MCDI"
+      "description": "MAYF, FLNT, LECO, MCRA, BLDE, ARIK, WALK, BIGC, GUIL, TOMB, SYCA, COMO, TECR, PRLA, BLWA, CARI, LIRO, LEWI, BLUE, TOOK, PRPO, MART, SUGG, HOPB, REDB, CUPE, PRIN, KING, BARC, CRAM, WLOU, POSE, OKSR, MCDI"
     },
     "4": {
       "type": "application/x-parquet",

@@ -11,6 +11,31 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
@@ -46,26 +71,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
     },
     {
@@ -91,11 +96,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
@@ -106,7 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "parent",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-01-12T00:00:00Z"
+          "2026-01-13T00:00:00Z"
         ]
       ]
     }
