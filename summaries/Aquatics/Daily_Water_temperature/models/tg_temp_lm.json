@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
       [-102.4471, 39.7582],
       [-84.2793, 35.9574],
       [-122.1655, 44.2596],
@@ -17,10 +21,6 @@
       [-119.2575, 37.0597],
       [-110.5871, 44.9501],
       [-83.5038, 35.6904],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
       [-121.9338, 45.7908],
       [-89.4737, 46.2097],
       [-66.9868, 18.1135],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All summaries for the Daily_Water_temperature variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: ARIK, WALK, MCRA, MAYF, FLNT, BIGC, BLDE, LECO, BLUE, TOOK, PRPO, LEWI, MART, CRAM, CUPE, PRIN, OKSR, POSE, MCDI, REDB, KING, WLOU, SUGG, BARC, HOPB, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, TOMB, LIRO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: BLUE, TOOK, PRPO, LEWI, ARIK, WALK, MCRA, MAYF, FLNT, BIGC, BLDE, LECO, MART, CRAM, CUPE, PRIN, OKSR, POSE, MCDI, REDB, KING, WLOU, SUGG, BARC, HOPB, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, TOMB, LIRO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2021-12-18T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "BLUE",
+      "TOOK",
+      "PRPO",
+      "LEWI",
       "ARIK",
       "WALK",
       "MCRA",
@@ -88,10 +92,6 @@
       "BIGC",
       "BLDE",
       "LECO",
-      "BLUE",
-      "TOOK",
-      "PRPO",
-      "LEWI",
       "MART",
       "CRAM",
       "CUPE",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ARIK, WALK, MCRA, MAYF, FLNT, BIGC, BLDE, LECO, BLUE, TOOK, PRPO, LEWI, MART, CRAM, CUPE, PRIN, OKSR, POSE, MCDI, REDB, KING, WLOU, SUGG, BARC, HOPB, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, TOMB, LIRO"
+      "description": "BLUE, TOOK, PRPO, LEWI, ARIK, WALK, MCRA, MAYF, FLNT, BIGC, BLDE, LECO, MART, CRAM, CUPE, PRIN, OKSR, POSE, MCDI, REDB, KING, WLOU, SUGG, BARC, HOPB, CARI, SYCA, PRLA, GUIL, TECR, COMO, BLWA, TOMB, LIRO"
     },
     "4": {
       "type": "application/x-parquet",
