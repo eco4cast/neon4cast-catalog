@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-71.2874, 44.0639],
-      [-106.8425, 32.5907],
-      [-87.3933, 32.9505],
-      [-105.546, 40.2759],
-      [-89.5857, 45.4937],
-      [-89.5864, 45.5089],
-      [-119.7323, 37.1088],
-      [-76.56, 38.8901],
       [-149.3705, 68.6611],
       [-119.006, 37.0058],
       [-84.2826, 35.9641],
@@ -55,12 +47,20 @@
       [-84.4686, 31.1948],
       [-103.0293, 40.4619],
       [-110.8355, 31.9107],
-      [-112.4524, 40.1776]
+      [-112.4524, 40.1776],
+      [-71.2874, 44.0639],
+      [-106.8425, 32.5907],
+      [-87.3933, 32.9505],
+      [-105.546, 40.2759],
+      [-89.5857, 45.4937],
+      [-89.5864, 45.5089],
+      [-119.7323, 37.1088],
+      [-76.56, 38.8901]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All scores for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: BART, JORN, TALL, RMNP, TREE, STEI, SJER, SERC, TOOL, TEAK, ORNL, HEAL, BONA, GUAN, KONA, DSNY, NOGP, DCFS, OSBS, WREF, DEJU, YELL, HARV, WOOD, CLBJ, BARR, UKFS, UNDE, PUUM, LAJA, NIWO, DELA, MLBS, ABBY, LENO, KONZ, GRSM, MOAB, OAES, SOAP, SCBI, BLAN, CPER, JERC, STER, SRER, ONAQ.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: TOOL, TEAK, ORNL, HEAL, BONA, GUAN, KONA, DSNY, NOGP, DCFS, OSBS, WREF, DEJU, YELL, HARV, WOOD, CLBJ, BARR, UKFS, UNDE, PUUM, LAJA, NIWO, DELA, MLBS, ABBY, LENO, KONZ, GRSM, MOAB, OAES, SOAP, SCBI, BLAN, CPER, JERC, STER, SRER, ONAQ, BART, JORN, TALL, RMNP, TREE, STEI, SJER, SERC.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2021-05-17T00:00:00Z",
@@ -93,14 +93,6 @@
       "abundance",
       "Weekly",
       "P1W",
-      "BART",
-      "JORN",
-      "TALL",
-      "RMNP",
-      "TREE",
-      "STEI",
-      "SJER",
-      "SERC",
       "TOOL",
       "TEAK",
       "ORNL",
@@ -139,7 +131,15 @@
       "JERC",
       "STER",
       "SRER",
-      "ONAQ"
+      "ONAQ",
+      "BART",
+      "JORN",
+      "TALL",
+      "RMNP",
+      "TREE",
+      "STEI",
+      "SJER",
+      "SERC"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BART, JORN, TALL, RMNP, TREE, STEI, SJER, SERC, TOOL, TEAK, ORNL, HEAL, BONA, GUAN, KONA, DSNY, NOGP, DCFS, OSBS, WREF, DEJU, YELL, HARV, WOOD, CLBJ, BARR, UKFS, UNDE, PUUM, LAJA, NIWO, DELA, MLBS, ABBY, LENO, KONZ, GRSM, MOAB, OAES, SOAP, SCBI, BLAN, CPER, JERC, STER, SRER, ONAQ"
+      "description": "TOOL, TEAK, ORNL, HEAL, BONA, GUAN, KONA, DSNY, NOGP, DCFS, OSBS, WREF, DEJU, YELL, HARV, WOOD, CLBJ, BARR, UKFS, UNDE, PUUM, LAJA, NIWO, DELA, MLBS, ABBY, LENO, KONZ, GRSM, MOAB, OAES, SOAP, SCBI, BLAN, CPER, JERC, STER, SRER, ONAQ, BART, JORN, TALL, RMNP, TREE, STEI, SJER, SERC"
     },
     "4": {
       "type": "application/x-parquet",

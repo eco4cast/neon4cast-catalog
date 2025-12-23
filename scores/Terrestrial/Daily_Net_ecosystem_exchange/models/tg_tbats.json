@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-105.5824, 40.0543],
-      [-80.5248, 37.3783],
-      [-67.0769, 18.0213],
-      [-83.5019, 35.689],
-      [-87.8039, 32.5417],
-      [-122.3303, 45.7624],
-      [-88.1612, 31.8539],
-      [-96.5631, 39.1008],
-      [-109.3883, 38.2483],
-      [-155.3173, 19.5531],
       [-110.8355, 31.9107],
       [-112.4524, 40.1776],
       [-103.0293, 40.4619],
@@ -55,12 +45,22 @@
       [-81.4362, 28.1251],
       [-100.9154, 46.7697],
       [-110.5391, 44.9535],
-      [-72.1727, 42.5369]
+      [-72.1727, 42.5369],
+      [-105.5824, 40.0543],
+      [-80.5248, 37.3783],
+      [-67.0769, 18.0213],
+      [-83.5019, 35.689],
+      [-87.8039, 32.5417],
+      [-122.3303, 45.7624],
+      [-88.1612, 31.8539],
+      [-96.5631, 39.1008],
+      [-109.3883, 38.2483],
+      [-155.3173, 19.5531]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: NIWO, MLBS, LAJA, GRSM, DELA, ABBY, LENO, KONZ, MOAB, PUUM, SRER, ONAQ, STER, SOAP, SCBI, OAES, CPER, JERC, BLAN, TALL, SERC, SJER, STEI, BART, RMNP, TREE, JORN, BARR, HEAL, ORNL, OSBS, GUAN, BONA, TEAK, UKFS, WREF, UNDE, DEJU, KONA, DCFS, WOOD, TOOL, CLBJ, DSNY, NOGP, YELL, HARV.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Net_ecosystem_exchange variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: SRER, ONAQ, STER, SOAP, SCBI, OAES, CPER, JERC, BLAN, TALL, SERC, SJER, STEI, BART, RMNP, TREE, JORN, BARR, HEAL, ORNL, OSBS, GUAN, BONA, TEAK, UKFS, WREF, UNDE, DEJU, KONA, DCFS, WOOD, TOOL, CLBJ, DSNY, NOGP, YELL, HARV, NIWO, MLBS, LAJA, GRSM, DELA, ABBY, LENO, KONZ, MOAB, PUUM.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -93,16 +93,6 @@
       "nee",
       "Daily",
       "P1D",
-      "NIWO",
-      "MLBS",
-      "LAJA",
-      "GRSM",
-      "DELA",
-      "ABBY",
-      "LENO",
-      "KONZ",
-      "MOAB",
-      "PUUM",
       "SRER",
       "ONAQ",
       "STER",
@@ -139,7 +129,17 @@
       "DSNY",
       "NOGP",
       "YELL",
-      "HARV"
+      "HARV",
+      "NIWO",
+      "MLBS",
+      "LAJA",
+      "GRSM",
+      "DELA",
+      "ABBY",
+      "LENO",
+      "KONZ",
+      "MOAB",
+      "PUUM"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "NIWO, MLBS, LAJA, GRSM, DELA, ABBY, LENO, KONZ, MOAB, PUUM, SRER, ONAQ, STER, SOAP, SCBI, OAES, CPER, JERC, BLAN, TALL, SERC, SJER, STEI, BART, RMNP, TREE, JORN, BARR, HEAL, ORNL, OSBS, GUAN, BONA, TEAK, UKFS, WREF, UNDE, DEJU, KONA, DCFS, WOOD, TOOL, CLBJ, DSNY, NOGP, YELL, HARV"
+      "description": "SRER, ONAQ, STER, SOAP, SCBI, OAES, CPER, JERC, BLAN, TALL, SERC, SJER, STEI, BART, RMNP, TREE, JORN, BARR, HEAL, ORNL, OSBS, GUAN, BONA, TEAK, UKFS, WREF, UNDE, DEJU, KONA, DCFS, WOOD, TOOL, CLBJ, DSNY, NOGP, YELL, HARV, NIWO, MLBS, LAJA, GRSM, DELA, ABBY, LENO, KONZ, MOAB, PUUM"
     },
     "4": {
       "type": "application/x-parquet",
