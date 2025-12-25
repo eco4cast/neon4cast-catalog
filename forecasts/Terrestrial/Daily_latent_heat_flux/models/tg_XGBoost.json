@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-119.7323, 37.1088],
-      [-89.5857, 45.4937],
-      [-71.2874, 44.0639],
-      [-89.5864, 45.5089],
-      [-106.8425, 32.5907],
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
-      [-76.56, 38.8901],
       [-156.6194, 71.2824],
       [-99.2413, 47.1282],
       [-119.006, 37.0058],
@@ -55,12 +47,20 @@
       [-88.1612, 31.8539],
       [-155.3173, 19.5531],
       [-109.3883, 38.2483],
-      [-67.0769, 18.0213]
+      [-67.0769, 18.0213],
+      [-119.7323, 37.1088],
+      [-89.5857, 45.4937],
+      [-71.2874, 44.0639],
+      [-89.5864, 45.5089],
+      [-106.8425, 32.5907],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901]
     ]
   },
   "properties": {
     "title": "tg_XGBoost",
-    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: SJER, TREE, BART, STEI, JORN, RMNP, TALL, SERC, BARR, WOOD, TEAK, HARV, CLBJ, NOGP, TOOL, YELL, ORNL, GUAN, UKFS, HEAL, KONA, DEJU, WREF, OSBS, BONA, DSNY, DCFS, UNDE, ONAQ, JERC, CPER, SOAP, SCBI, STER, BLAN, SRER, OAES, KONZ, GRSM, NIWO, MLBS, DELA, ABBY, LENO, PUUM, MOAB, LAJA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_latent_heat_flux variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: BARR, WOOD, TEAK, HARV, CLBJ, NOGP, TOOL, YELL, ORNL, GUAN, UKFS, HEAL, KONA, DEJU, WREF, OSBS, BONA, DSNY, DCFS, UNDE, ONAQ, JERC, CPER, SOAP, SCBI, STER, BLAN, SRER, OAES, KONZ, GRSM, NIWO, MLBS, DELA, ABBY, LENO, PUUM, MOAB, LAJA, SJER, TREE, BART, STEI, JORN, RMNP, TALL, SERC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -93,14 +93,6 @@
       "le",
       "Daily",
       "P1D",
-      "SJER",
-      "TREE",
-      "BART",
-      "STEI",
-      "JORN",
-      "RMNP",
-      "TALL",
-      "SERC",
       "BARR",
       "WOOD",
       "TEAK",
@@ -139,7 +131,15 @@
       "LENO",
       "PUUM",
       "MOAB",
-      "LAJA"
+      "LAJA",
+      "SJER",
+      "TREE",
+      "BART",
+      "STEI",
+      "JORN",
+      "RMNP",
+      "TALL",
+      "SERC"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SJER, TREE, BART, STEI, JORN, RMNP, TALL, SERC, BARR, WOOD, TEAK, HARV, CLBJ, NOGP, TOOL, YELL, ORNL, GUAN, UKFS, HEAL, KONA, DEJU, WREF, OSBS, BONA, DSNY, DCFS, UNDE, ONAQ, JERC, CPER, SOAP, SCBI, STER, BLAN, SRER, OAES, KONZ, GRSM, NIWO, MLBS, DELA, ABBY, LENO, PUUM, MOAB, LAJA"
+      "description": "BARR, WOOD, TEAK, HARV, CLBJ, NOGP, TOOL, YELL, ORNL, GUAN, UKFS, HEAL, KONA, DEJU, WREF, OSBS, BONA, DSNY, DCFS, UNDE, ONAQ, JERC, CPER, SOAP, SCBI, STER, BLAN, SRER, OAES, KONZ, GRSM, NIWO, MLBS, DELA, ABBY, LENO, PUUM, MOAB, LAJA, SJER, TREE, BART, STEI, JORN, RMNP, TALL, SERC"
     },
     "4": {
       "type": "application/x-parquet",

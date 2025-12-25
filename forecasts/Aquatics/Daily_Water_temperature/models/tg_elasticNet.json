@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
       [-89.4737, 46.2097],
       [-149.143, 68.6698],
       [-78.1473, 38.8943],
@@ -42,12 +38,16 @@
       [-84.4374, 31.1854],
       [-87.4077, 32.9604],
       [-110.5871, 44.9501],
-      [-122.1655, 44.2596]
+      [-122.1655, 44.2596],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442]
     ]
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: LEWI, TOOK, PRPO, BLUE, CRAM, OKSR, POSE, WLOU, MART, CUPE, MCDI, SUGG, HOPB, BARC, KING, PRIN, REDB, BLWA, PRLA, COMO, TOMB, LIRO, SYCA, TECR, GUIL, CARI, ARIK, LECO, WALK, BIGC, FLNT, MAYF, BLDE, MCRA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: CRAM, OKSR, POSE, WLOU, MART, CUPE, MCDI, SUGG, HOPB, BARC, KING, PRIN, REDB, BLWA, PRLA, COMO, TOMB, LIRO, SYCA, TECR, GUIL, CARI, ARIK, LECO, WALK, BIGC, FLNT, MAYF, BLDE, MCRA, LEWI, TOOK, PRPO, BLUE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -80,10 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "LEWI",
-      "TOOK",
-      "PRPO",
-      "BLUE",
       "CRAM",
       "OKSR",
       "POSE",
@@ -113,7 +109,11 @@
       "FLNT",
       "MAYF",
       "BLDE",
-      "MCRA"
+      "MCRA",
+      "LEWI",
+      "TOOK",
+      "PRPO",
+      "BLUE"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LEWI, TOOK, PRPO, BLUE, CRAM, OKSR, POSE, WLOU, MART, CUPE, MCDI, SUGG, HOPB, BARC, KING, PRIN, REDB, BLWA, PRLA, COMO, TOMB, LIRO, SYCA, TECR, GUIL, CARI, ARIK, LECO, WALK, BIGC, FLNT, MAYF, BLDE, MCRA"
+      "description": "CRAM, OKSR, POSE, WLOU, MART, CUPE, MCDI, SUGG, HOPB, BARC, KING, PRIN, REDB, BLWA, PRLA, COMO, TOMB, LIRO, SYCA, TECR, GUIL, CARI, ARIK, LECO, WALK, BIGC, FLNT, MAYF, BLDE, MCRA, LEWI, TOOK, PRPO, BLUE"
     },
     "4": {
       "type": "application/x-parquet",
