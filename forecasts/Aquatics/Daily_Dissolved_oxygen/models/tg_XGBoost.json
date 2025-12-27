@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
       [-105.5442, 40.035],
@@ -31,10 +35,6 @@
       [-82.0177, 29.6878],
       [-96.443, 38.9459],
       [-82.0084, 29.676],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
       [-84.2793, 35.9574],
       [-110.5871, 44.9501],
       [-87.4077, 32.9604],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_XGBoost",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: BLWA, CARI, COMO, SYCA, TECR, GUIL, PRLA, LIRO, TOMB, HOPB, REDB, CRAM, KING, OKSR, MART, PRIN, WLOU, CUPE, POSE, SUGG, MCDI, BARC, LEWI, PRPO, TOOK, BLUE, WALK, BLDE, MAYF, FLNT, ARIK, LECO, MCRA, BIGC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: LEWI, PRPO, TOOK, BLUE, BLWA, CARI, COMO, SYCA, TECR, GUIL, PRLA, LIRO, TOMB, HOPB, REDB, CRAM, KING, OKSR, MART, PRIN, WLOU, CUPE, POSE, SUGG, MCDI, BARC, WALK, BLDE, MAYF, FLNT, ARIK, LECO, MCRA, BIGC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "LEWI",
+      "PRPO",
+      "TOOK",
+      "BLUE",
       "BLWA",
       "CARI",
       "COMO",
@@ -102,10 +106,6 @@
       "SUGG",
       "MCDI",
       "BARC",
-      "LEWI",
-      "PRPO",
-      "TOOK",
-      "BLUE",
       "WALK",
       "BLDE",
       "MAYF",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BLWA, CARI, COMO, SYCA, TECR, GUIL, PRLA, LIRO, TOMB, HOPB, REDB, CRAM, KING, OKSR, MART, PRIN, WLOU, CUPE, POSE, SUGG, MCDI, BARC, LEWI, PRPO, TOOK, BLUE, WALK, BLDE, MAYF, FLNT, ARIK, LECO, MCRA, BIGC"
+      "description": "LEWI, PRPO, TOOK, BLUE, BLWA, CARI, COMO, SYCA, TECR, GUIL, PRLA, LIRO, TOMB, HOPB, REDB, CRAM, KING, OKSR, MART, PRIN, WLOU, CUPE, POSE, SUGG, MCDI, BARC, WALK, BLDE, MAYF, FLNT, ARIK, LECO, MCRA, BIGC"
     },
     "4": {
       "type": "application/x-parquet",
