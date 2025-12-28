@@ -19,14 +19,6 @@
       [-88.1612, 31.8539],
       [-122.3303, 45.7624],
       [-105.5824, 40.0543],
-      [-89.5857, 45.4937],
-      [-105.546, 40.2759],
-      [-119.7323, 37.1088],
-      [-106.8425, 32.5907],
-      [-71.2874, 44.0639],
-      [-87.3933, 32.9505],
-      [-76.56, 38.8901],
-      [-89.5864, 45.5089],
       [-149.3705, 68.6611],
       [-84.2826, 35.9641],
       [-99.1066, 47.1617],
@@ -55,12 +47,20 @@
       [-103.0293, 40.4619],
       [-78.0418, 39.0337],
       [-104.7456, 40.8155],
-      [-112.4524, 40.1776]
+      [-112.4524, 40.1776],
+      [-89.5857, 45.4937],
+      [-105.546, 40.2759],
+      [-119.7323, 37.1088],
+      [-106.8425, 32.5907],
+      [-71.2874, 44.0639],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901],
+      [-89.5864, 45.5089]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All summaries for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: MOAB, GRSM, PUUM, DELA, LAJA, MLBS, KONZ, LENO, ABBY, NIWO, TREE, RMNP, SJER, JORN, BART, TALL, SERC, STEI, TOOL, ORNL, DCFS, YELL, HEAL, HARV, OSBS, WOOD, WREF, CLBJ, DSNY, BARR, NOGP, DEJU, BONA, UKFS, UNDE, GUAN, KONA, TEAK, SCBI, SRER, JERC, SOAP, OAES, STER, BLAN, CPER, ONAQ.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Weekly_beetle_community_abundance variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: MOAB, GRSM, PUUM, DELA, LAJA, MLBS, KONZ, LENO, ABBY, NIWO, TOOL, ORNL, DCFS, YELL, HEAL, HARV, OSBS, WOOD, WREF, CLBJ, DSNY, BARR, NOGP, DEJU, BONA, UKFS, UNDE, GUAN, KONA, TEAK, SCBI, SRER, JERC, SOAP, OAES, STER, BLAN, CPER, ONAQ, TREE, RMNP, SJER, JORN, BART, TALL, SERC, STEI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-12T00:00:00Z",
     "start_datetime": "2021-05-17T00:00:00Z",
@@ -103,14 +103,6 @@
       "LENO",
       "ABBY",
       "NIWO",
-      "TREE",
-      "RMNP",
-      "SJER",
-      "JORN",
-      "BART",
-      "TALL",
-      "SERC",
-      "STEI",
       "TOOL",
       "ORNL",
       "DCFS",
@@ -139,7 +131,15 @@
       "STER",
       "BLAN",
       "CPER",
-      "ONAQ"
+      "ONAQ",
+      "TREE",
+      "RMNP",
+      "SJER",
+      "JORN",
+      "BART",
+      "TALL",
+      "SERC",
+      "STEI"
     ],
     "table:columns": [
       {
@@ -286,7 +286,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "MOAB, GRSM, PUUM, DELA, LAJA, MLBS, KONZ, LENO, ABBY, NIWO, TREE, RMNP, SJER, JORN, BART, TALL, SERC, STEI, TOOL, ORNL, DCFS, YELL, HEAL, HARV, OSBS, WOOD, WREF, CLBJ, DSNY, BARR, NOGP, DEJU, BONA, UKFS, UNDE, GUAN, KONA, TEAK, SCBI, SRER, JERC, SOAP, OAES, STER, BLAN, CPER, ONAQ"
+      "description": "MOAB, GRSM, PUUM, DELA, LAJA, MLBS, KONZ, LENO, ABBY, NIWO, TOOL, ORNL, DCFS, YELL, HEAL, HARV, OSBS, WOOD, WREF, CLBJ, DSNY, BARR, NOGP, DEJU, BONA, UKFS, UNDE, GUAN, KONA, TEAK, SCBI, SRER, JERC, SOAP, OAES, STER, BLAN, CPER, ONAQ, TREE, RMNP, SJER, JORN, BART, TALL, SERC, STEI"
     },
     "4": {
       "type": "application/x-parquet",

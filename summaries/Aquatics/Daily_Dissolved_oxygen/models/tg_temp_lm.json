@@ -17,10 +17,6 @@
       [-84.4374, 31.1854],
       [-102.4471, 39.7582],
       [-83.5038, 35.6904],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
       [-111.7979, 40.7839],
       [-105.9154, 39.8914],
       [-72.3295, 42.4719],
@@ -42,12 +38,16 @@
       [-111.5081, 33.751],
       [-147.504, 65.1532],
       [-87.7982, 32.5415],
-      [-105.5442, 40.035]
+      [-105.5442, 40.035],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: MAYF, MCRA, BLDE, WALK, BIGC, FLNT, ARIK, LECO, BLUE, TOOK, PRPO, LEWI, REDB, WLOU, HOPB, OKSR, CUPE, MART, KING, MCDI, CRAM, POSE, SUGG, BARC, PRIN, GUIL, TOMB, PRLA, TECR, LIRO, SYCA, CARI, BLWA, COMO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: MAYF, MCRA, BLDE, WALK, BIGC, FLNT, ARIK, LECO, REDB, WLOU, HOPB, OKSR, CUPE, MART, KING, MCDI, CRAM, POSE, SUGG, BARC, PRIN, GUIL, TOMB, PRLA, TECR, LIRO, SYCA, CARI, BLWA, COMO, BLUE, TOOK, PRPO, LEWI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -88,10 +88,6 @@
       "FLNT",
       "ARIK",
       "LECO",
-      "BLUE",
-      "TOOK",
-      "PRPO",
-      "LEWI",
       "REDB",
       "WLOU",
       "HOPB",
@@ -113,7 +109,11 @@
       "SYCA",
       "CARI",
       "BLWA",
-      "COMO"
+      "COMO",
+      "BLUE",
+      "TOOK",
+      "PRPO",
+      "LEWI"
     ],
     "table:columns": [
       {
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "MAYF, MCRA, BLDE, WALK, BIGC, FLNT, ARIK, LECO, BLUE, TOOK, PRPO, LEWI, REDB, WLOU, HOPB, OKSR, CUPE, MART, KING, MCDI, CRAM, POSE, SUGG, BARC, PRIN, GUIL, TOMB, PRLA, TECR, LIRO, SYCA, CARI, BLWA, COMO"
+      "description": "MAYF, MCRA, BLDE, WALK, BIGC, FLNT, ARIK, LECO, REDB, WLOU, HOPB, OKSR, CUPE, MART, KING, MCDI, CRAM, POSE, SUGG, BARC, PRIN, GUIL, TOMB, PRLA, TECR, LIRO, SYCA, CARI, BLWA, COMO, BLUE, TOOK, PRPO, LEWI"
     },
     "4": {
       "type": "application/x-parquet",
