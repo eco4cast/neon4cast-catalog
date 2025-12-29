@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/bookcast_forest.json"
     },
     {
@@ -41,11 +46,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -71,12 +71,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
