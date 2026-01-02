@@ -9,15 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-103.0293, 40.4619],
-      [-110.8355, 31.9107],
-      [-84.4686, 31.1948],
-      [-104.7456, 40.8155],
-      [-78.1395, 38.8929],
-      [-99.0588, 35.4106],
-      [-119.2622, 37.0334],
-      [-78.0418, 39.0337],
-      [-112.4524, 40.1776],
       [-145.7514, 63.8811],
       [-81.4362, 28.1251],
       [-100.9154, 46.7697],
@@ -55,12 +46,21 @@
       [-88.1612, 31.8539],
       [-109.3883, 38.2483],
       [-122.3303, 45.7624],
-      [-80.5248, 37.3783]
+      [-80.5248, 37.3783],
+      [-103.0293, 40.4619],
+      [-110.8355, 31.9107],
+      [-84.4686, 31.1948],
+      [-104.7456, 40.8155],
+      [-78.1395, 38.8929],
+      [-99.0588, 35.4106],
+      [-119.2622, 37.0334],
+      [-78.0418, 39.0337],
+      [-112.4524, 40.1776]
     ]
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: STER, SRER, JERC, CPER, SCBI, OAES, SOAP, BLAN, ONAQ, DEJU, DSNY, NOGP, DCFS, CLBJ, TEAK, GUAN, WREF, ORNL, BONA, WOOD, KONA, UNDE, YELL, OSBS, HARV, HEAL, TOOL, BARR, UKFS, JORN, RMNP, BART, STEI, SERC, TALL, TREE, SJER, KONZ, NIWO, PUUM, DELA, GRSM, LAJA, LENO, MOAB, ABBY, MLBS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: DEJU, DSNY, NOGP, DCFS, CLBJ, TEAK, GUAN, WREF, ORNL, BONA, WOOD, KONA, UNDE, YELL, OSBS, HARV, HEAL, TOOL, BARR, UKFS, JORN, RMNP, BART, STEI, SERC, TALL, TREE, SJER, KONZ, NIWO, PUUM, DELA, GRSM, LAJA, LENO, MOAB, ABBY, MLBS, STER, SRER, JERC, CPER, SCBI, OAES, SOAP, BLAN, ONAQ.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -93,15 +93,6 @@
       "nee",
       "Daily",
       "P1D",
-      "STER",
-      "SRER",
-      "JERC",
-      "CPER",
-      "SCBI",
-      "OAES",
-      "SOAP",
-      "BLAN",
-      "ONAQ",
       "DEJU",
       "DSNY",
       "NOGP",
@@ -139,7 +130,16 @@
       "LENO",
       "MOAB",
       "ABBY",
-      "MLBS"
+      "MLBS",
+      "STER",
+      "SRER",
+      "JERC",
+      "CPER",
+      "SCBI",
+      "OAES",
+      "SOAP",
+      "BLAN",
+      "ONAQ"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "STER, SRER, JERC, CPER, SCBI, OAES, SOAP, BLAN, ONAQ, DEJU, DSNY, NOGP, DCFS, CLBJ, TEAK, GUAN, WREF, ORNL, BONA, WOOD, KONA, UNDE, YELL, OSBS, HARV, HEAL, TOOL, BARR, UKFS, JORN, RMNP, BART, STEI, SERC, TALL, TREE, SJER, KONZ, NIWO, PUUM, DELA, GRSM, LAJA, LENO, MOAB, ABBY, MLBS"
+      "description": "DEJU, DSNY, NOGP, DCFS, CLBJ, TEAK, GUAN, WREF, ORNL, BONA, WOOD, KONA, UNDE, YELL, OSBS, HARV, HEAL, TOOL, BARR, UKFS, JORN, RMNP, BART, STEI, SERC, TALL, TREE, SJER, KONZ, NIWO, PUUM, DELA, GRSM, LAJA, LENO, MOAB, ABBY, MLBS, STER, SRER, JERC, CPER, SCBI, OAES, SOAP, BLAN, ONAQ"
     },
     "4": {
       "type": "application/x-parquet",

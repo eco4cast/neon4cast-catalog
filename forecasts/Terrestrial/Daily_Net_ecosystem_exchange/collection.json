@@ -11,27 +11,32 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/bookcast_forest.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
@@ -81,32 +86,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "parent",
