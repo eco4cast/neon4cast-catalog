@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-77.9832, 39.0956],
       [-84.2793, 35.9574],
       [-87.4077, 32.9604],
       [-122.1655, 44.2596],
@@ -30,10 +34,6 @@
       [-72.3295, 42.4719],
       [-78.1473, 38.8943],
       [-89.4737, 46.2097],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-77.9832, 39.0956],
       [-105.5442, 40.035],
       [-88.1589, 31.8534],
       [-89.7048, 45.9983],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: WALK, MAYF, MCRA, LECO, BIGC, ARIK, BLDE, FLNT, MCDI, OKSR, BARC, CUPE, SUGG, REDB, WLOU, PRIN, MART, KING, HOPB, POSE, CRAM, PRPO, BLUE, TOOK, LEWI, COMO, TOMB, LIRO, PRLA, BLWA, TECR, GUIL, SYCA, CARI.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: PRPO, BLUE, TOOK, LEWI, WALK, MAYF, MCRA, LECO, BIGC, ARIK, BLDE, FLNT, MCDI, OKSR, BARC, CUPE, SUGG, REDB, WLOU, PRIN, MART, KING, HOPB, POSE, CRAM, COMO, TOMB, LIRO, PRLA, BLWA, TECR, GUIL, SYCA, CARI.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "PRPO",
+      "BLUE",
+      "TOOK",
+      "LEWI",
       "WALK",
       "MAYF",
       "MCRA",
@@ -101,10 +105,6 @@
       "HOPB",
       "POSE",
       "CRAM",
-      "PRPO",
-      "BLUE",
-      "TOOK",
-      "LEWI",
       "COMO",
       "TOMB",
       "LIRO",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "WALK, MAYF, MCRA, LECO, BIGC, ARIK, BLDE, FLNT, MCDI, OKSR, BARC, CUPE, SUGG, REDB, WLOU, PRIN, MART, KING, HOPB, POSE, CRAM, PRPO, BLUE, TOOK, LEWI, COMO, TOMB, LIRO, PRLA, BLWA, TECR, GUIL, SYCA, CARI"
+      "description": "PRPO, BLUE, TOOK, LEWI, WALK, MAYF, MCRA, LECO, BIGC, ARIK, BLDE, FLNT, MCDI, OKSR, BARC, CUPE, SUGG, REDB, WLOU, PRIN, MART, KING, HOPB, POSE, CRAM, COMO, TOMB, LIRO, PRLA, BLWA, TECR, GUIL, SYCA, CARI"
     },
     "4": {
       "type": "application/x-parquet",

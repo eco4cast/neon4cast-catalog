@@ -9,14 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-119.2575, 37.0597],
-      [-84.2793, 35.9574],
-      [-83.5038, 35.6904],
-      [-122.1655, 44.2596],
-      [-110.5871, 44.9501],
-      [-84.4374, 31.1854],
-      [-102.4471, 39.7582],
-      [-87.4077, 32.9604],
       [-99.2531, 47.1298],
       [-77.9832, 39.0956],
       [-96.6242, 34.4442],
@@ -42,12 +34,20 @@
       [-87.7982, 32.5415],
       [-66.7987, 18.1741],
       [-111.5081, 33.751],
-      [-99.1139, 47.1591]
+      [-99.1139, 47.1591],
+      [-119.2575, 37.0597],
+      [-84.2793, 35.9574],
+      [-83.5038, 35.6904],
+      [-122.1655, 44.2596],
+      [-110.5871, 44.9501],
+      [-84.4374, 31.1854],
+      [-102.4471, 39.7582],
+      [-87.4077, 32.9604]
     ]
   },
   "properties": {
     "title": "fARIMA_clim_ensemble",
-    "description": "All forecasts for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, PRPO, LEWI, BLUE, TOOK, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the fARIMA_clim_ensemble model. Information for the model is provided as follows: The fAMIRA-DOY MME is a multi-model ensemble (MME) composed of two empirical\nmodels: an ARIMA model (fARIMA) and day-of-year model.\n                                    The model predicts this variable at the following sites: PRPO, LEWI, BLUE, TOOK, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-07-03T00:00:00Z",
     "updated": "2024-08-22T00:00:00Z",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -80,14 +80,6 @@
       "temperature",
       "Daily",
       "P1D",
-      "BIGC",
-      "WALK",
-      "LECO",
-      "MCRA",
-      "BLDE",
-      "FLNT",
-      "ARIK",
-      "MAYF",
       "PRPO",
       "LEWI",
       "BLUE",
@@ -113,7 +105,15 @@
       "BLWA",
       "GUIL",
       "SYCA",
-      "PRLA"
+      "PRLA",
+      "BIGC",
+      "WALK",
+      "LECO",
+      "MCRA",
+      "BLDE",
+      "FLNT",
+      "ARIK",
+      "MAYF"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF, PRPO, LEWI, BLUE, TOOK, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA"
+      "description": "PRPO, LEWI, BLUE, TOOK, BARC, SUGG, CUPE, MCDI, POSE, REDB, HOPB, PRIN, MART, KING, WLOU, CRAM, OKSR, TOMB, CARI, LIRO, COMO, TECR, BLWA, GUIL, SYCA, PRLA, BIGC, WALK, LECO, MCRA, BLDE, FLNT, ARIK, MAYF"
     },
     "4": {
       "type": "application/x-parquet",

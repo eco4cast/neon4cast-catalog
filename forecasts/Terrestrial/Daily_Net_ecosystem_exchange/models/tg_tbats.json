@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-83.5019, 35.689],
-      [-122.3303, 45.7624],
-      [-67.0769, 18.0213],
-      [-109.3883, 38.2483],
-      [-105.5824, 40.0543],
-      [-96.5631, 39.1008],
-      [-87.8039, 32.5417],
-      [-88.1612, 31.8539],
-      [-155.3173, 19.5531],
-      [-80.5248, 37.3783],
       [-71.2874, 44.0639],
       [-89.5864, 45.5089],
       [-87.3933, 32.9505],
@@ -55,12 +45,22 @@
       [-104.7456, 40.8155],
       [-103.0293, 40.4619],
       [-119.2622, 37.0334],
-      [-78.0418, 39.0337]
+      [-78.0418, 39.0337],
+      [-83.5019, 35.689],
+      [-122.3303, 45.7624],
+      [-67.0769, 18.0213],
+      [-109.3883, 38.2483],
+      [-105.5824, 40.0543],
+      [-96.5631, 39.1008],
+      [-87.8039, 32.5417],
+      [-88.1612, 31.8539],
+      [-155.3173, 19.5531],
+      [-80.5248, 37.3783]
     ]
   },
   "properties": {
     "title": "tg_tbats",
-    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: GRSM, ABBY, LAJA, MOAB, NIWO, KONZ, DELA, LENO, PUUM, MLBS, BART, STEI, TALL, RMNP, SJER, JORN, TREE, SERC, WOOD, TOOL, OSBS, CLBJ, DCFS, BARR, DEJU, UKFS, YELL, TEAK, ORNL, HEAL, GUAN, UNDE, BONA, KONA, HARV, DSNY, WREF, NOGP, SRER, JERC, ONAQ, SCBI, OAES, CPER, STER, SOAP, BLAN.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the tg_tbats model. Information for the model is provided as follows: The tg_tbats model is a TBATS (Trigonometric seasonality, Box-Cox transformation, ARMA\nerrors, Trend and Seasonal components) model fit using the function tbats() from the forecast package in\nR (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series model with no\ncovariates..\n                                    The model predicts this variable at the following sites: BART, STEI, TALL, RMNP, SJER, JORN, TREE, SERC, WOOD, TOOL, OSBS, CLBJ, DCFS, BARR, DEJU, UKFS, YELL, TEAK, ORNL, HEAL, GUAN, UNDE, BONA, KONA, HARV, DSNY, WREF, NOGP, SRER, JERC, ONAQ, SCBI, OAES, CPER, STER, SOAP, BLAN, GRSM, ABBY, LAJA, MOAB, NIWO, KONZ, DELA, LENO, PUUM, MLBS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-12T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -93,16 +93,6 @@
       "nee",
       "Daily",
       "P1D",
-      "GRSM",
-      "ABBY",
-      "LAJA",
-      "MOAB",
-      "NIWO",
-      "KONZ",
-      "DELA",
-      "LENO",
-      "PUUM",
-      "MLBS",
       "BART",
       "STEI",
       "TALL",
@@ -139,7 +129,17 @@
       "CPER",
       "STER",
       "SOAP",
-      "BLAN"
+      "BLAN",
+      "GRSM",
+      "ABBY",
+      "LAJA",
+      "MOAB",
+      "NIWO",
+      "KONZ",
+      "DELA",
+      "LENO",
+      "PUUM",
+      "MLBS"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "GRSM, ABBY, LAJA, MOAB, NIWO, KONZ, DELA, LENO, PUUM, MLBS, BART, STEI, TALL, RMNP, SJER, JORN, TREE, SERC, WOOD, TOOL, OSBS, CLBJ, DCFS, BARR, DEJU, UKFS, YELL, TEAK, ORNL, HEAL, GUAN, UNDE, BONA, KONA, HARV, DSNY, WREF, NOGP, SRER, JERC, ONAQ, SCBI, OAES, CPER, STER, SOAP, BLAN"
+      "description": "BART, STEI, TALL, RMNP, SJER, JORN, TREE, SERC, WOOD, TOOL, OSBS, CLBJ, DCFS, BARR, DEJU, UKFS, YELL, TEAK, ORNL, HEAL, GUAN, UNDE, BONA, KONA, HARV, DSNY, WREF, NOGP, SRER, JERC, ONAQ, SCBI, OAES, CPER, STER, SOAP, BLAN, GRSM, ABBY, LAJA, MOAB, NIWO, KONZ, DELA, LENO, PUUM, MLBS"
     },
     "4": {
       "type": "application/x-parquet",
