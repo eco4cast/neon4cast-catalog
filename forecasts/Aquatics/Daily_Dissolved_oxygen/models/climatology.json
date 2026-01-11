@@ -48,10 +48,10 @@
   "properties": {
     "title": "climatology",
     "description": "All forecasts for the Daily_Dissolved_oxygen variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: LECO, BIGC, ARIK, WALK, BLDE, MCRA, MAYF, FLNT, BLUE, LEWI, PRPO, TOOK, HOPB, CRAM, CUPE, REDB, PRIN, MART, POSE, WLOU, KING, SUGG, BARC, MCDI, OKSR, PRLA, GUIL, LIRO, TECR, TOMB, SYCA, COMO, BLWA, CARI.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-01-09T00:00:00Z",
-    "updated": "2026-01-09T00:00:00Z",
+    "datetime": "2026-01-10T00:00:00Z",
+    "updated": "2026-01-10T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
-    "end_datetime": "2026-02-13T00:00:00Z",
+    "end_datetime": "2026-02-14T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
