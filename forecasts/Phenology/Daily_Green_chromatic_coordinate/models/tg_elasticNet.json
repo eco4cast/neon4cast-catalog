@@ -38,14 +38,6 @@
       [-72.1727, 42.5369],
       [-81.9934, 29.6893],
       [-147.5026, 65.154],
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
-      [-119.7323, 37.1088],
-      [-89.5857, 45.4937],
-      [-106.8425, 32.5907],
-      [-89.5864, 45.5089],
-      [-71.2874, 44.0639],
-      [-76.56, 38.8901],
       [-88.1612, 31.8539],
       [-105.5824, 40.0543],
       [-155.3173, 19.5531],
@@ -55,12 +47,20 @@
       [-96.5631, 39.1008],
       [-83.5019, 35.689],
       [-87.8039, 32.5417],
-      [-67.0769, 18.0213]
+      [-67.0769, 18.0213],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505],
+      [-119.7323, 37.1088],
+      [-89.5857, 45.4937],
+      [-106.8425, 32.5907],
+      [-89.5864, 45.5089],
+      [-71.2874, 44.0639],
+      [-76.56, 38.8901]
     ]
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: JERC, OAES, SOAP, SCBI, CPER, SRER, ONAQ, STER, BLAN, GUAN, WOOD, WREF, CLBJ, UNDE, BARR, KONA, HEAL, DSNY, DCFS, YELL, NOGP, TOOL, DEJU, ORNL, TEAK, UKFS, HARV, OSBS, BONA, RMNP, TALL, SJER, TREE, JORN, STEI, BART, SERC, LENO, NIWO, PUUM, MOAB, MLBS, ABBY, KONZ, GRSM, DELA, LAJA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: JERC, OAES, SOAP, SCBI, CPER, SRER, ONAQ, STER, BLAN, GUAN, WOOD, WREF, CLBJ, UNDE, BARR, KONA, HEAL, DSNY, DCFS, YELL, NOGP, TOOL, DEJU, ORNL, TEAK, UKFS, HARV, OSBS, BONA, LENO, NIWO, PUUM, MOAB, MLBS, ABBY, KONZ, GRSM, DELA, LAJA, RMNP, TALL, SJER, TREE, JORN, STEI, BART, SERC.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -122,14 +122,6 @@
       "HARV",
       "OSBS",
       "BONA",
-      "RMNP",
-      "TALL",
-      "SJER",
-      "TREE",
-      "JORN",
-      "STEI",
-      "BART",
-      "SERC",
       "LENO",
       "NIWO",
       "PUUM",
@@ -139,7 +131,15 @@
       "KONZ",
       "GRSM",
       "DELA",
-      "LAJA"
+      "LAJA",
+      "RMNP",
+      "TALL",
+      "SJER",
+      "TREE",
+      "JORN",
+      "STEI",
+      "BART",
+      "SERC"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "JERC, OAES, SOAP, SCBI, CPER, SRER, ONAQ, STER, BLAN, GUAN, WOOD, WREF, CLBJ, UNDE, BARR, KONA, HEAL, DSNY, DCFS, YELL, NOGP, TOOL, DEJU, ORNL, TEAK, UKFS, HARV, OSBS, BONA, RMNP, TALL, SJER, TREE, JORN, STEI, BART, SERC, LENO, NIWO, PUUM, MOAB, MLBS, ABBY, KONZ, GRSM, DELA, LAJA"
+      "description": "JERC, OAES, SOAP, SCBI, CPER, SRER, ONAQ, STER, BLAN, GUAN, WOOD, WREF, CLBJ, UNDE, BARR, KONA, HEAL, DSNY, DCFS, YELL, NOGP, TOOL, DEJU, ORNL, TEAK, UKFS, HARV, OSBS, BONA, LENO, NIWO, PUUM, MOAB, MLBS, ABBY, KONZ, GRSM, DELA, LAJA, RMNP, TALL, SJER, TREE, JORN, STEI, BART, SERC"
     },
     "4": {
       "type": "application/x-parquet",

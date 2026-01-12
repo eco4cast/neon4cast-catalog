@@ -38,6 +38,14 @@
       [-110.8355, 31.9107],
       [-99.0588, 35.4106],
       [-103.0293, 40.4619],
+      [-89.5857, 45.4937],
+      [-87.3933, 32.9505],
+      [-71.2874, 44.0639],
+      [-105.546, 40.2759],
+      [-76.56, 38.8901],
+      [-89.5864, 45.5089],
+      [-106.8425, 32.5907],
+      [-119.7323, 37.1088],
       [-105.5824, 40.0543],
       [-122.3303, 45.7624],
       [-109.3883, 38.2483],
@@ -47,20 +55,12 @@
       [-96.5631, 39.1008],
       [-83.5019, 35.689],
       [-80.5248, 37.3783],
-      [-67.0769, 18.0213],
-      [-89.5857, 45.4937],
-      [-87.3933, 32.9505],
-      [-71.2874, 44.0639],
-      [-105.546, 40.2759],
-      [-76.56, 38.8901],
-      [-89.5864, 45.5089],
-      [-106.8425, 32.5907],
-      [-119.7323, 37.1088]
+      [-67.0769, 18.0213]
     ]
   },
   "properties": {
     "title": "tg_XGBoost",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: HEAL, NOGP, OSBS, WREF, TOOL, ORNL, BONA, GUAN, UNDE, BARR, DSNY, UKFS, KONA, TEAK, YELL, DCFS, WOOD, CLBJ, DEJU, HARV, JERC, CPER, ONAQ, SOAP, BLAN, SCBI, SRER, OAES, STER, NIWO, ABBY, MOAB, LENO, DELA, PUUM, KONZ, GRSM, MLBS, LAJA, TREE, TALL, BART, RMNP, SERC, STEI, JORN, SJER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_XGBoost model. Information for the model is provided as follows: XGBoost trained in the same way for every site/variable.\n                                    The model predicts this variable at the following sites: HEAL, NOGP, OSBS, WREF, TOOL, ORNL, BONA, GUAN, UNDE, BARR, DSNY, UKFS, KONA, TEAK, YELL, DCFS, WOOD, CLBJ, DEJU, HARV, JERC, CPER, ONAQ, SOAP, BLAN, SCBI, SRER, OAES, STER, TREE, TALL, BART, RMNP, SERC, STEI, JORN, SJER, NIWO, ABBY, MOAB, LENO, DELA, PUUM, KONZ, GRSM, MLBS, LAJA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -122,6 +122,14 @@
       "SRER",
       "OAES",
       "STER",
+      "TREE",
+      "TALL",
+      "BART",
+      "RMNP",
+      "SERC",
+      "STEI",
+      "JORN",
+      "SJER",
       "NIWO",
       "ABBY",
       "MOAB",
@@ -131,15 +139,7 @@
       "KONZ",
       "GRSM",
       "MLBS",
-      "LAJA",
-      "TREE",
-      "TALL",
-      "BART",
-      "RMNP",
-      "SERC",
-      "STEI",
-      "JORN",
-      "SJER"
+      "LAJA"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "HEAL, NOGP, OSBS, WREF, TOOL, ORNL, BONA, GUAN, UNDE, BARR, DSNY, UKFS, KONA, TEAK, YELL, DCFS, WOOD, CLBJ, DEJU, HARV, JERC, CPER, ONAQ, SOAP, BLAN, SCBI, SRER, OAES, STER, NIWO, ABBY, MOAB, LENO, DELA, PUUM, KONZ, GRSM, MLBS, LAJA, TREE, TALL, BART, RMNP, SERC, STEI, JORN, SJER"
+      "description": "HEAL, NOGP, OSBS, WREF, TOOL, ORNL, BONA, GUAN, UNDE, BARR, DSNY, UKFS, KONA, TEAK, YELL, DCFS, WOOD, CLBJ, DEJU, HARV, JERC, CPER, ONAQ, SOAP, BLAN, SCBI, SRER, OAES, STER, TREE, TALL, BART, RMNP, SERC, STEI, JORN, SJER, NIWO, ABBY, MOAB, LENO, DELA, PUUM, KONZ, GRSM, MLBS, LAJA"
     },
     "4": {
       "type": "application/x-parquet",

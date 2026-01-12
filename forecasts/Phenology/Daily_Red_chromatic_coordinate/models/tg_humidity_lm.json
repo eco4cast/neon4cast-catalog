@@ -27,6 +27,15 @@
       [-105.546, 40.2759],
       [-76.56, 38.8901],
       [-119.7323, 37.1088],
+      [-84.4686, 31.1948],
+      [-112.4524, 40.1776],
+      [-119.2622, 37.0334],
+      [-78.1395, 38.8929],
+      [-78.0418, 39.0337],
+      [-110.8355, 31.9107],
+      [-99.0588, 35.4106],
+      [-103.0293, 40.4619],
+      [-104.7456, 40.8155],
       [-84.2826, 35.9641],
       [-99.2413, 47.1282],
       [-110.5391, 44.9535],
@@ -46,21 +55,12 @@
       [-149.3705, 68.6611],
       [-119.006, 37.0058],
       [-100.9154, 46.7697],
-      [-81.4362, 28.1251],
-      [-84.4686, 31.1948],
-      [-112.4524, 40.1776],
-      [-119.2622, 37.0334],
-      [-78.1395, 38.8929],
-      [-78.0418, 39.0337],
-      [-110.8355, 31.9107],
-      [-99.0588, 35.4106],
-      [-103.0293, 40.4619],
-      [-104.7456, 40.8155]
+      [-81.4362, 28.1251]
     ]
   },
   "properties": {
     "title": "tg_humidity_lm",
-    "description": "All forecasts for the Daily_Red_chromatic_coordinate variable for the tg_humidity_lm model. Information for the model is provided as follows: The tg_humidity_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity.\n                                    The model predicts this variable at the following sites: ABBY, MLBS, DELA, GRSM, LENO, MOAB, PUUM, KONZ, LAJA, NIWO, BART, TREE, TALL, STEI, JORN, RMNP, SERC, SJER, ORNL, WOOD, YELL, OSBS, UNDE, CLBJ, HEAL, UKFS, KONA, DCFS, WREF, BARR, BONA, HARV, DEJU, GUAN, TOOL, TEAK, NOGP, DSNY, JERC, ONAQ, SOAP, SCBI, BLAN, SRER, OAES, STER, CPER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Red_chromatic_coordinate variable for the tg_humidity_lm model. Information for the model is provided as follows: The tg_humidity_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only one covariate: relative humidity.\n                                    The model predicts this variable at the following sites: ABBY, MLBS, DELA, GRSM, LENO, MOAB, PUUM, KONZ, LAJA, NIWO, BART, TREE, TALL, STEI, JORN, RMNP, SERC, SJER, JERC, ONAQ, SOAP, SCBI, BLAN, SRER, OAES, STER, CPER, ORNL, WOOD, YELL, OSBS, UNDE, CLBJ, HEAL, UKFS, KONA, DCFS, WREF, BARR, BONA, HARV, DEJU, GUAN, TOOL, TEAK, NOGP, DSNY.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-03T00:00:00Z",
     "updated": "2024-07-03T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -111,6 +111,15 @@
       "RMNP",
       "SERC",
       "SJER",
+      "JERC",
+      "ONAQ",
+      "SOAP",
+      "SCBI",
+      "BLAN",
+      "SRER",
+      "OAES",
+      "STER",
+      "CPER",
       "ORNL",
       "WOOD",
       "YELL",
@@ -130,16 +139,7 @@
       "TOOL",
       "TEAK",
       "NOGP",
-      "DSNY",
-      "JERC",
-      "ONAQ",
-      "SOAP",
-      "SCBI",
-      "BLAN",
-      "SRER",
-      "OAES",
-      "STER",
-      "CPER"
+      "DSNY"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, MLBS, DELA, GRSM, LENO, MOAB, PUUM, KONZ, LAJA, NIWO, BART, TREE, TALL, STEI, JORN, RMNP, SERC, SJER, ORNL, WOOD, YELL, OSBS, UNDE, CLBJ, HEAL, UKFS, KONA, DCFS, WREF, BARR, BONA, HARV, DEJU, GUAN, TOOL, TEAK, NOGP, DSNY, JERC, ONAQ, SOAP, SCBI, BLAN, SRER, OAES, STER, CPER"
+      "description": "ABBY, MLBS, DELA, GRSM, LENO, MOAB, PUUM, KONZ, LAJA, NIWO, BART, TREE, TALL, STEI, JORN, RMNP, SERC, SJER, JERC, ONAQ, SOAP, SCBI, BLAN, SRER, OAES, STER, CPER, ORNL, WOOD, YELL, OSBS, UNDE, CLBJ, HEAL, UKFS, KONA, DCFS, WREF, BARR, BONA, HARV, DEJU, GUAN, TOOL, TEAK, NOGP, DSNY"
     },
     "4": {
       "type": "application/x-parquet",

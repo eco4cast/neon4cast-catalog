@@ -18,14 +18,6 @@
       [-110.8355, 31.9107],
       [-99.0588, 35.4106],
       [-119.2622, 37.0334],
-      [-106.8425, 32.5907],
-      [-119.7323, 37.1088],
-      [-89.5864, 45.5089],
-      [-105.546, 40.2759],
-      [-76.56, 38.8901],
-      [-71.2874, 44.0639],
-      [-87.3933, 32.9505],
-      [-89.5857, 45.4937],
       [-147.5026, 65.154],
       [-89.5373, 46.2339],
       [-110.5391, 44.9535],
@@ -55,12 +47,20 @@
       [-96.5631, 39.1008],
       [-122.3303, 45.7624],
       [-67.0769, 18.0213],
-      [-105.5824, 40.0543]
+      [-105.5824, 40.0543],
+      [-106.8425, 32.5907],
+      [-119.7323, 37.1088],
+      [-89.5864, 45.5089],
+      [-105.546, 40.2759],
+      [-76.56, 38.8901],
+      [-71.2874, 44.0639],
+      [-87.3933, 32.9505],
+      [-89.5857, 45.4937]
     ]
   },
   "properties": {
     "title": "tg_precip_lm",
-    "description": "All summaries for the Daily_Net_ecosystem_exchange variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: BLAN, ONAQ, SCBI, STER, CPER, JERC, SRER, OAES, SOAP, JORN, SJER, STEI, RMNP, SERC, BART, TALL, TREE, BONA, UNDE, YELL, WOOD, GUAN, TOOL, ORNL, BARR, WREF, HEAL, DCFS, UKFS, HARV, DEJU, NOGP, OSBS, DSNY, KONA, CLBJ, TEAK, MLBS, DELA, PUUM, LENO, MOAB, GRSM, KONZ, ABBY, LAJA, NIWO.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Net_ecosystem_exchange variable for the tg_precip_lm model. Information for the model is provided as follows: The tg_precip_lm model is a linear model fit using the function lm() in R. This is a very simple\nmodel with only total precipitation used as a model covariate..\n                                    The model predicts this variable at the following sites: BLAN, ONAQ, SCBI, STER, CPER, JERC, SRER, OAES, SOAP, BONA, UNDE, YELL, WOOD, GUAN, TOOL, ORNL, BARR, WREF, HEAL, DCFS, UKFS, HARV, DEJU, NOGP, OSBS, DSNY, KONA, CLBJ, TEAK, MLBS, DELA, PUUM, LENO, MOAB, GRSM, KONZ, ABBY, LAJA, NIWO, JORN, SJER, STEI, RMNP, SERC, BART, TALL, TREE.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2024-02-03T00:00:00Z",
     "updated": "2024-07-04T00:00:00Z",
     "start_datetime": "2023-11-14T00:00:00Z",
@@ -102,14 +102,6 @@
       "SRER",
       "OAES",
       "SOAP",
-      "JORN",
-      "SJER",
-      "STEI",
-      "RMNP",
-      "SERC",
-      "BART",
-      "TALL",
-      "TREE",
       "BONA",
       "UNDE",
       "YELL",
@@ -139,7 +131,15 @@
       "KONZ",
       "ABBY",
       "LAJA",
-      "NIWO"
+      "NIWO",
+      "JORN",
+      "SJER",
+      "STEI",
+      "RMNP",
+      "SERC",
+      "BART",
+      "TALL",
+      "TREE"
     ],
     "table:columns": [
       {
@@ -286,7 +286,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BLAN, ONAQ, SCBI, STER, CPER, JERC, SRER, OAES, SOAP, JORN, SJER, STEI, RMNP, SERC, BART, TALL, TREE, BONA, UNDE, YELL, WOOD, GUAN, TOOL, ORNL, BARR, WREF, HEAL, DCFS, UKFS, HARV, DEJU, NOGP, OSBS, DSNY, KONA, CLBJ, TEAK, MLBS, DELA, PUUM, LENO, MOAB, GRSM, KONZ, ABBY, LAJA, NIWO"
+      "description": "BLAN, ONAQ, SCBI, STER, CPER, JERC, SRER, OAES, SOAP, BONA, UNDE, YELL, WOOD, GUAN, TOOL, ORNL, BARR, WREF, HEAL, DCFS, UKFS, HARV, DEJU, NOGP, OSBS, DSNY, KONA, CLBJ, TEAK, MLBS, DELA, PUUM, LENO, MOAB, GRSM, KONZ, ABBY, LAJA, NIWO, JORN, SJER, STEI, RMNP, SERC, BART, TALL, TREE"
     },
     "4": {
       "type": "application/x-parquet",
