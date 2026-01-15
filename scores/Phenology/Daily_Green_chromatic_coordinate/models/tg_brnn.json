@@ -9,16 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-122.3303, 45.7624],
-      [-87.8039, 32.5417],
-      [-83.5019, 35.689],
-      [-88.1612, 31.8539],
-      [-109.3883, 38.2483],
-      [-105.5824, 40.0543],
-      [-155.3173, 19.5531],
-      [-96.5631, 39.1008],
-      [-67.0769, 18.0213],
-      [-80.5248, 37.3783],
       [-71.2874, 44.0639],
       [-106.8425, 32.5907],
       [-105.546, 40.2759],
@@ -55,12 +45,22 @@
       [-99.2413, 47.1282],
       [-121.9519, 45.8205],
       [-110.5391, 44.9535],
-      [-95.1921, 39.0404]
+      [-95.1921, 39.0404],
+      [-122.3303, 45.7624],
+      [-87.8039, 32.5417],
+      [-83.5019, 35.689],
+      [-88.1612, 31.8539],
+      [-109.3883, 38.2483],
+      [-105.5824, 40.0543],
+      [-155.3173, 19.5531],
+      [-96.5631, 39.1008],
+      [-67.0769, 18.0213],
+      [-80.5248, 37.3783]
     ]
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: ABBY, DELA, GRSM, LENO, MOAB, NIWO, PUUM, KONZ, LAJA, MLBS, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, STER, SRER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UNDE, WOOD, WREF, YELL, UKFS.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, STER, SRER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UNDE, WOOD, WREF, YELL, UKFS, ABBY, DELA, GRSM, LENO, MOAB, NIWO, PUUM, KONZ, LAJA, MLBS.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-12T00:00:00Z",
     "start_datetime": "2025-05-12T00:00:00Z",
@@ -93,16 +93,6 @@
       "gcc_90",
       "Daily",
       "P1D",
-      "ABBY",
-      "DELA",
-      "GRSM",
-      "LENO",
-      "MOAB",
-      "NIWO",
-      "PUUM",
-      "KONZ",
-      "LAJA",
-      "MLBS",
       "BART",
       "JORN",
       "RMNP",
@@ -139,7 +129,17 @@
       "WOOD",
       "WREF",
       "YELL",
-      "UKFS"
+      "UKFS",
+      "ABBY",
+      "DELA",
+      "GRSM",
+      "LENO",
+      "MOAB",
+      "NIWO",
+      "PUUM",
+      "KONZ",
+      "LAJA",
+      "MLBS"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, DELA, GRSM, LENO, MOAB, NIWO, PUUM, KONZ, LAJA, MLBS, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, STER, SRER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UNDE, WOOD, WREF, YELL, UKFS"
+      "description": "BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, STER, SRER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UNDE, WOOD, WREF, YELL, UKFS, ABBY, DELA, GRSM, LENO, MOAB, NIWO, PUUM, KONZ, LAJA, MLBS"
     },
     "4": {
       "type": "application/x-parquet",
