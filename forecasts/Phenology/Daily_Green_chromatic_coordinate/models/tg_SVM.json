@@ -29,6 +29,15 @@
       [-149.3705, 68.6611],
       [-99.1066, 47.1617],
       [-95.1921, 39.0404],
+      [-119.2622, 37.0334],
+      [-112.4524, 40.1776],
+      [-103.0293, 40.4619],
+      [-110.8355, 31.9107],
+      [-104.7456, 40.8155],
+      [-84.4686, 31.1948],
+      [-78.1395, 38.8929],
+      [-99.0588, 35.4106],
+      [-78.0418, 39.0337],
       [-155.3173, 19.5531],
       [-88.1612, 31.8539],
       [-80.5248, 37.3783],
@@ -46,21 +55,12 @@
       [-106.8425, 32.5907],
       [-89.5864, 45.5089],
       [-76.56, 38.8901],
-      [-71.2874, 44.0639],
-      [-119.2622, 37.0334],
-      [-112.4524, 40.1776],
-      [-103.0293, 40.4619],
-      [-110.8355, 31.9107],
-      [-104.7456, 40.8155],
-      [-84.4686, 31.1948],
-      [-78.1395, 38.8929],
-      [-99.0588, 35.4106],
-      [-78.0418, 39.0337]
+      [-71.2874, 44.0639]
     ]
   },
   "properties": {
     "title": "tg_SVM",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: UNDE, WOOD, DSNY, CLBJ, NOGP, HEAL, WREF, BARR, KONA, HARV, ORNL, TEAK, DEJU, BONA, YELL, GUAN, OSBS, TOOL, DCFS, UKFS, PUUM, LENO, MLBS, MOAB, DELA, KONZ, NIWO, ABBY, LAJA, GRSM, TALL, SJER, TREE, RMNP, JORN, STEI, SERC, BART, SOAP, ONAQ, STER, SRER, CPER, JERC, SCBI, OAES, BLAN.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the tg_SVM model. Information for the model is provided as follows: SVM regression forecasts generated with consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: UNDE, WOOD, DSNY, CLBJ, NOGP, HEAL, WREF, BARR, KONA, HARV, ORNL, TEAK, DEJU, BONA, YELL, GUAN, OSBS, TOOL, DCFS, UKFS, SOAP, ONAQ, STER, SRER, CPER, JERC, SCBI, OAES, BLAN, PUUM, LENO, MLBS, MOAB, DELA, KONZ, NIWO, ABBY, LAJA, GRSM, TALL, SJER, TREE, RMNP, JORN, STEI, SERC, BART.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -113,6 +113,15 @@
       "TOOL",
       "DCFS",
       "UKFS",
+      "SOAP",
+      "ONAQ",
+      "STER",
+      "SRER",
+      "CPER",
+      "JERC",
+      "SCBI",
+      "OAES",
+      "BLAN",
       "PUUM",
       "LENO",
       "MLBS",
@@ -130,16 +139,7 @@
       "JORN",
       "STEI",
       "SERC",
-      "BART",
-      "SOAP",
-      "ONAQ",
-      "STER",
-      "SRER",
-      "CPER",
-      "JERC",
-      "SCBI",
-      "OAES",
-      "BLAN"
+      "BART"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "UNDE, WOOD, DSNY, CLBJ, NOGP, HEAL, WREF, BARR, KONA, HARV, ORNL, TEAK, DEJU, BONA, YELL, GUAN, OSBS, TOOL, DCFS, UKFS, PUUM, LENO, MLBS, MOAB, DELA, KONZ, NIWO, ABBY, LAJA, GRSM, TALL, SJER, TREE, RMNP, JORN, STEI, SERC, BART, SOAP, ONAQ, STER, SRER, CPER, JERC, SCBI, OAES, BLAN"
+      "description": "UNDE, WOOD, DSNY, CLBJ, NOGP, HEAL, WREF, BARR, KONA, HARV, ORNL, TEAK, DEJU, BONA, YELL, GUAN, OSBS, TOOL, DCFS, UKFS, SOAP, ONAQ, STER, SRER, CPER, JERC, SCBI, OAES, BLAN, PUUM, LENO, MLBS, MOAB, DELA, KONZ, NIWO, ABBY, LAJA, GRSM, TALL, SJER, TREE, RMNP, JORN, STEI, SERC, BART"
     },
     "4": {
       "type": "application/x-parquet",
