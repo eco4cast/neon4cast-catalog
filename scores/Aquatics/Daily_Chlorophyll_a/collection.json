@@ -11,37 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procBlanchardMonod.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procHinshelwoodSteele.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -91,11 +76,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_ets.json"
     },
     {
@@ -126,22 +106,42 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/procBlanchardMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodSteele.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "parent",
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-01-17T00:00:00Z"
+          "2026-01-18T00:00:00Z"
         ]
       ]
     }

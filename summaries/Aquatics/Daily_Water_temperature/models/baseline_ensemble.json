@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-119.2575, 37.0597],
       [-87.4077, 32.9604],
       [-84.2793, 35.9574],
@@ -17,10 +21,6 @@
       [-84.4374, 31.1854],
       [-102.4471, 39.7582],
       [-83.5038, 35.6904],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
       [-97.7823, 33.3785],
       [-72.3295, 42.4719],
       [-121.9338, 45.7908],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "baseline_ensemble",
-    "description": "All summaries for the Daily_Water_temperature variable for the baseline_ensemble model. Information for the model is provided as follows: The Baseline MME is a multi-model ensemble (MME) comprised of the two baseline models\n(day-of-year, persistence) submitted by Challenge organisers.\n                                    The model predicts this variable at the following sites: BIGC, MAYF, WALK, MCRA, BLDE, FLNT, ARIK, LECO, LEWI, BLUE, PRPO, TOOK, PRIN, HOPB, MART, KING, OKSR, MCDI, SUGG, CUPE, POSE, CRAM, REDB, BARC, WLOU, TECR, SYCA, LIRO, BLWA, TOMB, GUIL, COMO, PRLA, CARI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Water_temperature variable for the baseline_ensemble model. Information for the model is provided as follows: The Baseline MME is a multi-model ensemble (MME) comprised of the two baseline models\n(day-of-year, persistence) submitted by Challenge organisers.\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, TOOK, BIGC, MAYF, WALK, MCRA, BLDE, FLNT, ARIK, LECO, PRIN, HOPB, MART, KING, OKSR, MCDI, SUGG, CUPE, POSE, CRAM, REDB, BARC, WLOU, TECR, SYCA, LIRO, BLWA, TOMB, GUIL, COMO, PRLA, CARI.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2024-07-03T00:00:00Z",
     "updated": "2024-08-22T00:00:00Z",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "PRPO",
+      "TOOK",
       "BIGC",
       "MAYF",
       "WALK",
@@ -88,10 +92,6 @@
       "FLNT",
       "ARIK",
       "LECO",
-      "LEWI",
-      "BLUE",
-      "PRPO",
-      "TOOK",
       "PRIN",
       "HOPB",
       "MART",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "BIGC, MAYF, WALK, MCRA, BLDE, FLNT, ARIK, LECO, LEWI, BLUE, PRPO, TOOK, PRIN, HOPB, MART, KING, OKSR, MCDI, SUGG, CUPE, POSE, CRAM, REDB, BARC, WLOU, TECR, SYCA, LIRO, BLWA, TOMB, GUIL, COMO, PRLA, CARI"
+      "description": "LEWI, BLUE, PRPO, TOOK, BIGC, MAYF, WALK, MCRA, BLDE, FLNT, ARIK, LECO, PRIN, HOPB, MART, KING, OKSR, MCDI, SUGG, CUPE, POSE, CRAM, REDB, BARC, WLOU, TECR, SYCA, LIRO, BLWA, TOMB, GUIL, COMO, PRLA, CARI"
     },
     "4": {
       "type": "application/x-parquet",

@@ -22,6 +22,10 @@
       [-82.0084, 29.676],
       [-97.7823, 33.3785],
       [-121.9338, 45.7908],
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
       [-88.1589, 31.8534],
       [-87.7982, 32.5415],
       [-99.1139, 47.1591],
@@ -38,16 +42,12 @@
       [-119.2575, 37.0597],
       [-83.5038, 35.6904],
       [-84.2793, 35.9574],
-      [-84.4374, 31.1854],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307]
+      [-84.4374, 31.1854]
     ]
   },
   "properties": {
     "title": "air2waterSat_2",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the air2waterSat_2 model. Information for the model is provided as follows: The air2water model is a linear model fit using the function lm() in R and uses air temperature as\na covariate.\n                                    The model predicts this variable at the following sites: KING, SUGG, CRAM, MCDI, POSE, CUPE, HOPB, REDB, OKSR, WLOU, BARC, PRIN, MART, TOMB, BLWA, PRLA, COMO, SYCA, CARI, GUIL, LIRO, TECR, MCRA, ARIK, MAYF, BLDE, BIGC, LECO, WALK, FLNT, PRPO, BLUE, LEWI, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the air2waterSat_2 model. Information for the model is provided as follows: The air2water model is a linear model fit using the function lm() in R and uses air temperature as\na covariate.\n                                    The model predicts this variable at the following sites: KING, SUGG, CRAM, MCDI, POSE, CUPE, HOPB, REDB, OKSR, WLOU, BARC, PRIN, MART, PRPO, BLUE, LEWI, TOOK, TOMB, BLWA, PRLA, COMO, SYCA, CARI, GUIL, LIRO, TECR, MCRA, ARIK, MAYF, BLDE, BIGC, LECO, WALK, FLNT.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-02-01T00:00:00Z",
     "updated": "2024-02-02T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -93,6 +93,10 @@
       "BARC",
       "PRIN",
       "MART",
+      "PRPO",
+      "BLUE",
+      "LEWI",
+      "TOOK",
       "TOMB",
       "BLWA",
       "PRLA",
@@ -109,11 +113,7 @@
       "BIGC",
       "LECO",
       "WALK",
-      "FLNT",
-      "PRPO",
-      "BLUE",
-      "LEWI",
-      "TOOK"
+      "FLNT"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "KING, SUGG, CRAM, MCDI, POSE, CUPE, HOPB, REDB, OKSR, WLOU, BARC, PRIN, MART, TOMB, BLWA, PRLA, COMO, SYCA, CARI, GUIL, LIRO, TECR, MCRA, ARIK, MAYF, BLDE, BIGC, LECO, WALK, FLNT, PRPO, BLUE, LEWI, TOOK"
+      "description": "KING, SUGG, CRAM, MCDI, POSE, CUPE, HOPB, REDB, OKSR, WLOU, BARC, PRIN, MART, PRPO, BLUE, LEWI, TOOK, TOMB, BLWA, PRLA, COMO, SYCA, CARI, GUIL, LIRO, TECR, MCRA, ARIK, MAYF, BLDE, BIGC, LECO, WALK, FLNT"
     },
     "4": {
       "type": "application/x-parquet",
