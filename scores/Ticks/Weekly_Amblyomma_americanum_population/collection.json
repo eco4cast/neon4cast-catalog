@@ -21,12 +21,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/BU_Dem.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_Dem.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -76,12 +76,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VTicks.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/VTicks.json"
     },
     {
       "rel": "item",

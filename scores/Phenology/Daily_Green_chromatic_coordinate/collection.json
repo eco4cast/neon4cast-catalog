@@ -16,12 +16,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/greenbears.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/greenbears.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -47,11 +52,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -211,7 +211,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-01-20T00:00:00Z"
+          "2026-01-21T00:00:00Z"
         ]
       ]
     }
