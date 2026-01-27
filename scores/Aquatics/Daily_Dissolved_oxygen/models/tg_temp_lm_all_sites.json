@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
       [-66.7987, 18.1741],
       [-105.5442, 40.035],
       [-111.5081, 33.751],
@@ -22,6 +18,10 @@
       [-88.1589, 31.8534],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
       [-83.5038, 35.6904],
       [-84.4374, 31.1854],
       [-87.4077, 32.9604],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_temp_lm_all_sites",
-    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: TOOK, PRPO, LEWI, BLUE, GUIL, COMO, SYCA, PRLA, TECR, LIRO, TOMB, BLWA, CARI, LECO, FLNT, MAYF, WALK, MCRA, ARIK, BLDE, BIGC, OKSR, MART, POSE, HOPB, SUGG, REDB, WLOU, BARC, MCDI, PRIN, KING, CRAM, CUPE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_temp_lm_all_sites model. Information for the model is provided as follows: The tg_temp_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation.This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together.\n                                    The model predicts this variable at the following sites: GUIL, COMO, SYCA, PRLA, TECR, LIRO, TOMB, BLWA, CARI, TOOK, PRPO, LEWI, BLUE, LECO, FLNT, MAYF, WALK, MCRA, ARIK, BLDE, BIGC, OKSR, MART, POSE, HOPB, SUGG, REDB, WLOU, BARC, MCDI, PRIN, KING, CRAM, CUPE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "TOOK",
-      "PRPO",
-      "LEWI",
-      "BLUE",
       "GUIL",
       "COMO",
       "SYCA",
@@ -93,6 +89,10 @@
       "TOMB",
       "BLWA",
       "CARI",
+      "TOOK",
+      "PRPO",
+      "LEWI",
+      "BLUE",
       "LECO",
       "FLNT",
       "MAYF",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TOOK, PRPO, LEWI, BLUE, GUIL, COMO, SYCA, PRLA, TECR, LIRO, TOMB, BLWA, CARI, LECO, FLNT, MAYF, WALK, MCRA, ARIK, BLDE, BIGC, OKSR, MART, POSE, HOPB, SUGG, REDB, WLOU, BARC, MCDI, PRIN, KING, CRAM, CUPE"
+      "description": "GUIL, COMO, SYCA, PRLA, TECR, LIRO, TOMB, BLWA, CARI, TOOK, PRPO, LEWI, BLUE, LECO, FLNT, MAYF, WALK, MCRA, ARIK, BLDE, BIGC, OKSR, MART, POSE, HOPB, SUGG, REDB, WLOU, BARC, MCDI, PRIN, KING, CRAM, CUPE"
     },
     "4": {
       "type": "application/x-parquet",
