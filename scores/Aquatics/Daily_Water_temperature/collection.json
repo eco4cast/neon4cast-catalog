@@ -56,12 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
@@ -72,6 +72,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/GLEON_physics.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
@@ -106,11 +111,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/zimmerman_proj1.json"
     },
     {
@@ -127,6 +127,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/GLEON_JRabaey_temp_physics.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -167,11 +172,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/acp_fableLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
