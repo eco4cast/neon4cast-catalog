@@ -11,6 +11,26 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -36,12 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -89,26 +109,6 @@
       "href": "./models/tg_tbats.json"
     },
     {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-03-05T00:00:00Z"
+          "2026-03-06T00:00:00Z"
         ]
       ]
     }

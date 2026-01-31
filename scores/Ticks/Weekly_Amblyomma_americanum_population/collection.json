@@ -11,12 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/BU_Dem.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_ets.json"
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCLA_2022.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
@@ -31,22 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VTicks.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -66,17 +61,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BU_Dem.json"
+      "href": "./models/VTicks.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/UCLA_2022.json"
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
