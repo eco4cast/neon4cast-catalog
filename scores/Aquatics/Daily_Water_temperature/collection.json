@@ -141,11 +141,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/acp_fableLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/bee_bake_RFModel_2024.json"
     },
     {
@@ -177,6 +172,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",

@@ -26,12 +26,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
+      "href": "./models/BBTW.json"
     },
     {
       "rel": "item",

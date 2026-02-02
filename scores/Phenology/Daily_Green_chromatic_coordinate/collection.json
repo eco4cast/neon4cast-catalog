@@ -61,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -96,7 +96,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -211,7 +211,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-01-30T00:00:00Z"
+          "2026-01-31T00:00:00Z"
         ]
       ]
     }
