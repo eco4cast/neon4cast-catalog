@@ -17,6 +17,15 @@
       [-119.7323, 37.1088],
       [-89.5864, 45.5089],
       [-76.56, 38.8901],
+      [-110.8355, 31.9107],
+      [-103.0293, 40.4619],
+      [-78.0418, 39.0337],
+      [-104.7456, 40.8155],
+      [-119.2622, 37.0334],
+      [-112.4524, 40.1776],
+      [-84.4686, 31.1948],
+      [-99.0588, 35.4106],
+      [-78.1395, 38.8929],
       [-109.3883, 38.2483],
       [-105.5824, 40.0543],
       [-87.8039, 32.5417],
@@ -46,21 +55,12 @@
       [-156.6194, 71.2824],
       [-149.3705, 68.6611],
       [-145.7514, 63.8811],
-      [-110.5391, 44.9535],
-      [-110.8355, 31.9107],
-      [-103.0293, 40.4619],
-      [-78.0418, 39.0337],
-      [-104.7456, 40.8155],
-      [-119.2622, 37.0334],
-      [-112.4524, 40.1776],
-      [-84.4686, 31.1948],
-      [-99.0588, 35.4106],
-      [-78.1395, 38.8929]
+      [-110.5391, 44.9535]
     ]
   },
   "properties": {
     "title": "tg_temp_lm",
-    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: TALL, JORN, BART, TREE, RMNP, SJER, STEI, SERC, MOAB, NIWO, DELA, ABBY, LAJA, KONZ, LENO, PUUM, MLBS, GRSM, TEAK, BONA, NOGP, OSBS, DCFS, CLBJ, UNDE, ORNL, DSNY, HEAL, UKFS, WOOD, WREF, GUAN, KONA, HARV, BARR, TOOL, DEJU, YELL, SRER, STER, BLAN, CPER, SOAP, ONAQ, JERC, OAES, SCBI.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the tg_temp_lm model. Information for the model is provided as follows: The tg_temp_lm model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation..\n                                    The model predicts this variable at the following sites: TALL, JORN, BART, TREE, RMNP, SJER, STEI, SERC, SRER, STER, BLAN, CPER, SOAP, ONAQ, JERC, OAES, SCBI, MOAB, NIWO, DELA, ABBY, LAJA, KONZ, LENO, PUUM, MLBS, GRSM, TEAK, BONA, NOGP, OSBS, DCFS, CLBJ, UNDE, ORNL, DSNY, HEAL, UKFS, WOOD, WREF, GUAN, KONA, HARV, BARR, TOOL, DEJU, YELL.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2023-01-01T00:00:00Z",
@@ -101,6 +101,15 @@
       "SJER",
       "STEI",
       "SERC",
+      "SRER",
+      "STER",
+      "BLAN",
+      "CPER",
+      "SOAP",
+      "ONAQ",
+      "JERC",
+      "OAES",
+      "SCBI",
       "MOAB",
       "NIWO",
       "DELA",
@@ -130,16 +139,7 @@
       "BARR",
       "TOOL",
       "DEJU",
-      "YELL",
-      "SRER",
-      "STER",
-      "BLAN",
-      "CPER",
-      "SOAP",
-      "ONAQ",
-      "JERC",
-      "OAES",
-      "SCBI"
+      "YELL"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TALL, JORN, BART, TREE, RMNP, SJER, STEI, SERC, MOAB, NIWO, DELA, ABBY, LAJA, KONZ, LENO, PUUM, MLBS, GRSM, TEAK, BONA, NOGP, OSBS, DCFS, CLBJ, UNDE, ORNL, DSNY, HEAL, UKFS, WOOD, WREF, GUAN, KONA, HARV, BARR, TOOL, DEJU, YELL, SRER, STER, BLAN, CPER, SOAP, ONAQ, JERC, OAES, SCBI"
+      "description": "TALL, JORN, BART, TREE, RMNP, SJER, STEI, SERC, SRER, STER, BLAN, CPER, SOAP, ONAQ, JERC, OAES, SCBI, MOAB, NIWO, DELA, ABBY, LAJA, KONZ, LENO, PUUM, MLBS, GRSM, TEAK, BONA, NOGP, OSBS, DCFS, CLBJ, UNDE, ORNL, DSNY, HEAL, UKFS, WOOD, WREF, GUAN, KONA, HARV, BARR, TOOL, DEJU, YELL"
     },
     "4": {
       "type": "application/x-parquet",
