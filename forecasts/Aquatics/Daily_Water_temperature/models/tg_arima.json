@@ -30,10 +30,6 @@
       [-122.1655, 44.2596],
       [-84.2793, 35.9574],
       [-102.4471, 39.7582],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
       [-89.7048, 45.9983],
       [-66.7987, 18.1741],
       [-88.1589, 31.8534],
@@ -42,12 +38,16 @@
       [-119.0274, 36.9559],
       [-99.1139, 47.1591],
       [-111.5081, 33.751],
-      [-87.7982, 32.5415]
+      [-87.7982, 32.5415],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956]
     ]
   },
   "properties": {
     "title": "tg_arima",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: CUPE, CRAM, REDB, PRIN, MCDI, KING, OKSR, HOPB, POSE, BARC, SUGG, WLOU, MART, MAYF, BIGC, BLDE, FLNT, LECO, MCRA, WALK, ARIK, TOOK, PRPO, BLUE, LEWI, LIRO, GUIL, TOMB, COMO, CARI, TECR, PRLA, SYCA, BLWA.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_arima model. Information for the model is provided as follows: The tg_arima model is an AutoRegressive Integrated Moving Average (ARIMA) model fit using\nthe function auto.arima() from the forecast package in R (Hyndman et al. 2023; Hyndman et al., 2008).\nThis is an empirical time series model with no covariates.\n                                    The model predicts this variable at the following sites: CUPE, CRAM, REDB, PRIN, MCDI, KING, OKSR, HOPB, POSE, BARC, SUGG, WLOU, MART, MAYF, BIGC, BLDE, FLNT, LECO, MCRA, WALK, ARIK, LIRO, GUIL, TOMB, COMO, CARI, TECR, PRLA, SYCA, BLWA, TOOK, PRPO, BLUE, LEWI.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2021-12-18T00:00:00Z",
@@ -101,10 +101,6 @@
       "MCRA",
       "WALK",
       "ARIK",
-      "TOOK",
-      "PRPO",
-      "BLUE",
-      "LEWI",
       "LIRO",
       "GUIL",
       "TOMB",
@@ -113,17 +109,21 @@
       "TECR",
       "PRLA",
       "SYCA",
-      "BLWA"
+      "BLWA",
+      "TOOK",
+      "PRPO",
+      "BLUE",
+      "LEWI"
     ],
     "table:columns": [
       {
         "name": "datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime of the forecasted value (ISO 8601)"
       },
       {
         "name": "reference_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that the forecast was initiated (horizon = 0)"
       },
       {
@@ -148,7 +148,7 @@
       },
       {
         "name": "pub_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that forecast was submitted"
       },
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "CUPE, CRAM, REDB, PRIN, MCDI, KING, OKSR, HOPB, POSE, BARC, SUGG, WLOU, MART, MAYF, BIGC, BLDE, FLNT, LECO, MCRA, WALK, ARIK, TOOK, PRPO, BLUE, LEWI, LIRO, GUIL, TOMB, COMO, CARI, TECR, PRLA, SYCA, BLWA"
+      "description": "CUPE, CRAM, REDB, PRIN, MCDI, KING, OKSR, HOPB, POSE, BARC, SUGG, WLOU, MART, MAYF, BIGC, BLDE, FLNT, LECO, MCRA, WALK, ARIK, LIRO, GUIL, TOMB, COMO, CARI, TECR, PRLA, SYCA, BLWA, TOOK, PRPO, BLUE, LEWI"
     },
     "4": {
       "type": "application/x-parquet",

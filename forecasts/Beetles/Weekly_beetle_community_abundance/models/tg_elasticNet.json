@@ -39,14 +39,6 @@
       [-96.5631, 39.1008],
       [-83.5019, 35.689],
       [-122.3303, 45.7624],
-      [-89.5864, 45.5089],
-      [-106.8425, 32.5907],
-      [-89.5857, 45.4937],
-      [-76.56, 38.8901],
-      [-105.546, 40.2759],
-      [-119.7323, 37.1088],
-      [-71.2874, 44.0639],
-      [-87.3933, 32.9505],
       [-103.0293, 40.4619],
       [-78.0418, 39.0337],
       [-112.4524, 40.1776],
@@ -55,12 +47,20 @@
       [-119.2622, 37.0334],
       [-104.7456, 40.8155],
       [-84.4686, 31.1948],
-      [-110.8355, 31.9107]
+      [-110.8355, 31.9107],
+      [-89.5864, 45.5089],
+      [-106.8425, 32.5907],
+      [-89.5857, 45.4937],
+      [-76.56, 38.8901],
+      [-105.546, 40.2759],
+      [-119.7323, 37.1088],
+      [-71.2874, 44.0639],
+      [-87.3933, 32.9505]
     ]
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: NOGP, YELL, OSBS, HEAL, ORNL, KONA, CLBJ, DSNY, DEJU, TOOL, TEAK, DCFS, GUAN, UNDE, WREF, UKFS, BARR, WOOD, BONA, HARV, LENO, PUUM, NIWO, DELA, MOAB, LAJA, MLBS, KONZ, GRSM, ABBY, STEI, JORN, TREE, SERC, RMNP, SJER, BART, TALL, STER, BLAN, ONAQ, SCBI, OAES, SOAP, CPER, JERC, SRER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: NOGP, YELL, OSBS, HEAL, ORNL, KONA, CLBJ, DSNY, DEJU, TOOL, TEAK, DCFS, GUAN, UNDE, WREF, UKFS, BARR, WOOD, BONA, HARV, LENO, PUUM, NIWO, DELA, MOAB, LAJA, MLBS, KONZ, GRSM, ABBY, STER, BLAN, ONAQ, SCBI, OAES, SOAP, CPER, JERC, SRER, STEI, JORN, TREE, SERC, RMNP, SJER, BART, TALL.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2025-04-07T00:00:00Z",
@@ -123,14 +123,6 @@
       "KONZ",
       "GRSM",
       "ABBY",
-      "STEI",
-      "JORN",
-      "TREE",
-      "SERC",
-      "RMNP",
-      "SJER",
-      "BART",
-      "TALL",
       "STER",
       "BLAN",
       "ONAQ",
@@ -139,17 +131,25 @@
       "SOAP",
       "CPER",
       "JERC",
-      "SRER"
+      "SRER",
+      "STEI",
+      "JORN",
+      "TREE",
+      "SERC",
+      "RMNP",
+      "SJER",
+      "BART",
+      "TALL"
     ],
     "table:columns": [
       {
         "name": "datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime of the forecasted value (ISO 8601)"
       },
       {
         "name": "reference_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that the forecast was initiated (horizon = 0)"
       },
       {
@@ -174,7 +174,7 @@
       },
       {
         "name": "pub_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that forecast was submitted"
       },
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "NOGP, YELL, OSBS, HEAL, ORNL, KONA, CLBJ, DSNY, DEJU, TOOL, TEAK, DCFS, GUAN, UNDE, WREF, UKFS, BARR, WOOD, BONA, HARV, LENO, PUUM, NIWO, DELA, MOAB, LAJA, MLBS, KONZ, GRSM, ABBY, STEI, JORN, TREE, SERC, RMNP, SJER, BART, TALL, STER, BLAN, ONAQ, SCBI, OAES, SOAP, CPER, JERC, SRER"
+      "description": "NOGP, YELL, OSBS, HEAL, ORNL, KONA, CLBJ, DSNY, DEJU, TOOL, TEAK, DCFS, GUAN, UNDE, WREF, UKFS, BARR, WOOD, BONA, HARV, LENO, PUUM, NIWO, DELA, MOAB, LAJA, MLBS, KONZ, GRSM, ABBY, STER, BLAN, ONAQ, SCBI, OAES, SOAP, CPER, JERC, SRER, STEI, JORN, TREE, SERC, RMNP, SJER, BART, TALL"
     },
     "4": {
       "type": "application/x-parquet",

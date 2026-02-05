@@ -11,6 +11,26 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/USGSHABs1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procCTMIMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -36,11 +56,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
@@ -51,7 +66,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procEppleyNorbergSteele.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -61,22 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USGSHABs1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procCTMIMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procHinshelwoodMonod.json"
+      "href": "./models/procEppleyNorbergSteele.json"
     },
     {
       "rel": "item",
@@ -101,17 +101,12 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procHinshelwoodSteele.json"
     },
     {
       "rel": "item",
@@ -121,7 +116,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/procBlanchardMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodSteele.json"
     },
     {
       "rel": "item",
@@ -131,7 +131,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procBlanchardMonod.json"
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "parent",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-03-08T00:00:00Z"
+          "2026-03-10T00:00:00Z"
         ]
       ]
     }
@@ -184,12 +184,12 @@
   "table:columns": [
     {
       "name": "datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime of the forecasted value (ISO 8601)"
     },
     {
       "name": "reference_datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime that the forecast was initiated (horizon = 0)"
     },
     {
@@ -214,7 +214,7 @@
     },
     {
       "name": "pub_datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime that forecast was submitted"
     },
     {

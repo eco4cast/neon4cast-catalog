@@ -11,7 +11,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -36,17 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-03-09T00:00:00Z"
+          "2026-03-11T00:00:00Z"
         ]
       ]
     }
@@ -144,12 +144,12 @@
   "table:columns": [
     {
       "name": "datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime of the forecasted value (ISO 8601)"
     },
     {
       "name": "reference_datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime that the forecast was initiated (horizon = 0)"
     },
     {
@@ -174,7 +174,7 @@
     },
     {
       "name": "pub_datetime",
-      "type": "timestamp[us, tz=UTC]",
+      "type": "timestamp[us]",
       "description": "datetime that forecast was submitted"
     },
     {

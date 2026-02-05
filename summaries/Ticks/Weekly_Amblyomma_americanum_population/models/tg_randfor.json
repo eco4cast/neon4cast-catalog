@@ -130,19 +130,19 @@
         "description": "date that the forecast was initiated"
       },
       {
-        "name": "project_id",
-        "type": "string",
-        "description": "unique identifier for the forecast project"
-      },
-      {
         "name": "duration",
         "type": "string",
         "description": "temporal duration of forecast (hourly, daily, etc.); follows ISO 8601 duration convention"
       },
       {
-        "name": "variable",
+        "name": "model_id",
         "type": "string",
-        "description": "name of forecasted variable"
+        "description": "unique model identifier"
+      },
+      {
+        "name": "project_id",
+        "type": "string",
+        "description": "unique identifier for the forecast project"
       }
     ]
   },

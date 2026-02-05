@@ -36,47 +36,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -91,17 +61,47 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-03-08T00:00:00Z"
+          "2026-03-10T00:00:00Z"
         ]
       ]
     }
@@ -223,19 +223,19 @@
       "description": "date that the forecast was initiated"
     },
     {
-      "name": "project_id",
-      "type": "string",
-      "description": "unique identifier for the forecast project"
-    },
-    {
       "name": "duration",
       "type": "string",
       "description": "temporal duration of forecast (hourly, daily, etc.); follows ISO 8601 duration convention"
     },
     {
-      "name": "variable",
+      "name": "model_id",
       "type": "string",
-      "description": "name of forecasted variable"
+      "description": "unique model identifier"
+    },
+    {
+      "name": "project_id",
+      "type": "string",
+      "description": "unique identifier for the forecast project"
     }
   ],
   "assets": {

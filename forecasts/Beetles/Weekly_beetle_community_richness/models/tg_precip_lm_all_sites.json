@@ -26,16 +26,6 @@
       [-76.56, 38.8901],
       [-89.5864, 45.5089],
       [-105.546, 40.2759],
-      [-155.3173, 19.5531],
-      [-67.0769, 18.0213],
-      [-109.3883, 38.2483],
-      [-105.5824, 40.0543],
-      [-122.3303, 45.7624],
-      [-87.8039, 32.5417],
-      [-83.5019, 35.689],
-      [-80.5248, 37.3783],
-      [-96.5631, 39.1008],
-      [-88.1612, 31.8539],
       [-147.5026, 65.154],
       [-119.006, 37.0058],
       [-72.1727, 42.5369],
@@ -55,12 +45,22 @@
       [-149.3705, 68.6611],
       [-96.6129, 39.1104],
       [-97.57, 33.4012],
-      [-99.1066, 47.1617]
+      [-99.1066, 47.1617],
+      [-155.3173, 19.5531],
+      [-67.0769, 18.0213],
+      [-109.3883, 38.2483],
+      [-105.5824, 40.0543],
+      [-122.3303, 45.7624],
+      [-87.8039, 32.5417],
+      [-83.5019, 35.689],
+      [-80.5248, 37.3783],
+      [-96.5631, 39.1008],
+      [-88.1612, 31.8539]
     ]
   },
   "properties": {
     "title": "tg_precip_lm_all_sites",
-    "description": "All forecasts for the Weekly_beetle_community_richness variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: SOAP, STER, OAES, CPER, ONAQ, JERC, SRER, SCBI, BLAN, SJER, BART, TREE, TALL, JORN, SERC, STEI, RMNP, PUUM, LAJA, MOAB, NIWO, ABBY, DELA, GRSM, MLBS, KONZ, LENO, BONA, TEAK, HARV, WOOD, YELL, DSNY, GUAN, OSBS, WREF, NOGP, UKFS, UNDE, BARR, HEAL, DEJU, ORNL, TOOL, KONA, CLBJ, DCFS.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_richness variable for the tg_precip_lm_all_sites model. Information for the model is provided as follows: The tg_precip_lm_all_sites model is a linear model fit using the function lm() in R. This is a very\nsimple model with only one covariate: total precipitation. y. This model was used to forecast water temperature and dissolved oxygen\nconcentration at the seven lake sites, with the model fitted for all sites together..\n                                    The model predicts this variable at the following sites: SOAP, STER, OAES, CPER, ONAQ, JERC, SRER, SCBI, BLAN, SJER, BART, TREE, TALL, JORN, SERC, STEI, RMNP, BONA, TEAK, HARV, WOOD, YELL, DSNY, GUAN, OSBS, WREF, NOGP, UKFS, UNDE, BARR, HEAL, DEJU, ORNL, TOOL, KONA, CLBJ, DCFS, PUUM, LAJA, MOAB, NIWO, ABBY, DELA, GRSM, MLBS, KONZ, LENO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-01-28T00:00:00Z",
     "updated": "2024-07-02T00:00:00Z",
     "start_datetime": "2023-01-02T00:00:00Z",
@@ -110,16 +110,6 @@
       "SERC",
       "STEI",
       "RMNP",
-      "PUUM",
-      "LAJA",
-      "MOAB",
-      "NIWO",
-      "ABBY",
-      "DELA",
-      "GRSM",
-      "MLBS",
-      "KONZ",
-      "LENO",
       "BONA",
       "TEAK",
       "HARV",
@@ -139,17 +129,27 @@
       "TOOL",
       "KONA",
       "CLBJ",
-      "DCFS"
+      "DCFS",
+      "PUUM",
+      "LAJA",
+      "MOAB",
+      "NIWO",
+      "ABBY",
+      "DELA",
+      "GRSM",
+      "MLBS",
+      "KONZ",
+      "LENO"
     ],
     "table:columns": [
       {
         "name": "datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime of the forecasted value (ISO 8601)"
       },
       {
         "name": "reference_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that the forecast was initiated (horizon = 0)"
       },
       {
@@ -174,7 +174,7 @@
       },
       {
         "name": "pub_datetime",
-        "type": "timestamp[us, tz=UTC]",
+        "type": "timestamp[us]",
         "description": "datetime that forecast was submitted"
       },
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SOAP, STER, OAES, CPER, ONAQ, JERC, SRER, SCBI, BLAN, SJER, BART, TREE, TALL, JORN, SERC, STEI, RMNP, PUUM, LAJA, MOAB, NIWO, ABBY, DELA, GRSM, MLBS, KONZ, LENO, BONA, TEAK, HARV, WOOD, YELL, DSNY, GUAN, OSBS, WREF, NOGP, UKFS, UNDE, BARR, HEAL, DEJU, ORNL, TOOL, KONA, CLBJ, DCFS"
+      "description": "SOAP, STER, OAES, CPER, ONAQ, JERC, SRER, SCBI, BLAN, SJER, BART, TREE, TALL, JORN, SERC, STEI, RMNP, BONA, TEAK, HARV, WOOD, YELL, DSNY, GUAN, OSBS, WREF, NOGP, UKFS, UNDE, BARR, HEAL, DEJU, ORNL, TOOL, KONA, CLBJ, DCFS, PUUM, LAJA, MOAB, NIWO, ABBY, DELA, GRSM, MLBS, KONZ, LENO"
     },
     "4": {
       "type": "application/x-parquet",

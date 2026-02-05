@@ -21,17 +21,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -51,7 +51,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -66,12 +66,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/XGBoost_detrendLM_ensemble.json"
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -81,7 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/XGBoost_detrendLM_ensemble.json"
     },
     {
       "rel": "item",
@@ -203,19 +203,19 @@
       "description": "date that the forecast was initiated"
     },
     {
-      "name": "project_id",
-      "type": "string",
-      "description": "unique identifier for the forecast project"
-    },
-    {
       "name": "duration",
       "type": "string",
       "description": "temporal duration of forecast (hourly, daily, etc.); follows ISO 8601 duration convention"
     },
     {
-      "name": "variable",
+      "name": "model_id",
       "type": "string",
-      "description": "name of forecasted variable"
+      "description": "unique model identifier"
+    },
+    {
+      "name": "project_id",
+      "type": "string",
+      "description": "unique identifier for the forecast project"
     }
   ],
   "assets": {
