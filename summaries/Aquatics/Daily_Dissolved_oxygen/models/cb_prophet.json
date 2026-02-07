@@ -9,6 +9,9 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
       [-111.5081, 33.751],
       [-105.5442, 40.035],
       [-87.7982, 32.5415],
@@ -18,9 +21,6 @@
       [-66.7987, 18.1741],
       [-88.1589, 31.8534],
       [-99.1139, 47.1591],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
       [-122.1655, 44.2596],
       [-87.4077, 32.9604],
       [-84.4374, 31.1854],
@@ -45,7 +45,7 @@
   },
   "properties": {
     "title": "cb_prophet",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: SYCA, COMO, BLWA, CARI, TECR, LIRO, GUIL, TOMB, PRLA, LEWI, BLUE, PRPO, MCRA, MAYF, FLNT, BLDE, LECO, WALK, BIGC, ARIK, KING, SUGG, BARC, MCDI, MART, WLOU, CUPE, PRIN, REDB, HOPB, POSE, CRAM.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the cb_prophet model. Information for the model is provided as follows: The Prophet model is an empirical model, specifically a non-linear regression model that includes\nseasonality effects (Taylor & Letham, 2018). The model relies on Bayesian estimation with an additive\nwhite noise error term.\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, SYCA, COMO, BLWA, CARI, TECR, LIRO, GUIL, TOMB, PRLA, MCRA, MAYF, FLNT, BLDE, LECO, WALK, BIGC, ARIK, KING, SUGG, BARC, MCDI, MART, WLOU, CUPE, PRIN, REDB, HOPB, POSE, CRAM.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2024-02-06T00:00:00Z",
     "updated": "2024-02-07T00:00:00Z",
     "start_datetime": "2022-06-01T00:00:00Z",
@@ -78,6 +78,9 @@
       "oxygen",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "PRPO",
       "SYCA",
       "COMO",
       "BLWA",
@@ -87,9 +90,6 @@
       "GUIL",
       "TOMB",
       "PRLA",
-      "LEWI",
-      "BLUE",
-      "PRPO",
       "MCRA",
       "MAYF",
       "FLNT",
@@ -256,7 +256,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SYCA, COMO, BLWA, CARI, TECR, LIRO, GUIL, TOMB, PRLA, LEWI, BLUE, PRPO, MCRA, MAYF, FLNT, BLDE, LECO, WALK, BIGC, ARIK, KING, SUGG, BARC, MCDI, MART, WLOU, CUPE, PRIN, REDB, HOPB, POSE, CRAM"
+      "description": "LEWI, BLUE, PRPO, SYCA, COMO, BLWA, CARI, TECR, LIRO, GUIL, TOMB, PRLA, MCRA, MAYF, FLNT, BLDE, LECO, WALK, BIGC, ARIK, KING, SUGG, BARC, MCDI, MART, WLOU, CUPE, PRIN, REDB, HOPB, POSE, CRAM"
     },
     "4": {
       "type": "application/x-parquet",
