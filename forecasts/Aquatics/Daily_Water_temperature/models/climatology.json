@@ -48,10 +48,10 @@
   "properties": {
     "title": "climatology",
     "description": "All forecasts for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, TOOK, LIRO, CARI, COMO, SYCA, TOMB, PRLA, GUIL, BLWA, TECR, BIGC, MCRA, FLNT, BLDE, WALK, ARIK, MAYF, LECO, SUGG, POSE, PRIN, WLOU, REDB, BARC, KING, CUPE, MART, HOPB, MCDI, OKSR, CRAM.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-02-06T00:00:00Z",
-    "updated": "2026-02-06T00:00:00Z",
+    "datetime": "2026-02-07T00:00:00Z",
+    "updated": "2026-02-07T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
-    "end_datetime": "2026-03-13T00:00:00Z",
+    "end_datetime": "2026-03-14T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
