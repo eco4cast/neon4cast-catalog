@@ -66,11 +66,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flareGOTM_noDA.json"
     },
     {
@@ -116,6 +111,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/wbears_rnn.json"
     },
     {
@@ -126,17 +126,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/GLEON_JRabaey_temp_physics.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -177,6 +167,16 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/acp_fableLM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/JorritsCrystalBall.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",

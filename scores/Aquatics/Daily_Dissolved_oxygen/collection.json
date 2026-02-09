@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/AquaticEcosystemsOxygen.json"
     },
     {
       "rel": "item",
@@ -26,17 +26,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -46,7 +41,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
@@ -57,11 +62,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
