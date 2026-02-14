@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-147.504, 65.1532],
       [-88.1589, 31.8534],
       [-87.7982, 32.5415],
@@ -18,10 +22,6 @@
       [-89.7048, 45.9983],
       [-99.1139, 47.1591],
       [-119.0274, 36.9559],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307],
       [-121.9338, 45.7908],
       [-82.0084, 29.676],
       [-66.9868, 18.1135],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_elasticNet",
-    "description": "All scores for the Daily_Water_temperature variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: CARI, TOMB, BLWA, SYCA, COMO, GUIL, LIRO, PRLA, TECR, LEWI, BLUE, PRPO, TOOK, MART, BARC, CUPE, MCDI, SUGG, HOPB, PRIN, WLOU, POSE, REDB, CRAM, KING, OKSR, MAYF, ARIK, FLNT, MCRA, WALK, LECO, BIGC, BLDE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Water_temperature variable for the tg_elasticNet model. Information for the model is provided as follows: elastic net regression trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: LEWI, BLUE, PRPO, TOOK, CARI, TOMB, BLWA, SYCA, COMO, GUIL, LIRO, PRLA, TECR, MART, BARC, CUPE, MCDI, SUGG, HOPB, PRIN, WLOU, POSE, REDB, CRAM, KING, OKSR, MAYF, ARIK, FLNT, MCRA, WALK, LECO, BIGC, BLDE.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-04-03T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "PRPO",
+      "TOOK",
       "CARI",
       "TOMB",
       "BLWA",
@@ -89,10 +93,6 @@
       "LIRO",
       "PRLA",
       "TECR",
-      "LEWI",
-      "BLUE",
-      "PRPO",
-      "TOOK",
       "MART",
       "BARC",
       "CUPE",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "CARI, TOMB, BLWA, SYCA, COMO, GUIL, LIRO, PRLA, TECR, LEWI, BLUE, PRPO, TOOK, MART, BARC, CUPE, MCDI, SUGG, HOPB, PRIN, WLOU, POSE, REDB, CRAM, KING, OKSR, MAYF, ARIK, FLNT, MCRA, WALK, LECO, BIGC, BLDE"
+      "description": "LEWI, BLUE, PRPO, TOOK, CARI, TOMB, BLWA, SYCA, COMO, GUIL, LIRO, PRLA, TECR, MART, BARC, CUPE, MCDI, SUGG, HOPB, PRIN, WLOU, POSE, REDB, CRAM, KING, OKSR, MAYF, ARIK, FLNT, MCRA, WALK, LECO, BIGC, BLDE"
     },
     "4": {
       "type": "application/x-parquet",
