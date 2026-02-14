@@ -31,6 +31,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -46,12 +51,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/bookcast_forest.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
@@ -91,22 +96,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/USUNEEDAILY.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "parent",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-03-19T00:00:00Z"
+          "2026-03-20T00:00:00Z"
         ]
       ]
     }
