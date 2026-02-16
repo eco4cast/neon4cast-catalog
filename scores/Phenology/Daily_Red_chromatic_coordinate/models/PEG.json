@@ -29,6 +29,14 @@
       [-97.57, 33.4012],
       [-99.1066, 47.1617],
       [-145.7514, 63.8811],
+      [-106.8425, 32.5907],
+      [-105.546, 40.2759],
+      [-76.56, 38.8901],
+      [-119.7323, 37.1088],
+      [-89.5864, 45.5089],
+      [-87.3933, 32.9505],
+      [-89.5857, 45.4937],
+      [-71.2874, 44.0639],
       [-84.4686, 31.1948],
       [-99.0588, 35.4106],
       [-112.4524, 40.1776],
@@ -47,20 +55,12 @@
       [-105.5824, 40.0543],
       [-155.3173, 19.5531],
       [-122.3303, 45.7624],
-      [-87.8039, 32.5417],
-      [-106.8425, 32.5907],
-      [-105.546, 40.2759],
-      [-76.56, 38.8901],
-      [-119.7323, 37.1088],
-      [-89.5864, 45.5089],
-      [-87.3933, 32.9505],
-      [-89.5857, 45.4937],
-      [-71.2874, 44.0639]
+      [-87.8039, 32.5417]
     ]
   },
   "properties": {
     "title": "PEG",
-    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BARR, BONA, CLBJ, DCFS, DEJU, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, CPER, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, ABBY, DELA, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BART.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Red_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BARR, BONA, CLBJ, DCFS, DEJU, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BART, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, CPER, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, ABBY, DELA.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2023-12-21T00:00:00Z",
     "updated": "2023-12-22T00:00:00Z",
     "start_datetime": "2021-09-12T00:00:00Z",
@@ -113,6 +113,14 @@
       "CLBJ",
       "DCFS",
       "DEJU",
+      "JORN",
+      "RMNP",
+      "SERC",
+      "SJER",
+      "STEI",
+      "TALL",
+      "TREE",
+      "BART",
       "JERC",
       "OAES",
       "ONAQ",
@@ -131,15 +139,7 @@
       "NIWO",
       "PUUM",
       "ABBY",
-      "DELA",
-      "JORN",
-      "RMNP",
-      "SERC",
-      "SJER",
-      "STEI",
-      "TALL",
-      "TREE",
-      "BART"
+      "DELA"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BARR, BONA, CLBJ, DCFS, DEJU, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, CPER, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, ABBY, DELA, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BART"
+      "description": "DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BARR, BONA, CLBJ, DCFS, DEJU, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, BART, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BLAN, CPER, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, ABBY, DELA"
     },
     "4": {
       "type": "application/x-parquet",
