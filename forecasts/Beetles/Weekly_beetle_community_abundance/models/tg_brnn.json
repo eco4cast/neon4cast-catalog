@@ -9,6 +9,15 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-103.0293, 40.4619],
+      [-119.2622, 37.0334],
+      [-104.7456, 40.8155],
+      [-112.4524, 40.1776],
+      [-78.1395, 38.8929],
+      [-84.4686, 31.1948],
+      [-99.0588, 35.4106],
+      [-78.0418, 39.0337],
+      [-110.8355, 31.9107],
       [-119.7323, 37.1088],
       [-87.3933, 32.9505],
       [-76.56, 38.8901],
@@ -46,21 +55,12 @@
       [-156.6194, 71.2824],
       [-149.2133, 63.8758],
       [-149.3705, 68.6611],
-      [-121.9519, 45.8205],
-      [-103.0293, 40.4619],
-      [-119.2622, 37.0334],
-      [-104.7456, 40.8155],
-      [-112.4524, 40.1776],
-      [-78.1395, 38.8929],
-      [-84.4686, 31.1948],
-      [-99.0588, 35.4106],
-      [-78.0418, 39.0337],
-      [-110.8355, 31.9107]
+      [-121.9519, 45.8205]
     ]
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-01-21T00:00:00Z",
     "updated": "2025-06-20T00:00:00Z",
     "start_datetime": "2024-02-19T00:00:00Z",
@@ -93,6 +93,15 @@
       "abundance",
       "Weekly",
       "P1W",
+      "STER",
+      "SOAP",
+      "CPER",
+      "ONAQ",
+      "SCBI",
+      "JERC",
+      "OAES",
+      "BLAN",
+      "SRER",
       "SJER",
       "TALL",
       "SERC",
@@ -130,16 +139,7 @@
       "BARR",
       "HEAL",
       "TOOL",
-      "WREF",
-      "STER",
-      "SOAP",
-      "CPER",
-      "ONAQ",
-      "SCBI",
-      "JERC",
-      "OAES",
-      "BLAN",
-      "SRER"
+      "WREF"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER"
+      "description": "STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF"
     },
     "4": {
       "type": "application/x-parquet",

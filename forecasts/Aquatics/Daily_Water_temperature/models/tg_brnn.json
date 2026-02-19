@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-149.6106, 68.6307],
       [-111.5081, 33.751],
       [-105.5442, 40.035],
       [-87.7982, 32.5415],
@@ -38,16 +42,12 @@
       [-84.4374, 31.1854],
       [-83.5038, 35.6904],
       [-122.1655, 44.2596],
-      [-102.4471, 39.7582],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-149.6106, 68.6307]
+      [-102.4471, 39.7582]
     ]
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All forecasts for the Daily_Water_temperature variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: SYCA, COMO, BLWA, TECR, LIRO, TOMB, GUIL, CARI, PRLA, CRAM, CUPE, HOPB, MCDI, WLOU, BARC, PRIN, MART, KING, SUGG, OKSR, REDB, POSE, MAYF, WALK, BIGC, BLDE, FLNT, LECO, MCRA, ARIK, BLUE, LEWI, PRPO, TOOK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Water_temperature variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: BLUE, LEWI, PRPO, TOOK, SYCA, COMO, BLWA, TECR, LIRO, TOMB, GUIL, CARI, PRLA, CRAM, CUPE, HOPB, MCDI, WLOU, BARC, PRIN, MART, KING, SUGG, OKSR, REDB, POSE, MAYF, WALK, BIGC, BLDE, FLNT, LECO, MCRA, ARIK.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-05-12T00:00:00Z",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "BLUE",
+      "LEWI",
+      "PRPO",
+      "TOOK",
       "SYCA",
       "COMO",
       "BLWA",
@@ -109,11 +113,7 @@
       "FLNT",
       "LECO",
       "MCRA",
-      "ARIK",
-      "BLUE",
-      "LEWI",
-      "PRPO",
-      "TOOK"
+      "ARIK"
     ],
     "table:columns": [
       {
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SYCA, COMO, BLWA, TECR, LIRO, TOMB, GUIL, CARI, PRLA, CRAM, CUPE, HOPB, MCDI, WLOU, BARC, PRIN, MART, KING, SUGG, OKSR, REDB, POSE, MAYF, WALK, BIGC, BLDE, FLNT, LECO, MCRA, ARIK, BLUE, LEWI, PRPO, TOOK"
+      "description": "BLUE, LEWI, PRPO, TOOK, SYCA, COMO, BLWA, TECR, LIRO, TOMB, GUIL, CARI, PRLA, CRAM, CUPE, HOPB, MCDI, WLOU, BARC, PRIN, MART, KING, SUGG, OKSR, REDB, POSE, MAYF, WALK, BIGC, BLDE, FLNT, LECO, MCRA, ARIK"
     },
     "4": {
       "type": "application/x-parquet",

@@ -9,6 +9,14 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-87.3933, 32.9505],
+      [-105.546, 40.2759],
+      [-71.2874, 44.0639],
+      [-89.5857, 45.4937],
+      [-76.56, 38.8901],
+      [-89.5864, 45.5089],
+      [-106.8425, 32.5907],
+      [-119.7323, 37.1088],
       [-119.2622, 37.0334],
       [-112.4524, 40.1776],
       [-78.1395, 38.8929],
@@ -47,20 +55,12 @@
       [-109.3883, 38.2483],
       [-67.0769, 18.0213],
       [-155.3173, 19.5531],
-      [-88.1612, 31.8539],
-      [-87.3933, 32.9505],
-      [-105.546, 40.2759],
-      [-71.2874, 44.0639],
-      [-89.5857, 45.4937],
-      [-76.56, 38.8901],
-      [-89.5864, 45.5089],
-      [-106.8425, 32.5907],
-      [-119.7323, 37.1088]
+      [-88.1612, 31.8539]
     ]
   },
   "properties": {
     "title": "tg_randfor",
-    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: SOAP, ONAQ, SCBI, JERC, OAES, STER, SRER, BLAN, CPER, KONA, CLBJ, DEJU, WREF, YELL, TEAK, UKFS, NOGP, WOOD, BONA, TOOL, OSBS, UNDE, GUAN, HEAL, HARV, ORNL, BARR, DCFS, DSNY, DELA, KONZ, GRSM, NIWO, ABBY, MLBS, MOAB, LAJA, PUUM, LENO, TALL, RMNP, BART, TREE, SERC, STEI, JORN, SJER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_randfor model. Information for the model is provided as follows: Random Forest is a machine learning model that is fitted with the ranger() function in the ranger\nR package (Wright & Ziegler 2017) within the tidymodels framework (Kuhn & Wickham 2020). The\nmodel drivers are unlagged air temperature, air pressure, relative humidity, surface downwelling\nlongwave and shortwave radiation, precipitation, and northward and eastward wind.\n                                    The model predicts this variable at the following sites: TALL, RMNP, BART, TREE, SERC, STEI, JORN, SJER, SOAP, ONAQ, SCBI, JERC, OAES, STER, SRER, BLAN, CPER, KONA, CLBJ, DEJU, WREF, YELL, TEAK, UKFS, NOGP, WOOD, BONA, TOOL, OSBS, UNDE, GUAN, HEAL, HARV, ORNL, BARR, DCFS, DSNY, DELA, KONZ, GRSM, NIWO, ABBY, MLBS, MOAB, LAJA, PUUM, LENO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2022-12-26T00:00:00Z",
@@ -93,6 +93,14 @@
       "abundance",
       "Weekly",
       "P1W",
+      "TALL",
+      "RMNP",
+      "BART",
+      "TREE",
+      "SERC",
+      "STEI",
+      "JORN",
+      "SJER",
       "SOAP",
       "ONAQ",
       "SCBI",
@@ -131,15 +139,7 @@
       "MOAB",
       "LAJA",
       "PUUM",
-      "LENO",
-      "TALL",
-      "RMNP",
-      "BART",
-      "TREE",
-      "SERC",
-      "STEI",
-      "JORN",
-      "SJER"
+      "LENO"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SOAP, ONAQ, SCBI, JERC, OAES, STER, SRER, BLAN, CPER, KONA, CLBJ, DEJU, WREF, YELL, TEAK, UKFS, NOGP, WOOD, BONA, TOOL, OSBS, UNDE, GUAN, HEAL, HARV, ORNL, BARR, DCFS, DSNY, DELA, KONZ, GRSM, NIWO, ABBY, MLBS, MOAB, LAJA, PUUM, LENO, TALL, RMNP, BART, TREE, SERC, STEI, JORN, SJER"
+      "description": "TALL, RMNP, BART, TREE, SERC, STEI, JORN, SJER, SOAP, ONAQ, SCBI, JERC, OAES, STER, SRER, BLAN, CPER, KONA, CLBJ, DEJU, WREF, YELL, TEAK, UKFS, NOGP, WOOD, BONA, TOOL, OSBS, UNDE, GUAN, HEAL, HARV, ORNL, BARR, DCFS, DSNY, DELA, KONZ, GRSM, NIWO, ABBY, MLBS, MOAB, LAJA, PUUM, LENO"
     },
     "4": {
       "type": "application/x-parquet",
