@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
+      [-99.2531, 47.1298],
       [-84.4374, 31.1854],
       [-83.5038, 35.6904],
       [-84.2793, 35.9574],
@@ -30,10 +34,6 @@
       [-66.9868, 18.1135],
       [-97.7823, 33.3785],
       [-89.4737, 46.2097],
-      [-77.9832, 39.0956],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
-      [-99.2531, 47.1298],
       [-99.1139, 47.1591],
       [-66.7987, 18.1741],
       [-111.5081, 33.751],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: FLNT, LECO, WALK, BIGC, MAYF, BLDE, MCRA, ARIK, KING, REDB, SUGG, BARC, OKSR, HOPB, MCDI, MART, WLOU, POSE, CUPE, PRIN, CRAM, LEWI, BLUE, TOOK, PRPO, PRLA, GUIL, SYCA, CARI, TECR, COMO, TOMB, LIRO, BLWA.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: LEWI, BLUE, TOOK, PRPO, FLNT, LECO, WALK, BIGC, MAYF, BLDE, MCRA, ARIK, KING, REDB, SUGG, BARC, OKSR, HOPB, MCDI, MART, WLOU, POSE, CUPE, PRIN, CRAM, PRLA, GUIL, SYCA, CARI, TECR, COMO, TOMB, LIRO, BLWA.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2022-09-21T00:00:00Z",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "LEWI",
+      "BLUE",
+      "TOOK",
+      "PRPO",
       "FLNT",
       "LECO",
       "WALK",
@@ -101,10 +105,6 @@
       "CUPE",
       "PRIN",
       "CRAM",
-      "LEWI",
-      "BLUE",
-      "TOOK",
-      "PRPO",
       "PRLA",
       "GUIL",
       "SYCA",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "FLNT, LECO, WALK, BIGC, MAYF, BLDE, MCRA, ARIK, KING, REDB, SUGG, BARC, OKSR, HOPB, MCDI, MART, WLOU, POSE, CUPE, PRIN, CRAM, LEWI, BLUE, TOOK, PRPO, PRLA, GUIL, SYCA, CARI, TECR, COMO, TOMB, LIRO, BLWA"
+      "description": "LEWI, BLUE, TOOK, PRPO, FLNT, LECO, WALK, BIGC, MAYF, BLDE, MCRA, ARIK, KING, REDB, SUGG, BARC, OKSR, HOPB, MCDI, MART, WLOU, POSE, CUPE, PRIN, CRAM, PRLA, GUIL, SYCA, CARI, TECR, COMO, TOMB, LIRO, BLWA"
     },
     "4": {
       "type": "application/x-parquet",
