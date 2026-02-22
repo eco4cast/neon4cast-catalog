@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
       [-84.4374, 31.1854],
       [-122.1655, 44.2596],
       [-83.5038, 35.6904],
@@ -30,10 +34,6 @@
       [-105.9154, 39.8914],
       [-66.9868, 18.1135],
       [-149.143, 68.6698],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
       [-87.7982, 32.5415],
       [-66.7987, 18.1741],
       [-105.5442, 40.035],
@@ -47,11 +47,11 @@
   },
   "properties": {
     "title": "climatology",
-    "description": "All summaries for the Daily_Dissolved_oxygen variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: FLNT, MCRA, LECO, WALK, ARIK, MAYF, BLDE, BIGC, KING, CRAM, REDB, MART, HOPB, MCDI, PRIN, BARC, POSE, SUGG, WLOU, CUPE, OKSR, PRPO, BLUE, LEWI, TOOK, BLWA, GUIL, COMO, TECR, SYCA, TOMB, LIRO, CARI, PRLA.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2026-02-20T00:00:00Z",
-    "updated": "2026-02-20T00:00:00Z",
+    "description": "All summaries for the Daily_Dissolved_oxygen variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: PRPO, BLUE, LEWI, TOOK, FLNT, MCRA, LECO, WALK, ARIK, MAYF, BLDE, BIGC, KING, CRAM, REDB, MART, HOPB, MCDI, PRIN, BARC, POSE, SUGG, WLOU, CUPE, OKSR, BLWA, GUIL, COMO, TECR, SYCA, TOMB, LIRO, CARI, PRLA.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
+    "datetime": "2026-02-21T00:00:00Z",
+    "updated": "2026-02-21T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
-    "end_datetime": "2026-03-27T00:00:00Z",
+    "end_datetime": "2026-03-28T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "PRPO",
+      "BLUE",
+      "LEWI",
+      "TOOK",
       "FLNT",
       "MCRA",
       "LECO",
@@ -101,10 +105,6 @@
       "WLOU",
       "CUPE",
       "OKSR",
-      "PRPO",
-      "BLUE",
-      "LEWI",
-      "TOOK",
       "BLWA",
       "GUIL",
       "COMO",
@@ -260,7 +260,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "FLNT, MCRA, LECO, WALK, ARIK, MAYF, BLDE, BIGC, KING, CRAM, REDB, MART, HOPB, MCDI, PRIN, BARC, POSE, SUGG, WLOU, CUPE, OKSR, PRPO, BLUE, LEWI, TOOK, BLWA, GUIL, COMO, TECR, SYCA, TOMB, LIRO, CARI, PRLA"
+      "description": "PRPO, BLUE, LEWI, TOOK, FLNT, MCRA, LECO, WALK, ARIK, MAYF, BLDE, BIGC, KING, CRAM, REDB, MART, HOPB, MCDI, PRIN, BARC, POSE, SUGG, WLOU, CUPE, OKSR, BLWA, GUIL, COMO, TECR, SYCA, TOMB, LIRO, CARI, PRLA"
     },
     "4": {
       "type": "application/x-parquet",
