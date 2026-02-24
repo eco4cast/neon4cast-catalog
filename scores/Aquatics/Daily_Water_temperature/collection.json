@@ -21,6 +21,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -56,12 +61,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
+      "href": "./models/BBTW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -111,17 +116,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/GAM_air_wind.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
@@ -172,11 +177,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/acp_fableLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
@@ -296,7 +296,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-02-19T00:00:00Z"
+          "2026-02-20T00:00:00Z"
         ]
       ]
     }

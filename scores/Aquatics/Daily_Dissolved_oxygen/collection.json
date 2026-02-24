@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -37,11 +42,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/wbears_rnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -201,7 +201,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2026-02-19T00:00:00Z"
+          "2026-02-20T00:00:00Z"
         ]
       ]
     }
