@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-77.9832, 39.0956],
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-149.6106, 68.6307],
       [-66.7987, 18.1741],
       [-87.7982, 32.5415],
       [-147.504, 65.1532],
@@ -18,10 +22,6 @@
       [-88.1589, 31.8534],
       [-99.1139, 47.1591],
       [-89.7048, 45.9983],
-      [-77.9832, 39.0956],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-149.6106, 68.6307],
       [-87.4077, 32.9604],
       [-83.5038, 35.6904],
       [-102.4471, 39.7582],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: GUIL, BLWA, CARI, COMO, SYCA, TECR, TOMB, PRLA, LIRO, LEWI, PRPO, BLUE, TOOK, MAYF, LECO, ARIK, BLDE, FLNT, MCRA, WALK, BIGC, BARC, CUPE, HOPB, KING, MART, MCDI, POSE, REDB, SUGG, WLOU, CRAM, PRIN, OKSR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Dissolved_oxygen variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: LEWI, PRPO, BLUE, TOOK, GUIL, BLWA, CARI, COMO, SYCA, TECR, TOMB, PRLA, LIRO, MAYF, LECO, ARIK, BLDE, FLNT, MCRA, WALK, BIGC, BARC, CUPE, HOPB, KING, MART, MCDI, POSE, REDB, SUGG, WLOU, CRAM, PRIN, OKSR.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-11T00:00:00Z",
     "updated": "2025-07-11T00:00:00Z",
     "start_datetime": "2025-05-12T00:00:00Z",
@@ -80,6 +80,10 @@
       "oxygen",
       "Daily",
       "P1D",
+      "LEWI",
+      "PRPO",
+      "BLUE",
+      "TOOK",
       "GUIL",
       "BLWA",
       "CARI",
@@ -89,10 +93,6 @@
       "TOMB",
       "PRLA",
       "LIRO",
-      "LEWI",
-      "PRPO",
-      "BLUE",
-      "TOOK",
       "MAYF",
       "LECO",
       "ARIK",
@@ -270,7 +270,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "GUIL, BLWA, CARI, COMO, SYCA, TECR, TOMB, PRLA, LIRO, LEWI, PRPO, BLUE, TOOK, MAYF, LECO, ARIK, BLDE, FLNT, MCRA, WALK, BIGC, BARC, CUPE, HOPB, KING, MART, MCDI, POSE, REDB, SUGG, WLOU, CRAM, PRIN, OKSR"
+      "description": "LEWI, PRPO, BLUE, TOOK, GUIL, BLWA, CARI, COMO, SYCA, TECR, TOMB, PRLA, LIRO, MAYF, LECO, ARIK, BLDE, FLNT, MCRA, WALK, BIGC, BARC, CUPE, HOPB, KING, MART, MCDI, POSE, REDB, SUGG, WLOU, CRAM, PRIN, OKSR"
     },
     "4": {
       "type": "application/x-parquet",
