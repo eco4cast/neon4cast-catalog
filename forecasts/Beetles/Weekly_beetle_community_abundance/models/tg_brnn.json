@@ -19,6 +19,14 @@
       [-122.3303, 45.7624],
       [-109.3883, 38.2483],
       [-83.5019, 35.689],
+      [-119.7323, 37.1088],
+      [-87.3933, 32.9505],
+      [-76.56, 38.8901],
+      [-106.8425, 32.5907],
+      [-89.5864, 45.5089],
+      [-105.546, 40.2759],
+      [-71.2874, 44.0639],
+      [-89.5857, 45.4937],
       [-119.006, 37.0058],
       [-99.1066, 47.1617],
       [-89.5373, 46.2339],
@@ -47,20 +55,12 @@
       [-84.4686, 31.1948],
       [-99.0588, 35.4106],
       [-78.0418, 39.0337],
-      [-110.8355, 31.9107],
-      [-119.7323, 37.1088],
-      [-87.3933, 32.9505],
-      [-76.56, 38.8901],
-      [-106.8425, 32.5907],
-      [-89.5864, 45.5089],
-      [-105.546, 40.2759],
-      [-71.2874, 44.0639],
-      [-89.5857, 45.4937]
+      [-110.8355, 31.9107]
     ]
   },
   "properties": {
     "title": "tg_brnn",
-    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Weekly_beetle_community_abundance variable for the tg_brnn model. Information for the model is provided as follows: Bayesian Regularized Neural Network trained using consistent methods across all sites/variables.\n                                    The model predicts this variable at the following sites: LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2024-01-21T00:00:00Z",
     "updated": "2025-06-20T00:00:00Z",
     "start_datetime": "2024-02-19T00:00:00Z",
@@ -103,6 +103,14 @@
       "ABBY",
       "MOAB",
       "GRSM",
+      "SJER",
+      "TALL",
+      "SERC",
+      "JORN",
+      "STEI",
+      "RMNP",
+      "BART",
+      "TREE",
       "TEAK",
       "DCFS",
       "UNDE",
@@ -131,15 +139,7 @@
       "JERC",
       "OAES",
       "BLAN",
-      "SRER",
-      "SJER",
-      "TALL",
-      "SERC",
-      "JORN",
-      "STEI",
-      "RMNP",
-      "BART",
-      "TREE"
+      "SRER"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE"
+      "description": "LAJA, KONZ, PUUM, MLBS, NIWO, DELA, LENO, ABBY, MOAB, GRSM, SJER, TALL, SERC, JORN, STEI, RMNP, BART, TREE, TEAK, DCFS, UNDE, WOOD, UKFS, ORNL, DEJU, GUAN, CLBJ, NOGP, OSBS, BONA, YELL, HARV, DSNY, KONA, BARR, HEAL, TOOL, WREF, STER, SOAP, CPER, ONAQ, SCBI, JERC, OAES, BLAN, SRER"
     },
     "4": {
       "type": "application/x-parquet",

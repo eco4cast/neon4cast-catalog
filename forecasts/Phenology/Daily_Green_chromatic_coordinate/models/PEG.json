@@ -19,6 +19,14 @@
       [-105.5824, 40.0543],
       [-67.0769, 18.0213],
       [-83.5019, 35.689],
+      [-89.5864, 45.5089],
+      [-105.546, 40.2759],
+      [-89.5857, 45.4937],
+      [-76.56, 38.8901],
+      [-106.8425, 32.5907],
+      [-71.2874, 44.0639],
+      [-87.3933, 32.9505],
+      [-119.7323, 37.1088],
       [-99.2413, 47.1282],
       [-147.5026, 65.154],
       [-156.6194, 71.2824],
@@ -47,20 +55,12 @@
       [-112.4524, 40.1776],
       [-78.0418, 39.0337],
       [-84.4686, 31.1948],
-      [-119.2622, 37.0334],
-      [-89.5864, 45.5089],
-      [-105.546, 40.2759],
-      [-89.5857, 45.4937],
-      [-76.56, 38.8901],
-      [-106.8425, 32.5907],
-      [-71.2874, 44.0639],
-      [-87.3933, 32.9505],
-      [-119.7323, 37.1088]
+      [-119.2622, 37.0334]
     ]
   },
   "properties": {
     "title": "PEG",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: LENO, DELA, PUUM, MOAB, KONZ, MLBS, ABBY, NIWO, LAJA, GRSM, WOOD, BONA, BARR, DSNY, TOOL, ORNL, HARV, DEJU, DCFS, GUAN, UNDE, WREF, CLBJ, HEAL, TEAK, OSBS, UKFS, NOGP, YELL, KONA, CPER, SCBI, STER, OAES, SRER, ONAQ, BLAN, JERC, SOAP, STEI, RMNP, TREE, SERC, JORN, BART, TALL, SJER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the PEG model. Information for the model is provided as follows: This model was a Simple Seasonal + Exponential Smoothing Model, with the GCC targets as inputs.\n                                    The model predicts this variable at the following sites: LENO, DELA, PUUM, MOAB, KONZ, MLBS, ABBY, NIWO, LAJA, GRSM, STEI, RMNP, TREE, SERC, JORN, BART, TALL, SJER, WOOD, BONA, BARR, DSNY, TOOL, ORNL, HARV, DEJU, DCFS, GUAN, UNDE, WREF, CLBJ, HEAL, TEAK, OSBS, UKFS, NOGP, YELL, KONA, CPER, SCBI, STER, OAES, SRER, ONAQ, BLAN, JERC, SOAP.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2023-12-21T00:00:00Z",
     "updated": "2023-12-22T00:00:00Z",
     "start_datetime": "2021-02-24T00:00:00Z",
@@ -103,6 +103,14 @@
       "NIWO",
       "LAJA",
       "GRSM",
+      "STEI",
+      "RMNP",
+      "TREE",
+      "SERC",
+      "JORN",
+      "BART",
+      "TALL",
+      "SJER",
       "WOOD",
       "BONA",
       "BARR",
@@ -131,15 +139,7 @@
       "ONAQ",
       "BLAN",
       "JERC",
-      "SOAP",
-      "STEI",
-      "RMNP",
-      "TREE",
-      "SERC",
-      "JORN",
-      "BART",
-      "TALL",
-      "SJER"
+      "SOAP"
     ],
     "table:columns": [
       {
@@ -261,7 +261,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LENO, DELA, PUUM, MOAB, KONZ, MLBS, ABBY, NIWO, LAJA, GRSM, WOOD, BONA, BARR, DSNY, TOOL, ORNL, HARV, DEJU, DCFS, GUAN, UNDE, WREF, CLBJ, HEAL, TEAK, OSBS, UKFS, NOGP, YELL, KONA, CPER, SCBI, STER, OAES, SRER, ONAQ, BLAN, JERC, SOAP, STEI, RMNP, TREE, SERC, JORN, BART, TALL, SJER"
+      "description": "LENO, DELA, PUUM, MOAB, KONZ, MLBS, ABBY, NIWO, LAJA, GRSM, STEI, RMNP, TREE, SERC, JORN, BART, TALL, SJER, WOOD, BONA, BARR, DSNY, TOOL, ORNL, HARV, DEJU, DCFS, GUAN, UNDE, WREF, CLBJ, HEAL, TEAK, OSBS, UKFS, NOGP, YELL, KONA, CPER, SCBI, STER, OAES, SRER, ONAQ, BLAN, JERC, SOAP"
     },
     "4": {
       "type": "application/x-parquet",
