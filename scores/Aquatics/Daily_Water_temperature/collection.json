@@ -11,57 +11,57 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
+      "href": "./models/GLEON_lm_lag_1day.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flare_ler.json"
+      "href": "./models/GLEON_physics.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mkricheldorf_w_lag.json"
+      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/baseline_ensemble.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/precip_mod.json"
+      "href": "./models/fARIMA_clim_ensemble.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/flareGLM_noDA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/hotdeck.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
+      "href": "./models/lm_AT_WTL_WS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wtemp_lm_model.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/BBTW.json"
     },
     {
       "rel": "item",
@@ -116,67 +116,67 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_physics.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/baseline_ensemble.json"
+      "href": "./models/flare_ler.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fARIMA_clim_ensemble.json"
+      "href": "./models/mkricheldorf_w_lag.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGLM_noDA.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/hotdeck.json"
+      "href": "./models/precip_mod.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/lm_AT_WTL_WS.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/zimmerman_proj1.json"
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
+      "href": "./models/wtemp_lm_model.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
@@ -296,7 +296,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-03-12T00:00:00Z"
+          "2026-03-13T00:00:00Z"
         ]
       ]
     }
@@ -395,13 +395,13 @@
   ],
   "assets": {
     "data": {
-      "href": "\"s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet/project_id=neon4cast/duration=Daily/variable=temperature?endpoint_override=sdsc.osn.xsede.org\"",
+      "href": "\"s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet/project_id=neon4cast/duration=P1D/variable=temperature?endpoint_override=sdsc.osn.xsede.org\"",
       "type": "application/x-parquet",
       "title": "Database Access",
       "roles": [
         "data"
       ],
-      "description": "Use `arrow` for remote access to the database. This R code will return results for forecasts of the variable by the specific model .\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet/project_id=neon4cast/duration=Daily/variable=temperature?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n"
+      "description": "Use `arrow` for remote access to the database. This R code will return results for forecasts of the variable by the specific model .\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/scores/bundled-parquet/project_id=neon4cast/duration=P1D/variable=temperature?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n"
     },
     "thumbnail": {
       "href": "https://www.neonscience.org/sites/default/files/styles/_edit_list_additional_actions_max_width_300/public/image-content-images/06092015-BarcoBuoy-400.jpg?itok=t1xTVkX3",
