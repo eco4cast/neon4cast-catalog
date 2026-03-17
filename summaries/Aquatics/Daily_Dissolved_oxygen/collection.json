@@ -36,7 +36,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
@@ -46,7 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
@@ -81,22 +81,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/hotdeck.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
@@ -116,7 +106,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/hotdeck.json"
     },
     {
       "rel": "parent",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-04-19T00:00:00Z"
+          "2026-04-20T00:00:00Z"
         ]
       ]
     }
