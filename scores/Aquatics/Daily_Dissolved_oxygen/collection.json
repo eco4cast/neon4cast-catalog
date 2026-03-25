@@ -26,12 +26,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
+      "href": "./models/BBTW.json"
     },
     {
       "rel": "item",
@@ -116,12 +116,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -201,7 +201,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2026-03-19T00:00:00Z"
+          "2026-03-21T00:00:00Z"
         ]
       ]
     }
