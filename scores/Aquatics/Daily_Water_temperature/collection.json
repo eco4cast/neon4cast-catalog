@@ -61,12 +61,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BTW.json"
+      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -296,7 +296,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-04-02T00:00:00Z"
+          "2026-04-03T00:00:00Z"
         ]
       ]
     }

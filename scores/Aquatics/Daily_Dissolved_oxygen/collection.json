@@ -66,11 +66,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -91,6 +86,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/AquaticEcosystemsOxygen.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/LSAMP_AWPC.json"
     },
     {
@@ -106,17 +106,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/hotdeck.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
@@ -201,7 +201,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2026-04-02T00:00:00Z"
+          "2026-04-03T00:00:00Z"
         ]
       ]
     }
