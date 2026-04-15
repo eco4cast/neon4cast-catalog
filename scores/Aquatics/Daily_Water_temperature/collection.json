@@ -21,6 +21,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -56,11 +61,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/BBTW.json"
     },
     {
@@ -71,17 +71,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/GLEON_JRabaey_temp_physics.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -126,7 +116,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/JorritsCrystalBall.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
@@ -177,6 +172,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/wbears_rnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -296,7 +296,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-04-09T00:00:00Z"
+          "2026-04-10T00:00:00Z"
         ]
       ]
     }
