@@ -31,6 +31,26 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
@@ -66,22 +86,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/fTSLM_lag.json"
     },
     {
       "rel": "item",
@@ -139,11 +144,6 @@
       "href": "./models/tg_elasticNet.json"
     },
     {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
-    },
-    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-04-19T00:00:00Z"
+          "2026-04-20T00:00:00Z"
         ]
       ]
     }
