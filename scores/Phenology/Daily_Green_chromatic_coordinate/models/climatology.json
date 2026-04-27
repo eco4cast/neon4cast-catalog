@@ -61,10 +61,10 @@
   "properties": {
     "title": "climatology",
     "description": "All scores for the Daily_Green_chromatic_coordinate variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: SJER, RMNP, TREE, BART, SERC, STEI, JORN, TALL, UNDE, BONA, ORNL, DEJU, TOOL, DSNY, HEAL, GUAN, UKFS, WOOD, WREF, TEAK, YELL, HARV, DCFS, KONA, OSBS, BARR, NOGP, CLBJ, BLAN, ONAQ, OAES, SCBI, JERC, SRER, CPER, STER, SOAP, GRSM, LENO, MOAB, NIWO, LAJA, PUUM, MLBS, DELA, KONZ, ABBY.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
-    "datetime": "2026-04-21T00:00:00Z",
-    "updated": "2026-04-21T00:00:00Z",
+    "datetime": "2026-04-23T00:00:00Z",
+    "updated": "2026-04-23T00:00:00Z",
     "start_datetime": "2021-01-01T00:00:00Z",
-    "end_datetime": "2026-04-22T00:00:00Z",
+    "end_datetime": "2026-04-24T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
