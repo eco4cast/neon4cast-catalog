@@ -9,6 +9,10 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-99.2531, 47.1298],
+      [-96.6242, 34.4442],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
       [-119.0274, 36.9559],
       [-99.1139, 47.1591],
       [-88.1589, 31.8534],
@@ -26,10 +30,6 @@
       [-83.5038, 35.6904],
       [-84.4374, 31.1854],
       [-84.2793, 35.9574],
-      [-99.2531, 47.1298],
-      [-96.6242, 34.4442],
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
       [-78.1473, 38.8943],
       [-96.6038, 39.1051],
       [-82.0084, 29.676],
@@ -47,11 +47,11 @@
   },
   "properties": {
     "title": "climatology",
-    "description": "All forecasts for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: TECR, PRLA, TOMB, COMO, SYCA, BLWA, GUIL, LIRO, CARI, MCRA, MAYF, BIGC, ARIK, BLDE, LECO, FLNT, WALK, PRPO, BLUE, LEWI, TOOK, POSE, KING, BARC, SUGG, MART, CUPE, MCDI, OKSR, REDB, PRIN, HOPB, CRAM, WLOU.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-04-25T00:00:00Z",
-    "updated": "2026-04-25T00:00:00Z",
+    "description": "All forecasts for the Daily_Water_temperature variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: PRPO, BLUE, LEWI, TOOK, TECR, PRLA, TOMB, COMO, SYCA, BLWA, GUIL, LIRO, CARI, MCRA, MAYF, BIGC, ARIK, BLDE, LECO, FLNT, WALK, POSE, KING, BARC, SUGG, MART, CUPE, MCDI, OKSR, REDB, PRIN, HOPB, CRAM, WLOU.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "datetime": "2026-04-26T00:00:00Z",
+    "updated": "2026-04-26T00:00:00Z",
     "start_datetime": "2021-05-01T00:00:00Z",
-    "end_datetime": "2026-05-30T00:00:00Z",
+    "end_datetime": "2026-05-31T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
@@ -80,6 +80,10 @@
       "temperature",
       "Daily",
       "P1D",
+      "PRPO",
+      "BLUE",
+      "LEWI",
+      "TOOK",
       "TECR",
       "PRLA",
       "TOMB",
@@ -97,10 +101,6 @@
       "LECO",
       "FLNT",
       "WALK",
-      "PRPO",
-      "BLUE",
-      "LEWI",
-      "TOOK",
       "POSE",
       "KING",
       "BARC",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "TECR, PRLA, TOMB, COMO, SYCA, BLWA, GUIL, LIRO, CARI, MCRA, MAYF, BIGC, ARIK, BLDE, LECO, FLNT, WALK, PRPO, BLUE, LEWI, TOOK, POSE, KING, BARC, SUGG, MART, CUPE, MCDI, OKSR, REDB, PRIN, HOPB, CRAM, WLOU"
+      "description": "PRPO, BLUE, LEWI, TOOK, TECR, PRLA, TOMB, COMO, SYCA, BLWA, GUIL, LIRO, CARI, MCRA, MAYF, BIGC, ARIK, BLDE, LECO, FLNT, WALK, POSE, KING, BARC, SUGG, MART, CUPE, MCDI, OKSR, REDB, PRIN, HOPB, CRAM, WLOU"
     },
     "4": {
       "type": "application/x-parquet",
