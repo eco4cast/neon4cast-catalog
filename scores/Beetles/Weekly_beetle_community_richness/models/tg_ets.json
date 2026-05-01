@@ -29,6 +29,14 @@
       [-89.5373, 46.2339],
       [-147.5026, 65.154],
       [-72.1727, 42.5369],
+      [-119.7323, 37.1088],
+      [-106.8425, 32.5907],
+      [-76.56, 38.8901],
+      [-105.546, 40.2759],
+      [-87.3933, 32.9505],
+      [-89.5857, 45.4937],
+      [-89.5864, 45.5089],
+      [-71.2874, 44.0639],
       [-122.3303, 45.7624],
       [-96.5631, 39.1008],
       [-109.3883, 38.2483],
@@ -47,20 +55,12 @@
       [-103.0293, 40.4619],
       [-110.8355, 31.9107],
       [-78.0418, 39.0337],
-      [-78.1395, 38.8929],
-      [-119.7323, 37.1088],
-      [-106.8425, 32.5907],
-      [-76.56, 38.8901],
-      [-105.546, 40.2759],
-      [-87.3933, 32.9505],
-      [-89.5857, 45.4937],
-      [-89.5864, 45.5089],
-      [-71.2874, 44.0639]
+      [-78.1395, 38.8929]
     ]
   },
   "properties": {
     "title": "tg_ets",
-    "description": "All scores for the Weekly_beetle_community_richness variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: CLBJ, ORNL, DSNY, GUAN, WREF, DCFS, WOOD, DEJU, TOOL, OSBS, BARR, YELL, UKFS, TEAK, KONA, HEAL, NOGP, UNDE, BONA, HARV, ABBY, KONZ, MOAB, PUUM, NIWO, GRSM, MLBS, LAJA, DELA, LENO, ONAQ, CPER, JERC, OAES, SOAP, STER, SRER, BLAN, SCBI, SJER, JORN, SERC, RMNP, TALL, TREE, STEI, BART.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Weekly_beetle_community_richness variable for the tg_ets model. Information for the model is provided as follows: The tg_ets model is an Error, Trend, Seasonal (ETS) model fit using the function ets() from the\nforecast package in R (Hyndman et al. 2023; Hyndman et al., 2008). This is an empirical time series\nmodel with no covariates..\n                                    The model predicts this variable at the following sites: CLBJ, ORNL, DSNY, GUAN, WREF, DCFS, WOOD, DEJU, TOOL, OSBS, BARR, YELL, UKFS, TEAK, KONA, HEAL, NOGP, UNDE, BONA, HARV, SJER, JORN, SERC, RMNP, TALL, TREE, STEI, BART, ABBY, KONZ, MOAB, PUUM, NIWO, GRSM, MLBS, LAJA, DELA, LENO, ONAQ, CPER, JERC, OAES, SOAP, STER, SRER, BLAN, SCBI.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2025-07-06T00:00:00Z",
     "updated": "2025-07-06T00:00:00Z",
     "start_datetime": "2021-05-17T00:00:00Z",
@@ -113,6 +113,14 @@
       "UNDE",
       "BONA",
       "HARV",
+      "SJER",
+      "JORN",
+      "SERC",
+      "RMNP",
+      "TALL",
+      "TREE",
+      "STEI",
+      "BART",
       "ABBY",
       "KONZ",
       "MOAB",
@@ -131,15 +139,7 @@
       "STER",
       "SRER",
       "BLAN",
-      "SCBI",
-      "SJER",
-      "JORN",
-      "SERC",
-      "RMNP",
-      "TALL",
-      "TREE",
-      "STEI",
-      "BART"
+      "SCBI"
     ],
     "table:columns": [
       {
@@ -296,7 +296,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "CLBJ, ORNL, DSNY, GUAN, WREF, DCFS, WOOD, DEJU, TOOL, OSBS, BARR, YELL, UKFS, TEAK, KONA, HEAL, NOGP, UNDE, BONA, HARV, ABBY, KONZ, MOAB, PUUM, NIWO, GRSM, MLBS, LAJA, DELA, LENO, ONAQ, CPER, JERC, OAES, SOAP, STER, SRER, BLAN, SCBI, SJER, JORN, SERC, RMNP, TALL, TREE, STEI, BART"
+      "description": "CLBJ, ORNL, DSNY, GUAN, WREF, DCFS, WOOD, DEJU, TOOL, OSBS, BARR, YELL, UKFS, TEAK, KONA, HEAL, NOGP, UNDE, BONA, HARV, SJER, JORN, SERC, RMNP, TALL, TREE, STEI, BART, ABBY, KONZ, MOAB, PUUM, NIWO, GRSM, MLBS, LAJA, DELA, LENO, ONAQ, CPER, JERC, OAES, SOAP, STER, SRER, BLAN, SCBI"
     },
     "4": {
       "type": "application/x-parquet",
