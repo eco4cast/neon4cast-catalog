@@ -4,30 +4,11 @@
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "type": "Feature",
-  "id": "(Random)_Forests_Turn_Green_gcc_90_P1D_forecast",
+  "id": "nee_randfor_lag_nee_P1D_forecast",
   "bbox": [-156.6194, 17.9696, -66.8687, 71.2824],
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-122.3303, 45.7624],
-      [-87.8039, 32.5417],
-      [-83.5019, 35.689],
-      [-96.5631, 39.1008],
-      [-67.0769, 18.0213],
-      [-88.1612, 31.8539],
-      [-80.5248, 37.3783],
-      [-109.3883, 38.2483],
-      [-105.5824, 40.0543],
-      [-155.3173, 19.5531],
-      [-78.0418, 39.0337],
-      [-104.7456, 40.8155],
-      [-84.4686, 31.1948],
-      [-99.0588, 35.4106],
-      [-112.4524, 40.1776],
-      [-78.1395, 38.8929],
-      [-119.2622, 37.0334],
-      [-110.8355, 31.9107],
-      [-103.0293, 40.4619],
       [-156.6194, 71.2824],
       [-147.5026, 65.154],
       [-97.57, 33.4012],
@@ -55,12 +36,31 @@
       [-119.7323, 37.1088],
       [-89.5864, 45.5089],
       [-87.3933, 32.9505],
-      [-89.5857, 45.4937]
+      [-89.5857, 45.4937],
+      [-122.3303, 45.7624],
+      [-87.8039, 32.5417],
+      [-83.5019, 35.689],
+      [-96.5631, 39.1008],
+      [-67.0769, 18.0213],
+      [-88.1612, 31.8539],
+      [-80.5248, 37.3783],
+      [-109.3883, 38.2483],
+      [-105.5824, 40.0543],
+      [-155.3173, 19.5531],
+      [-78.0418, 39.0337],
+      [-104.7456, 40.8155],
+      [-84.4686, 31.1948],
+      [-99.0588, 35.4106],
+      [-112.4524, 40.1776],
+      [-78.1395, 38.8929],
+      [-119.2622, 37.0334],
+      [-110.8355, 31.9107],
+      [-103.0293, 40.4619]
     ]
   },
   "properties": {
-    "title": "(Random)_Forests_Turn_Green",
-    "description": "All forecasts for the Daily_Green_chromatic_coordinate variable for the (Random)_Forests_Turn_Green model. Information for the model is provided as follows: This script uses a random forest model with the package ranger to predict gcc_90 (green chromatic coordinate) with input variables of air temperature, shortwave radiation flux, and lagged green chromatic coordinate. The model itself is fit using ten-fold cross validation and tuned on all available past targets and weather data..\n                                    The model predicts this variable at the following sites: ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "title": "nee_randfor_lag",
+    "description": "All forecasts for the Daily_Net_ecosystem_exchange variable for the nee_randfor_lag model. Information for the model is provided as follows: The modeling approach uses a machine learning model called Random Forest fitted with the ranger function within the tidymodels framework in R. The model drivers are air temperature, precipitation flux, and surface downwelling shortwave radiation. It also includes a one-day lag of nee. The model predicts daily nee for all 47 terrestrial sites..\n                                    The model predicts this variable at the following sites: BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2026-05-01T00:00:00Z",
     "updated": "2026-05-01T00:00:00Z",
     "start_datetime": "2026-05-31T00:00:00Z",
@@ -87,31 +87,12 @@
     "keywords": [
       "Forecasts",
       "neon4cast",
-      "Phenology",
-      "(Random)_Forests_Turn_Green",
-      "Green_chromatic_coordinate",
-      "gcc_90",
+      "Terrestrial",
+      "nee_randfor_lag",
+      "Net_ecosystem_exchange",
+      "nee",
       "Daily",
       "P1D",
-      "ABBY",
-      "DELA",
-      "GRSM",
-      "KONZ",
-      "LAJA",
-      "LENO",
-      "MLBS",
-      "MOAB",
-      "NIWO",
-      "PUUM",
-      "BLAN",
-      "CPER",
-      "JERC",
-      "OAES",
-      "ONAQ",
-      "SCBI",
-      "SOAP",
-      "SRER",
-      "STER",
       "BARR",
       "BONA",
       "CLBJ",
@@ -139,7 +120,26 @@
       "SJER",
       "STEI",
       "TALL",
-      "TREE"
+      "TREE",
+      "ABBY",
+      "DELA",
+      "GRSM",
+      "KONZ",
+      "LAJA",
+      "LENO",
+      "MLBS",
+      "MOAB",
+      "NIWO",
+      "PUUM",
+      "BLAN",
+      "CPER",
+      "JERC",
+      "OAES",
+      "ONAQ",
+      "SCBI",
+      "SOAP",
+      "SRER",
+      "STER"
     ],
     "table:columns": [
       {
@@ -205,7 +205,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "(Random)_Forests_Turn_Green"
+      "title": "nee_randfor_lag"
     },
     {
       "rel": "root",
@@ -217,29 +217,29 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "(Random)_Forests_Turn_Green"
+      "title": "nee_randfor_lag"
     },
     {
       "rel": "self",
-      "href": "(Random)_Forests_Turn_Green.json",
+      "href": "nee_randfor_lag.json",
       "type": "application/json",
       "title": "Model Forecast"
     },
     {
       "rel": "item",
-      "href": "https://github.com/Will-Parrott/NEON-Forecast-Challenge-Phenology/blob/main/Submit_forecast/RFTurnGreen.R",
+      "href": "https://github.com/C-Littlejohn/FREC-5174-Independent-Forecast/blob/main/nee_randomforest_lag_code.R",
       "type": "text/html",
       "title": "Link for Model Code"
     },
     {
       "rel": "item",
-      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/eco4cast/neon4cast-ci/main/forecasts/Phenology/Daily_Green_chromatic_coordinate/models/(Random)_Forests_Turn_Green.json",
+      "href": "https://radiantearth.github.io/stac-browser/#/external/raw.githubusercontent.com/eco4cast/neon4cast-ci/main/forecasts/Terrestrial/Daily_Net_ecosystem_exchange/models/nee_randfor_lag.json",
       "type": "text/html",
       "title": "Link for rendered STAC item"
     },
     {
       "rel": "item",
-      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/forecasts/Phenology/Daily_Green_chromatic_coordinate/models/(Random)_Forests_Turn_Green.json",
+      "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/forecasts/Terrestrial/Daily_Net_ecosystem_exchange/models/nee_randfor_lag.json",
       "type": "text/html",
       "title": "Link for raw JSON file"
     }
@@ -248,26 +248,26 @@
     "1": {
       "type": "application/json",
       "title": "Model Metadata",
-      "href": "https://sdsc.osn.xsede.org/bio230014-bucket01/challenges/metadata/model_id/(Random)_Forests_Turn_Green.json",
-      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://sdsc.osn.xsede.org/bio230014-bucket01/challenges/metadata/model_id/(Random)_Forests_Turn_Green.json\")\n\n"
+      "href": "https://sdsc.osn.xsede.org/bio230014-bucket01/challenges/metadata/model_id/nee_randfor_lag.json",
+      "description": "Use `jsonlite::fromJSON()` to download the model metadata JSON file. This R code will return metadata provided during the model registration.\n      \n\n### R\n\n```{r}\n# Use code below\n\nmodel_metadata <- jsonlite::fromJSON(\"https://sdsc.osn.xsede.org/bio230014-bucket01/challenges/metadata/model_id/nee_randfor_lag.json\")\n\n"
     },
     "2": {
       "type": "text/html",
       "title": "Link for Model Code",
-      "href": "https://github.com/Will-Parrott/NEON-Forecast-Challenge-Phenology/blob/main/Submit_forecast/RFTurnGreen.R",
+      "href": "https://github.com/C-Littlejohn/FREC-5174-Independent-Forecast/blob/main/nee_randomforest_lag_code.R",
       "description": "The link to the model code provided by the model submission team"
     },
     "3": {
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER, BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE"
+      "description": "BARR, BONA, CLBJ, DCFS, DEJU, DSNY, GUAN, HARV, HEAL, KONA, NOGP, ORNL, OSBS, TEAK, TOOL, UKFS, UNDE, WOOD, WREF, YELL, BART, JORN, RMNP, SERC, SJER, STEI, TALL, TREE, ABBY, DELA, GRSM, KONZ, LAJA, LENO, MLBS, MOAB, NIWO, PUUM, BLAN, CPER, JERC, OAES, ONAQ, SCBI, SOAP, SRER, STER"
     },
     "4": {
       "type": "application/x-parquet",
-      "title": "Database Access for Daily Green_chromatic_coordinate",
-      "href": "s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=gcc_90/model_id=(Random)_Forests_Turn_Green?endpoint_override=sdsc.osn.xsede.org",
-      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=gcc_90/model_id=(Random)_Forests_Turn_Green?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'sdsc.osn.xsede.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=gcc_90/model_id=(Random)_Forests_Turn_Green\"\ncon.read_parquet(path + \"/**\")"
+      "title": "Database Access for Daily Net_ecosystem_exchange",
+      "href": "s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=nee/model_id=nee_randfor_lag?endpoint_override=sdsc.osn.xsede.org",
+      "description": "Use `R` or `Python` code for remote access to the database. This code will return results for this variable and model combination.\n\n### R\n\n```{r}\n# Use code below\n\nall_results <- arrow::open_dataset(\"s3://anonymous@bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=nee/model_id=nee_randfor_lag?endpoint_override=sdsc.osn.xsede.org\")\ndf <- all_results |> dplyr::collect()\n\n```\n       \n\nYou can use dplyr operations before calling `dplyr::collect()` to `summarise`, `select` columns, and/or `filter` rows prior to pulling the data into a local `data.frame`. Reducing the data that is pulled locally will speed up the data download speed and reduce your memory usage.\n\n\n### Python\n\n```{python}# Use code below\nimport ibis\ncon = ibis.duckdbf.connect()\ncon.raw_sql(f'''\nCREATE OR REPLACE SECRET secret (\nTYPE S3,\nENDPOINT 'sdsc.osn.xsede.org',\nURL_STYLE 'path'\n\n''');\npath = \"s3://bio230014-bucket01/challenges/forecasts/bundled-parquet/project_id=neon4cast/duration=P1D/variable=nee/model_id=nee_randfor_lag\"\ncon.read_parquet(path + \"/**\")"
     }
   }
 }
