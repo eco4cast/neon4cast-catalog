@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/USGSHABs1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/procCTMIMonod.json"
     },
     {
@@ -22,11 +27,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/USGSHABs1.json"
     },
     {
       "rel": "item",
@@ -86,11 +86,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -144,6 +139,11 @@
       "href": "./models/tg_XGBoost.json"
     },
     {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fTSLM_lag.json"
+    },
+    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -186,7 +186,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-05-01T00:00:00Z"
+          "2026-05-02T00:00:00Z"
         ]
       ]
     }
