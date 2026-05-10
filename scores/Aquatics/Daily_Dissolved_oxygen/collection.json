@@ -36,12 +36,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -106,17 +106,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/hotdeck.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
@@ -201,7 +201,7 @@
       "interval": [
         [
           "2017-08-27T00:00:00Z",
-          "2026-05-05T00:00:00Z"
+          "2026-05-07T00:00:00Z"
         ]
       ]
     }

@@ -71,6 +71,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -91,17 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/PEG.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-06-12T00:00:00Z"
+          "2026-06-13T00:00:00Z"
         ]
       ]
     }
