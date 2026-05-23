@@ -20,10 +20,10 @@
   "properties": {
     "title": "SWOT_AirTemp_RF",
     "description": "All forecasts for the Daily_Water_temperature variable for the SWOT_AirTemp_RF model. Information for the model is provided as follows: A random forest model with predictor air temperature, 3 day air temperature, and most recent SWOT water surface elevation measurement. Random forest models are trained for each SWOT horizon (up to 60) then applied depending on SWOT horizon on forecast initiation date..\n                                    The model predicts this variable at the following sites: LIRO, PRLA, BARC, CRAM, SUGG, PRPO.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
-    "datetime": "2026-05-21T00:00:00Z",
-    "updated": "2026-05-21T00:00:00Z",
-    "start_datetime": "2026-06-24T00:00:00Z",
-    "end_datetime": "2026-06-24T00:00:00Z",
+    "datetime": "2026-05-22T00:00:00Z",
+    "updated": "2026-05-22T00:00:00Z",
+    "start_datetime": "2026-06-25T00:00:00Z",
+    "end_datetime": "2026-06-25T00:00:00Z",
     "providers": [
       {
         "url": "https://projects.ecoforecast.org/neon4cast-ci/",
