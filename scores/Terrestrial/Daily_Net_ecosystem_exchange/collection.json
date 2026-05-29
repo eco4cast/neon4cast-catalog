@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/bookcast_forest.json"
     },
     {
       "rel": "item",
@@ -22,11 +22,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -46,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
+      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -71,6 +66,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/USUNEEDAILY.json"
     },
     {
@@ -81,7 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -91,17 +91,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -117,6 +112,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "parent",
