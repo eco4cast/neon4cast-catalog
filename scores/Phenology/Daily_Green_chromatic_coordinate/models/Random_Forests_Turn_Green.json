@@ -9,13 +9,13 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
+      [-83.5019, 35.689],
+      [-88.1612, 31.8539],
       [-78.1395, 38.8929],
       [-84.4686, 31.1948],
       [-110.8355, 31.9107],
       [-112.4524, 40.1776],
       [-78.0418, 39.0337],
-      [-83.5019, 35.689],
-      [-88.1612, 31.8539],
       [-119.7323, 37.1088],
       [-105.546, 40.2759],
       [-95.1921, 39.0404],
@@ -33,7 +33,7 @@
   },
   "properties": {
     "title": "Random_Forests_Turn_Green",
-    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the Random_Forests_Turn_Green model. Information for the model is provided as follows: This script uses a random forest model with the package ranger to predict gcc_90 (green chromatic coordinate) with input variables of air temperature, shortwave radiation flux, and lagged green chromatic coordinate. The model itself is fit using ten-fold cross validation and tuned on all available past targets and weather data..\n                                    The model predicts this variable at the following sites: SCBI, JERC, SRER, ONAQ, BLAN, GRSM, LENO, SJER, RMNP, UKFS, BONA, HEAL, DSNY, TOOL, KONA, DEJU, ORNL, WOOD, UNDE, GUAN.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
+    "description": "All scores for the Daily_Green_chromatic_coordinate variable for the Random_Forests_Turn_Green model. Information for the model is provided as follows: This script uses a random forest model with the package ranger to predict gcc_90 (green chromatic coordinate) with input variables of air temperature, shortwave radiation flux, and lagged green chromatic coordinate. The model itself is fit using ten-fold cross validation and tuned on all available past targets and weather data..\n                                    The model predicts this variable at the following sites: GRSM, LENO, SCBI, JERC, SRER, ONAQ, BLAN, SJER, RMNP, UKFS, BONA, HEAL, DSNY, TOOL, KONA, DEJU, ORNL, WOOD, UNDE, GUAN.\n                                    Scores are metrics that describe how well forecasts compare to observations. The scores catalog includes are summaries of the forecasts (i.e., mean, median, confidence intervals), matched observations (if available), and scores (metrics of how well the model distribution compares to observations)",
     "datetime": "2026-05-28T00:00:00Z",
     "updated": "2026-05-28T00:00:00Z",
     "start_datetime": "2026-05-07T00:00:00Z",
@@ -66,13 +66,13 @@
       "gcc_90",
       "Daily",
       "P1D",
+      "GRSM",
+      "LENO",
       "SCBI",
       "JERC",
       "SRER",
       "ONAQ",
       "BLAN",
-      "GRSM",
-      "LENO",
       "SJER",
       "RMNP",
       "UKFS",
@@ -242,7 +242,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "SCBI, JERC, SRER, ONAQ, BLAN, GRSM, LENO, SJER, RMNP, UKFS, BONA, HEAL, DSNY, TOOL, KONA, DEJU, ORNL, WOOD, UNDE, GUAN"
+      "description": "GRSM, LENO, SCBI, JERC, SRER, ONAQ, BLAN, SJER, RMNP, UKFS, BONA, HEAL, DSNY, TOOL, KONA, DEJU, ORNL, WOOD, UNDE, GUAN"
     },
     "4": {
       "type": "application/x-parquet",
