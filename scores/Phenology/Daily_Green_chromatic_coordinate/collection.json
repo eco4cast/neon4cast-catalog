@@ -11,36 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/CU_Pheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/EFI_U_P.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/CSP_Gwave.json"
     },
     {
@@ -56,17 +26,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_ets.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -91,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -156,6 +126,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/UCSC_P_EDM.json"
     },
     {
@@ -171,7 +146,32 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
+      "href": "./models/CU_Pheno.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EFI_U_P.json"
     },
     {
       "rel": "parent",
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-05-29T00:00:00Z"
+          "2026-05-31T00:00:00Z"
         ]
       ]
     }
