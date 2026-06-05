@@ -11,36 +11,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/CU_Pheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/EFI_U_P.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -101,6 +71,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
     },
     {
@@ -117,11 +92,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -174,6 +144,36 @@
       "href": "./models/Fourier.json"
     },
     {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/CU_Pheno.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/EFI_U_P.json"
+    },
+    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-05-31T00:00:00Z"
+          "2026-06-02T00:00:00Z"
         ]
       ]
     }
