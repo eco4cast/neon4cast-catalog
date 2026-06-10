@@ -11,6 +11,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/baseline_ensemble.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -86,16 +96,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/baseline_ensemble.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-06-06T00:00:00Z"
+          "2026-06-07T00:00:00Z"
         ]
       ]
     }
