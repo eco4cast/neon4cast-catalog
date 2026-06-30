@@ -41,6 +41,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/rf_hybrid_model.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
@@ -56,11 +61,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/bookcast_forest.json"
     },
     {
@@ -72,6 +72,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/USUNEEDAILY.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -107,11 +112,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-06-19T00:00:00Z"
+          "2026-06-20T00:00:00Z"
         ]
       ]
     }
