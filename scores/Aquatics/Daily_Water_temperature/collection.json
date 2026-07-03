@@ -56,12 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/zimmerman_proj1.json"
+      "href": "./models/SWOT_AirTemp_RF.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/SWOT_AirTemp_RF.json"
+      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
