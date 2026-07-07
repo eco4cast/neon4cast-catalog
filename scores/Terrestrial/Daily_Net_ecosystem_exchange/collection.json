@@ -11,7 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/persistenceRW.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -51,27 +66,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/nee_randfor_lag.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -111,12 +116,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
+      "href": "./models/nee_randfor_lag.json"
     },
     {
       "rel": "parent",
