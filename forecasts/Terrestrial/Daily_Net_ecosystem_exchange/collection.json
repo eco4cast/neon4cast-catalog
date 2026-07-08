@@ -11,7 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/bookcast_forest.json"
     },
     {
       "rel": "item",
@@ -21,7 +21,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -31,7 +31,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
@@ -41,12 +46,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_temp_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -76,17 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
@@ -101,22 +116,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "parent",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-08-07T00:00:00Z"
+          "2026-08-11T00:00:00Z"
         ]
       ]
     }
