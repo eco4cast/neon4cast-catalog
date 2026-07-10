@@ -51,11 +51,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_XGBoost.json"
     },
     {
@@ -91,7 +86,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TickBench.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -112,6 +107,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/NJC_ETS_PF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TickBench.json"
     },
     {
       "rel": "parent",
