@@ -26,17 +26,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -51,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -61,12 +51,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
@@ -121,7 +121,7 @@
       "interval": [
         [
           "2021-05-17T00:00:00Z",
-          "2026-06-22T00:00:00Z"
+          "2026-06-29T00:00:00Z"
         ]
       ]
     }
