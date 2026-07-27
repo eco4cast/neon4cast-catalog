@@ -201,11 +201,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flare_ler_baselines.json"
     },
     {
@@ -252,6 +247,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
     },
     {
       "rel": "item",
