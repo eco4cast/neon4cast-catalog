@@ -31,12 +31,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_ets.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-08-10T00:00:00Z"
+          "2026-08-11T00:00:00Z"
         ]
       ]
     }

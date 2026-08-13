@@ -21,6 +21,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/SWOT_AirTemp_RF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -47,16 +57,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/SWOT_AirTemp_RF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
