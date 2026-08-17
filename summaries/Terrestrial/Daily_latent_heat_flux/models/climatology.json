@@ -61,10 +61,10 @@
   "properties": {
     "title": "climatology",
     "description": "All summaries for the Daily_latent_heat_flux variable for the climatology model. Information for the model is provided as follows: Historical DOY mean and sd.  Assumes normal distribution.\n                                    The model predicts this variable at the following sites: TOOL, DSNY, BARR, CLBJ, TEAK, WOOD, YELL, DCFS, ORNL, HEAL, UKFS, HARV, KONA, DEJU, WREF, BONA, UNDE, GUAN, NOGP, OSBS, STER, SRER, BLAN, ONAQ, JERC, SOAP, SCBI, CPER, OAES, MOAB, LENO, PUUM, GRSM, NIWO, DELA, KONZ, ABBY, LAJA, MLBS, BART, JORN, TALL, SERC, SJER, STEI, TREE, RMNP.\n                                    Summaries are the forecasts statistics of the raw forecasts (i.e., mean, median, confidence intervals)",
-    "datetime": "2026-08-15T00:00:00Z",
-    "updated": "2026-08-15T00:00:00Z",
+    "datetime": "2026-08-16T00:00:00Z",
+    "updated": "2026-08-16T00:00:00Z",
     "start_datetime": "2023-11-15T00:00:00Z",
-    "end_datetime": "2026-09-20T00:00:00Z",
+    "end_datetime": "2026-09-21T00:00:00Z",
     "providers": [
       {
         "url": "https://github.com/eco4cast/neon4cast-ci/blob/main/baseline_models/models/aquatics_persistenceRW.R",
