@@ -36,7 +36,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -61,12 +61,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/AquaticEcosystemsOxygen.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
