@@ -4,8 +4,6 @@
   "stac_version": "1.0.0",
   "license": "CC0-1.0",
   "stac_extensions": [
-    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
-    "https://stac-extensions.github.io/item-assets/v1.0.0/schema.json",
     "https://stac-extensions.github.io/table/v1.2.0/schema.json"
   ],
   "type": "Collection",
@@ -37,8 +35,8 @@
     },
     {
       "rel": "describedby",
-      "href": {},
-      "title": {},
+      "href": "https://projects.ecoforecast.org/neon4cast-docs/",
+      "title": "NEON Ecological Forecasting Challenge Documentation",
       "type": "text/html"
     }
   ],
@@ -58,7 +56,7 @@
       "interval": [
         [
           "2013-07-01T00:00:00Z",
-          "2026-08-14T00:00:00Z"
+          "2026-08-19T00:00:00Z"
         ]
       ]
     }
