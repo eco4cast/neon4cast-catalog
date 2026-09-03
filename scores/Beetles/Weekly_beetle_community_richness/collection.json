@@ -31,7 +31,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
@@ -46,7 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
