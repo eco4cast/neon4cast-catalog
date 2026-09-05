@@ -96,12 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-10-08T00:00:00Z"
+          "2026-10-09T00:00:00Z"
         ]
       ]
     }
