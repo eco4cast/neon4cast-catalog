@@ -9,10 +9,6 @@
   "geometry": {
     "type": "MultiPoint",
     "coordinates": [
-      [-77.9832, 39.0956],
-      [-149.6106, 68.6307],
-      [-96.6242, 34.4442],
-      [-99.2531, 47.1298],
       [-111.5081, 33.751],
       [-88.1589, 31.8534],
       [-99.1139, 47.1591],
@@ -30,6 +26,10 @@
       [-83.5038, 35.6904],
       [-84.4374, 31.1854],
       [-102.4471, 39.7582],
+      [-77.9832, 39.0956],
+      [-149.6106, 68.6307],
+      [-96.6242, 34.4442],
+      [-99.2531, 47.1298],
       [-96.443, 38.9459],
       [-78.1473, 38.8943],
       [-66.9868, 18.1135],
@@ -47,7 +47,7 @@
   },
   "properties": {
     "title": "persistenceRW",
-    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: LEWI, TOOK, BLUE, PRPO, SYCA, TOMB, PRLA, BLWA, COMO, GUIL, LIRO, TECR, CARI, BIGC, BLDE, WALK, MCRA, MAYF, LECO, FLNT, ARIK, MCDI, POSE, CUPE, OKSR, WLOU, CRAM, MART, KING, BARC, REDB, PRIN, SUGG, HOPB.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
+    "description": "All forecasts for the Daily_Dissolved_oxygen variable for the persistenceRW model. Information for the model is provided as follows: Random walk from the fable package with ensembles used to represent uncertainty.\n                                    The model predicts this variable at the following sites: SYCA, TOMB, PRLA, BLWA, COMO, GUIL, LIRO, TECR, CARI, BIGC, BLDE, WALK, MCRA, MAYF, LECO, FLNT, ARIK, LEWI, TOOK, BLUE, PRPO, MCDI, POSE, CUPE, OKSR, WLOU, CRAM, MART, KING, BARC, REDB, PRIN, SUGG, HOPB.\n                                    Forecasts are the raw forecasts that includes all ensemble members or distribution parameters. Due to the size of the raw forecasts, we recommend accessing the forecast summaries or scores to analyze forecasts (unless you need the individual ensemble members)",
     "datetime": "2026-09-07T00:00:00Z",
     "updated": "2026-09-07T00:00:00Z",
     "start_datetime": "2022-08-25T00:00:00Z",
@@ -80,10 +80,6 @@
       "oxygen",
       "Daily",
       "P1D",
-      "LEWI",
-      "TOOK",
-      "BLUE",
-      "PRPO",
       "SYCA",
       "TOMB",
       "PRLA",
@@ -101,6 +97,10 @@
       "LECO",
       "FLNT",
       "ARIK",
+      "LEWI",
+      "TOOK",
+      "BLUE",
+      "PRPO",
       "MCDI",
       "POSE",
       "CUPE",
@@ -235,7 +235,7 @@
       "type": "text/plain",
       "title": "Model Sites",
       "href": "https://raw.githubusercontent.com/eco4cast/neon4cast-ci/main/neon4cast_field_site_metadata.csv",
-      "description": "LEWI, TOOK, BLUE, PRPO, SYCA, TOMB, PRLA, BLWA, COMO, GUIL, LIRO, TECR, CARI, BIGC, BLDE, WALK, MCRA, MAYF, LECO, FLNT, ARIK, MCDI, POSE, CUPE, OKSR, WLOU, CRAM, MART, KING, BARC, REDB, PRIN, SUGG, HOPB"
+      "description": "SYCA, TOMB, PRLA, BLWA, COMO, GUIL, LIRO, TECR, CARI, BIGC, BLDE, WALK, MCRA, MAYF, LECO, FLNT, ARIK, LEWI, TOOK, BLUE, PRPO, MCDI, POSE, CUPE, OKSR, WLOU, CRAM, MART, KING, BARC, REDB, PRIN, SUGG, HOPB"
     },
     "4": {
       "type": "application/x-parquet",
