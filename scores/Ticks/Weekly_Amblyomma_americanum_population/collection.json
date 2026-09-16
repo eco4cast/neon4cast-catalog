@@ -11,6 +11,31 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/NJC_ETS_PF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TickBench.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/BU_Dem.json"
     },
     {
@@ -36,27 +61,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/NJC_Ticks.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/Ticks_288.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
@@ -71,7 +81,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -87,31 +112,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NJC_ETS_PF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/TickBench.json"
     },
     {
       "rel": "parent",

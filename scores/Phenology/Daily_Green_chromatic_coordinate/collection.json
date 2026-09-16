@@ -11,6 +11,51 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/DALEC_SIP.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NEFIpheno.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG_RFR.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG_RFR0.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCSC_P_EDM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -129,51 +174,6 @@
       "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/DALEC_SIP.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NEFIpheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG_RFR.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG_RFR0.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCSC_P_EDM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
       "rel": "parent",
       "type": "application/json",
       "href": "../collection.json"
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-09-09T00:00:00Z"
+          "2026-09-12T00:00:00Z"
         ]
       ]
     }
