@@ -11,12 +11,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -32,11 +27,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -92,6 +82,16 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-11-02T00:00:00Z"
+          "2026-11-03T00:00:00Z"
         ]
       ]
     }
