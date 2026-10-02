@@ -11,7 +11,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -51,12 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/nee_randfor_lag.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/nee_randfor_lag.json"
+      "href": "./models/USUNEEDAILY.json"
     },
     {
       "rel": "item",
@@ -67,11 +72,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -96,7 +96,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-09-21T00:00:00Z"
+          "2026-09-22T00:00:00Z"
         ]
       ]
     }
