@@ -56,17 +56,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -92,6 +87,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "parent",
@@ -136,7 +136,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-09-24T00:00:00Z"
+          "2026-09-25T00:00:00Z"
         ]
       ]
     }

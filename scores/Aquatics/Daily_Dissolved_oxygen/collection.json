@@ -46,11 +46,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -71,6 +66,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/AquaticEcosystemsOxygen.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/LSAMP_AWPC.json"
     },
     {
@@ -86,6 +86,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/MSU_ARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/hotdeck.json"
     },
     {
@@ -97,11 +102,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/BBTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/MSU_ARIMA.json"
     },
     {
       "rel": "item",
