@@ -66,11 +66,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG.json"
     },
     {
@@ -101,6 +96,56 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/DALEC_SIP.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NEFIpheno.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG_RFR.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG_RFR0.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/UCSC_P_EDM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/CU_Pheno.json"
     },
     {
@@ -127,51 +172,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/DALEC_SIP.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NEFIpheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG_RFR.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG_RFR0.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/UCSC_P_EDM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "parent",
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-10-04T00:00:00Z"
+          "2026-10-05T00:00:00Z"
         ]
       ]
     }
