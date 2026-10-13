@@ -71,16 +71,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -91,17 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/PEG.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -111,7 +91,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "parent",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-11-15T00:00:00Z"
+          "2026-11-16T00:00:00Z"
         ]
       ]
     }
