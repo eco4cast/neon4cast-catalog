@@ -71,6 +71,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/flareGOTM_noDA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/flare_ler.json"
     },
     {
@@ -86,12 +91,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/precip_mod.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/precip_mod.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -102,11 +107,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
@@ -196,6 +196,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/flareGLM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/flareSimstrat_noDA.json"
     },
     {
@@ -207,6 +212,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -236,22 +246,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/xgboost_parallel.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
