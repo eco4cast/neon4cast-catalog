@@ -21,6 +21,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_ets.json"
     },
     {
@@ -36,12 +41,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/greenbears.json"
     },
     {
       "rel": "item",
@@ -56,12 +66,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/greenbears.json"
+      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -92,11 +97,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -161,17 +161,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/Fourier.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
     },
     {
       "rel": "parent",

@@ -46,7 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
+      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
@@ -66,7 +66,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_randfor.json"
+      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -91,7 +91,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -106,7 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_ets.json"
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
