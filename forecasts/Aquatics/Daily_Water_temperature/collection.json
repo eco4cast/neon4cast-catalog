@@ -21,12 +21,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/hotdeck.json"
+      "href": "./models/lm_AT_WTL_WS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/hotdeck.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
@@ -56,26 +66,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/lm_AT_WTL_WS.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/zimmerman_proj1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flare_ler.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/persistenceRW.json"
     },
     {
@@ -86,7 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mkricheldorf_w_lag.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
@@ -96,17 +86,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_JRabaey_temp_physics.json"
+      "href": "./models/flare_ler.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/mkricheldorf_w_lag.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GAM_air_wind.json"
     },
     {
       "rel": "item",
@@ -126,7 +126,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/acp_fableLM.json"
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GLEON_JRabaey_temp_physics.json"
     },
     {
       "rel": "item",
@@ -141,17 +151,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/GAM_air_wind.json"
+      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",
@@ -166,17 +166,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -201,7 +191,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -211,7 +211,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
