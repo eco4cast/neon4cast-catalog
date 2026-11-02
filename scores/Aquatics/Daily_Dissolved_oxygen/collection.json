@@ -46,11 +46,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/hotdeck.json"
     },
     {
@@ -61,12 +56,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BBTW.json"
+      "href": "./models/GLEON_lm_lag_1day.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/MSU_ARIMA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/BBTW.json"
     },
     {
       "rel": "item",
@@ -82,11 +82,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -116,12 +111,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/wbears_gp.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/NDWaterTempDO.json"
     },
     {
       "rel": "item",
@@ -147,11 +152,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/NDWaterTempDO.json"
     },
     {
       "rel": "item",

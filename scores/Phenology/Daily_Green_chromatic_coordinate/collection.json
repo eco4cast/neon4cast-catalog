@@ -16,6 +16,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/greenbears.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -31,16 +36,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
@@ -51,7 +46,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/xgboost_parallel.json"
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -61,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/greenbears.json"
+      "href": "./models/xgboost_parallel.json"
     },
     {
       "rel": "item",
@@ -111,11 +111,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
@@ -126,12 +121,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/EFI_U_P.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/DALEC_SIP.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Fourier.json"
     },
     {
       "rel": "item",
@@ -161,17 +166,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Fourier.json"
+      "href": "./models/VT_Ph_GDD.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
     },
     {
       "rel": "parent",

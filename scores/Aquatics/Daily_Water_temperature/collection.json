@@ -16,16 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -47,6 +37,16 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/lm_AT_WTL_WS.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
@@ -91,6 +91,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_brnn.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/precip_mod.json"
     },
     {
@@ -102,11 +107,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -201,11 +201,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
     },
     {
@@ -217,6 +212,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -251,7 +251,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
