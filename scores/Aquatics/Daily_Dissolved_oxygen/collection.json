@@ -36,12 +36,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -81,6 +81,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -112,11 +117,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
