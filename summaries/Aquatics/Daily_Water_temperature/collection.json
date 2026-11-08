@@ -16,7 +16,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fARIMA_clim_ensemble.json"
+      "href": "./models/flareGLM_noDA.json"
     },
     {
       "rel": "item",
@@ -27,6 +27,21 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/fARIMA_clim_ensemble.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/hotdeck.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
@@ -51,17 +66,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGLM_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/zimmerman_proj1.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/hotdeck.json"
+      "href": "./models/mkricheldorf_w_lag.json"
     },
     {
       "rel": "item",
@@ -81,12 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mkricheldorf_w_lag.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/precip_mod.json"
     },
     {
       "rel": "item",
@@ -101,7 +106,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/precip_mod.json"
+      "href": "./models/bee_bake_RFModel_2024.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/mlp1_wtempforecast_LF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
@@ -116,42 +141,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_randfor.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mlp1_wtempforecast_LF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/bee_bake_RFModel_2024.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/acp_fableLM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareGLM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
     },
     {
       "rel": "item",
@@ -176,11 +186,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
@@ -191,12 +196,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
@@ -206,7 +206,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
