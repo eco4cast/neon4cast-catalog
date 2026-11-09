@@ -31,6 +31,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_ets.json"
     },
     {
@@ -46,17 +51,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
