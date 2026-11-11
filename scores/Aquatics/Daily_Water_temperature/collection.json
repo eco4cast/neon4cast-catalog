@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/SWOT_AirTemp_RF.json"
     },
     {
@@ -56,6 +51,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_tbats.json"
     },
     {
@@ -86,12 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/precip_mod.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/precip_mod.json"
     },
     {
       "rel": "item",
@@ -106,12 +106,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wtemp_lm_model.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
+      "href": "./models/wtemp_lm_model.json"
     },
     {
       "rel": "item",
@@ -161,6 +161,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/JorritsCrystalBall.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_precip_lm.json"
     },
     {
@@ -172,11 +177,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/acp_fableLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
@@ -202,11 +202,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/flareSimstrat_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
@@ -241,6 +236,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
@@ -251,7 +251,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
