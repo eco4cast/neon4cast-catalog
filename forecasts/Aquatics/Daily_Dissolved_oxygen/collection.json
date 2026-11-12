@@ -56,6 +56,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_XGBoost.json"
     },
     {
@@ -81,11 +86,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
@@ -96,12 +96,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/tg_randfor.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -112,11 +117,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_precip_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_randfor.json"
     },
     {
       "rel": "parent",

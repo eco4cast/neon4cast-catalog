@@ -61,6 +61,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_randfor.json"
     },
     {
@@ -71,7 +76,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/PEG.json"
     },
     {
       "rel": "item",
@@ -81,12 +86,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/PEG.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -101,17 +106,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "parent",
