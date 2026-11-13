@@ -21,16 +21,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/SWOT_AirTemp_RF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/baseline_ensemble.json"
     },
     {
@@ -66,6 +56,16 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/SWOT_AirTemp_RF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/BBTW.json"
     },
     {
@@ -91,12 +91,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/precip_mod.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/precip_mod.json"
     },
     {
       "rel": "item",
@@ -116,12 +116,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
+      "href": "./models/wbears_rnn.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wbears_rnn.json"
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -171,12 +171,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/acp_fableLM.json"
+      "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/JorritsCrystalBall.json"
+      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",
@@ -206,11 +206,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
     },
     {
@@ -222,6 +217,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -251,7 +251,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
