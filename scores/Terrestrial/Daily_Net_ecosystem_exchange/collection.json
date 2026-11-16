@@ -51,6 +51,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/rf_hybrid_model.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
@@ -66,22 +71,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/USUNEEDAILY.json"
+      "href": "./models/nee_randfor_lag.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -101,7 +96,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/USUNEEDAILY.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -116,7 +116,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/nee_randfor_lag.json"
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "parent",

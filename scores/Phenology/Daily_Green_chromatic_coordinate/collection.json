@@ -16,6 +16,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/greenbears.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -41,6 +46,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/xgboost_parallel.json"
     },
     {
@@ -52,16 +62,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_XGBoost.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/greenbears.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -101,12 +101,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/CU_Pheno.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
@@ -121,7 +121,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/CU_Pheno.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -137,11 +137,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/NEFIpheno.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "item",
@@ -162,6 +157,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "item",
