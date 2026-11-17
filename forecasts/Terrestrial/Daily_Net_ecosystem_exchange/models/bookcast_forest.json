@@ -115,7 +115,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "bookcast_forest"
+      "title": "Daily_Net_ecosystem_exchange"
     },
     {
       "rel": "root",
@@ -127,7 +127,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "bookcast_forest"
+      "title": "Daily_Net_ecosystem_exchange"
     },
     {
       "rel": "self",

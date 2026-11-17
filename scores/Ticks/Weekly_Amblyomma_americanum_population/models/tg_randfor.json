@@ -162,7 +162,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_randfor"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "root",
@@ -174,7 +174,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_randfor"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "self",

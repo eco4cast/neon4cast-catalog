@@ -123,7 +123,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GLEON_physics"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -135,7 +135,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "GLEON_physics"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

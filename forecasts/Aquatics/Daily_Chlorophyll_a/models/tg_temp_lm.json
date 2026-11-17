@@ -131,7 +131,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "root",
@@ -143,7 +143,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "self",

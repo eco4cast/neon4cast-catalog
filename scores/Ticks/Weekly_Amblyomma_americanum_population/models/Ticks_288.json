@@ -158,7 +158,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ticks_288"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "root",
@@ -170,7 +170,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "Ticks_288"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "self",

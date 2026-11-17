@@ -123,7 +123,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SWOT_AirTemp_RF"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -135,7 +135,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "SWOT_AirTemp_RF"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

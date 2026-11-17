@@ -200,7 +200,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -212,7 +212,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

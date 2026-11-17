@@ -150,7 +150,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "lm_AT_WTL_WS"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -162,7 +162,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "lm_AT_WTL_WS"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

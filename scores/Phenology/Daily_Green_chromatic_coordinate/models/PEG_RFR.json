@@ -162,7 +162,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PEG_RFR"
+      "title": "Daily_Green_chromatic_coordinate"
     },
     {
       "rel": "root",
@@ -174,7 +174,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "PEG_RFR"
+      "title": "Daily_Green_chromatic_coordinate"
     },
     {
       "rel": "self",

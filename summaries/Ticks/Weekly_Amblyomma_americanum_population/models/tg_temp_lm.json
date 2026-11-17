@@ -154,7 +154,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "root",
@@ -166,7 +166,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "self",

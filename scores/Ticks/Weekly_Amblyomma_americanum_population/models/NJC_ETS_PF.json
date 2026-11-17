@@ -158,7 +158,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "NJC_ETS_PF"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "root",
@@ -170,7 +170,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "NJC_ETS_PF"
+      "title": "Weekly_Amblyomma_americanum_population"
     },
     {
       "rel": "self",

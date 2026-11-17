@@ -230,7 +230,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_elasticNet"
+      "title": "Weekly_beetle_community_abundance"
     },
     {
       "rel": "root",
@@ -242,7 +242,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_elasticNet"
+      "title": "Weekly_beetle_community_abundance"
     },
     {
       "rel": "self",

@@ -175,7 +175,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_Dissolved_oxygen"
     },
     {
       "rel": "root",
@@ -187,7 +187,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_Dissolved_oxygen"
     },
     {
       "rel": "self",

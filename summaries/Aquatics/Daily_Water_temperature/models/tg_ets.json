@@ -204,7 +204,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_ets"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -216,7 +216,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_ets"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

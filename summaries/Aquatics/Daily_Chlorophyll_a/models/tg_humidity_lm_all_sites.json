@@ -156,7 +156,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_humidity_lm_all_sites"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "root",
@@ -168,7 +168,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_humidity_lm_all_sites"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "self",

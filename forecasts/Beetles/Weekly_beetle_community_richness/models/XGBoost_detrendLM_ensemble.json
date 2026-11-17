@@ -205,7 +205,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "XGBoost_detrendLM_ensemble"
+      "title": "Weekly_beetle_community_richness"
     },
     {
       "rel": "root",
@@ -217,7 +217,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "XGBoost_detrendLM_ensemble"
+      "title": "Weekly_beetle_community_richness"
     },
     {
       "rel": "self",

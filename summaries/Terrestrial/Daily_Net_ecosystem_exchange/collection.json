@@ -21,11 +21,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
@@ -36,12 +31,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -51,7 +41,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -61,7 +51,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_precip_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/rf_hybrid_model.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
@@ -72,11 +72,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -102,6 +97,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_temp_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-11-29T00:00:00Z"
+          "2026-12-22T00:00:00Z"
         ]
       ]
     }

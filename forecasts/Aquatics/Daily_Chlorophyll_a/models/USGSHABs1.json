@@ -117,7 +117,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "USGSHABs1"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "root",
@@ -129,7 +129,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "USGSHABs1"
+      "title": "Daily_Chlorophyll_a"
     },
     {
       "rel": "self",

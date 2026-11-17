@@ -236,7 +236,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_lasso"
+      "title": "Weekly_beetle_community_abundance"
     },
     {
       "rel": "root",
@@ -248,7 +248,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_lasso"
+      "title": "Weekly_beetle_community_abundance"
     },
     {
       "rel": "self",

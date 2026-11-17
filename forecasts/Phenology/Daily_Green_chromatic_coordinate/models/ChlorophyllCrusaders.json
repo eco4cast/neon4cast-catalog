@@ -115,7 +115,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "ChlorophyllCrusaders"
+      "title": "Daily_Green_chromatic_coordinate"
     },
     {
       "rel": "root",
@@ -127,7 +127,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "ChlorophyllCrusaders"
+      "title": "Daily_Green_chromatic_coordinate"
     },
     {
       "rel": "self",

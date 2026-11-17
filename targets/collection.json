@@ -100,7 +100,7 @@
       "roles": [
         "thumbnail"
       ],
-      "title": {}
+      "title": "NEON Stream Image"
     },
     "2": {
       "href": "https://sdsc.osn.xsede.org/bio230014-bucket01/challenges/targets/project_id=neon4cast/duration=P1D/aquatics-targets.csv.gz",

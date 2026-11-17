@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/greenbears.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -36,22 +31,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/xgboost_parallel.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/xgboost_parallel.json"
+      "href": "./models/greenbears.json"
     },
     {
       "rel": "item",
@@ -62,6 +52,16 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_XGBoost.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_lasso.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
     },
     {
       "rel": "item",
@@ -101,12 +101,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/CU_Pheno.json"
+      "href": "./models/persistenceRW.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/persistenceRW.json"
+      "href": "./models/tg_brnn.json"
     },
     {
       "rel": "item",
@@ -121,7 +121,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_brnn.json"
+      "href": "./models/CU_Pheno.json"
     },
     {
       "rel": "item",
@@ -156,17 +156,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
     },
     {
       "rel": "item",
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-10-22T00:00:00Z"
+          "2026-11-12T00:00:00Z"
         ]
       ]
     }

@@ -115,7 +115,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "flare_ler_baselines"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "root",
@@ -127,7 +127,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "flare_ler_baselines"
+      "title": "Daily_Water_temperature"
     },
     {
       "rel": "self",

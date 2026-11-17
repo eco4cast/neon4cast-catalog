@@ -113,7 +113,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "USUNEEDAILY"
+      "title": "Daily_Net_ecosystem_exchange"
     },
     {
       "rel": "root",
@@ -125,7 +125,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "USUNEEDAILY"
+      "title": "Daily_Net_ecosystem_exchange"
     },
     {
       "rel": "self",

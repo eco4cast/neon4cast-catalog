@@ -31,17 +31,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
+      "href": "./models/tg_ets.json"
     },
     {
       "rel": "item",
@@ -51,7 +46,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
@@ -76,12 +71,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/PEG.json"
+      "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/ChlorophyllCrusaders.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/PEG.json"
     },
     {
       "rel": "item",
@@ -106,12 +106,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/Random_Forests_Turn_Green.json"
     },
     {
       "rel": "parent",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-11-28T00:00:00Z"
+          "2026-12-21T00:00:00Z"
         ]
       ]
     }

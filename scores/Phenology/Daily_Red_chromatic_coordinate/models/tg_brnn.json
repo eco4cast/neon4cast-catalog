@@ -232,7 +232,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_brnn"
+      "title": "Daily_Red_chromatic_coordinate"
     },
     {
       "rel": "root",
@@ -244,7 +244,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_brnn"
+      "title": "Daily_Red_chromatic_coordinate"
     },
     {
       "rel": "self",

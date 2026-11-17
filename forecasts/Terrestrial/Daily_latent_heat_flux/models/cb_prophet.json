@@ -203,7 +203,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_latent_heat_flux"
     },
     {
       "rel": "root",
@@ -215,7 +215,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "cb_prophet"
+      "title": "Daily_latent_heat_flux"
     },
     {
       "rel": "self",

@@ -230,7 +230,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm_all_sites"
+      "title": "Daily_latent_heat_flux"
     },
     {
       "rel": "root",
@@ -242,7 +242,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_temp_lm_all_sites"
+      "title": "Daily_latent_heat_flux"
     },
     {
       "rel": "self",

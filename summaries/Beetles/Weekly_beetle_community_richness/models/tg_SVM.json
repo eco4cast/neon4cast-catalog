@@ -230,7 +230,7 @@
       "rel": "collection",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_SVM"
+      "title": "Weekly_beetle_community_richness"
     },
     {
       "rel": "root",
@@ -242,7 +242,7 @@
       "rel": "parent",
       "href": "../collection.json",
       "type": "application/json",
-      "title": "tg_SVM"
+      "title": "Weekly_beetle_community_richness"
     },
     {
       "rel": "self",
