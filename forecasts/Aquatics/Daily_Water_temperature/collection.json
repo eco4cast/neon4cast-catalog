@@ -21,22 +21,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/hotdeck.json"
+      "href": "./models/lm_AT_WTL_WS.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fARIMA_clim_ensemble.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
@@ -61,12 +51,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/lm_AT_WTL_WS.json"
+      "href": "./models/fARIMA_clim_ensemble.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
+      "href": "./models/hotdeck.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/zimmerman_proj1.json"
     },
     {
       "rel": "item",
@@ -81,17 +76,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_precip_lm_all_sites.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_temp_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flare_ler.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
@@ -106,6 +101,21 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/flare_ler.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/GLEON_JRabaey_temp_physics.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/bee_bake_RFModel_2024.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/GAM_air_wind.json"
     },
     {
@@ -116,7 +126,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bee_bake_RFModel_2024.json"
+      "href": "./models/mlp1_wtempforecast_LF.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -131,32 +146,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/mlp1_wtempforecast_LF.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/GLEON_JRabaey_temp_physics.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/acp_fableLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
     },
     {
       "rel": "item",
@@ -167,11 +162,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -187,11 +177,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_ets.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "item",
@@ -216,7 +201,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/fTSLM_lag.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/flareSimstrat_noDA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flare_ler_baselines.json"
     },
     {
       "rel": "parent",
@@ -261,7 +261,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-12-21T00:00:00Z"
+          "2026-12-22T00:00:00Z"
         ]
       ]
     }
