@@ -71,11 +71,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareGOTM_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/flare_ler.json"
     },
     {
@@ -111,12 +106,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/wtemp_lm_model.json"
+      "href": "./models/flareGOTM_noDA.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/LSAMP_AWPC.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/wtemp_lm_model.json"
     },
     {
       "rel": "item",
@@ -136,12 +136,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/bee_bake_RFModel_2024.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/climatology.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",
@@ -166,17 +176,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bee_bake_RFModel_2024.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/JorritsCrystalBall.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/acp_fableLM.json"
     },
     {
       "rel": "item",
@@ -197,11 +197,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/flareGLM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
     },
     {
       "rel": "item",
@@ -252,6 +247,11 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
     },
     {
       "rel": "item",

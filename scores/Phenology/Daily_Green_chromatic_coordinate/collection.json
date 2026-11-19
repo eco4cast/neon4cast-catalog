@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/greenbears.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_arima.json"
     },
     {
@@ -61,7 +56,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/greenbears.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -92,11 +97,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_randfor.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/ChlorophyllCrusaders.json"
     },
     {
       "rel": "item",
@@ -141,11 +141,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Random_Forests_Turn_Green.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/PEG_RFR.json"
     },
     {
@@ -166,12 +161,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/VT_Ph_GDD.json"
+      "href": "./models/Fourier.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/Fourier.json"
+      "href": "./models/Random_Forests_Turn_Green.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/VT_Ph_GDD.json"
     },
     {
       "rel": "parent",
@@ -216,7 +216,7 @@
       "interval": [
         [
           "2020-04-27T00:00:00Z",
-          "2026-11-12T00:00:00Z"
+          "2026-11-17T00:00:00Z"
         ]
       ]
     }
