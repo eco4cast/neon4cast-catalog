@@ -36,11 +36,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/climatology.json"
     },
     {
@@ -61,12 +56,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/rf_hybrid_model.json"
+      "href": "./models/bookcast_forest.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/bookcast_forest.json"
+      "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/rf_hybrid_model.json"
     },
     {
       "rel": "item",
@@ -81,17 +81,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
@@ -101,22 +96,27 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/nee_randfor_lag.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/nee_randfor_lag.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/USUNEEDAILY.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "parent",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2023-01-01T00:00:00Z",
-          "2026-11-10T00:00:00Z"
+          "2026-11-11T00:00:00Z"
         ]
       ]
     }
