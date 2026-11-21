@@ -16,12 +16,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procHinshelwoodMonod.json"
+      "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_tbats.json"
+      "href": "./models/procHinshelwoodMonod.json"
     },
     {
       "rel": "item",
@@ -126,12 +126,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/fTSLM_lag.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/fTSLM_lag.json"
     },
     {
       "rel": "item",
@@ -141,7 +141,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "parent",
