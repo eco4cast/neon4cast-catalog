@@ -16,7 +16,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm_all_sites.json"
+      "href": "./models/AquaticEcosystemsOxygen.json"
     },
     {
       "rel": "item",
@@ -31,7 +31,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/AquaticEcosystemsOxygen.json"
+      "href": "./models/tg_precip_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -106,7 +106,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
+      "href": "./models/tg_precip_lm.json"
     },
     {
       "rel": "item",
@@ -116,7 +116,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_precip_lm.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "parent",
@@ -161,7 +161,7 @@
       "interval": [
         [
           "2021-05-01T00:00:00Z",
-          "2026-12-27T00:00:00Z"
+          "2026-12-28T00:00:00Z"
         ]
       ]
     }

@@ -16,11 +16,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm.json"
     },
     {
@@ -31,22 +26,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/PEG.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_SVM.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
+      "href": "./models/PEG.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -66,12 +61,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/tg_temp_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_temp_lm.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -81,12 +76,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/baseline_ensemble.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_tbats.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/baseline_ensemble.json"
     },
     {
       "rel": "item",
@@ -151,7 +151,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-12-27T00:00:00Z"
+          "2026-12-28T00:00:00Z"
         ]
       ]
     }

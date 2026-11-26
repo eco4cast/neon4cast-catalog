@@ -11,22 +11,22 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/procCTMIMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/procHinshelwoodMonod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_tbats.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/USGSHABs1.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procCTMIMonod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/procHinshelwoodMonod.json"
     },
     {
       "rel": "item",
@@ -56,6 +56,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/procBlanchardMonod.json"
     },
     {
@@ -81,17 +86,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/cb_prophet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -106,6 +101,21 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_arima.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_SVM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -116,22 +126,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "parent",
@@ -176,7 +176,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-12-27T00:00:00Z"
+          "2026-12-28T00:00:00Z"
         ]
       ]
     }
