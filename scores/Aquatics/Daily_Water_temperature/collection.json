@@ -16,7 +16,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/SWOT_AirTemp_RF.json"
+      "href": "./models/GLEON_lm_lag_1day.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/TSLM_seasonal_JM.json"
     },
     {
       "rel": "item",
@@ -46,11 +51,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/GLEON_lm_lag_1day.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_tbats.json"
     },
     {
@@ -61,7 +61,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/TSLM_seasonal_JM.json"
+      "href": "./models/SWOT_AirTemp_RF.json"
     },
     {
       "rel": "item",
@@ -91,6 +91,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/precip_mod.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_brnn.json"
     },
     {
@@ -106,17 +111,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/LSAMP_AWPC.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/precip_mod.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/wtemp_lm_model.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/LSAMP_AWPC.json"
     },
     {
       "rel": "item",
@@ -161,11 +161,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/BTW.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_precip_lm.json"
     },
     {
@@ -176,12 +171,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/acp_fableLM.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/JorritsCrystalBall.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/acp_fableLM.json"
+      "href": "./models/BTW.json"
     },
     {
       "rel": "item",
@@ -201,22 +201,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/flareSimstrat_noDA.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/flare_ler_baselines.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",
@@ -252,6 +237,21 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/xgboost_parallel.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flareSimstrat_noDA.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/flare_ler_baselines.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_XGBoost.json"
     },
     {
       "rel": "item",

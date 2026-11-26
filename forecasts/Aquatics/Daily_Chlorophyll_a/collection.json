@@ -51,12 +51,17 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/climatology.json"
+      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
       "type": "application/json",
       "href": "./models/cb_prophet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/climatology.json"
     },
     {
       "rel": "item",
@@ -67,11 +72,6 @@
       "rel": "item",
       "type": "application/json",
       "href": "./models/procHinshelwoodSteele.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_humidity_lm_all_sites.json"
     },
     {
       "rel": "item",
@@ -91,7 +91,22 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_ets.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_humidity_lm.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
@@ -106,16 +121,6 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/procEppleyNorbergMonod.json"
     },
     {
@@ -126,12 +131,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_humidity_lm.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
+      "href": "./models/wc_r3_prod.json"
     },
     {
       "rel": "parent",
@@ -176,7 +181,7 @@
       "interval": [
         [
           "2022-01-01T00:00:00Z",
-          "2026-12-28T00:00:00Z"
+          "2026-12-31T00:00:00Z"
         ]
       ]
     }

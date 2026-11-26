@@ -11,6 +11,11 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/PEG.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/cb_prophet.json"
     },
     {
@@ -36,12 +41,12 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/PEG.json"
+      "href": "./models/tg_arima.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_arima.json"
+      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -51,22 +56,17 @@
     {
       "rel": "item",
       "type": "application/json",
+      "href": "./models/tg_elasticNet.json"
+    },
+    {
+      "rel": "item",
+      "type": "application/json",
       "href": "./models/tg_humidity_lm.json"
     },
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_lasso.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
       "href": "./models/tg_temp_lm.json"
-    },
-    {
-      "rel": "item",
-      "type": "application/json",
-      "href": "./models/tg_SVM.json"
     },
     {
       "rel": "item",
@@ -81,7 +81,7 @@
     {
       "rel": "item",
       "type": "application/json",
-      "href": "./models/tg_elasticNet.json"
+      "href": "./models/tg_lasso.json"
     },
     {
       "rel": "item",
@@ -156,7 +156,7 @@
       "interval": [
         [
           "2021-01-01T00:00:00Z",
-          "2026-11-23T00:00:00Z"
+          "2026-11-24T00:00:00Z"
         ]
       ]
     }
